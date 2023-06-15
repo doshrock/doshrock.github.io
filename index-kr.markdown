@@ -1,4 +1,4 @@
 ---
+lang: kr
 layout: front
-comments: true
 ---

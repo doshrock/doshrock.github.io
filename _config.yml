@@ -28,6 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://doshrock.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: doshrock
 github_username:  doshrock
+facebook_username: doshrock
+instagram_username: doshrock
 markdown: kramdown
 
 # Google Analytics
@@ -36,7 +38,19 @@ google_analytics: "G-7Z8LPXHRQF"
 # Build settings
 theme: minima
 plugins:
+  - jekyll-paginate
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-include-cache-0.2.0
+
+
+languages: ["en", "fr", "kr"]
+default_lang: 'fr'
+languageNames:
+  en: English
+  fr: French
+  kr: Korean
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 
 
 # Exclude from processing.

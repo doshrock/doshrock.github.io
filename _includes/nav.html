@@ -8,23 +8,35 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Doshrock</a>
+			<a class="navbar-brand page-scroll" href="#page-top">{%- include i18n.html token='doshrock_upper' -%}</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#about">{%- include i18n.html token='key_about' -%}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                    <a class="page-scroll" href="#services">{%- include i18n.html token='key_promise' -%}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    <a class="page-scroll" href="#portfolio">{%- include i18n.html token='key_menu' -%}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#contact">{%- include i18n.html token='key_contact' -%}</a>
+                </li>
+                <li>
+                    <div class="page-scroll"> &nbsp;&nbsp;&nbsp; </div>
+                </li>
+                <li>
+					<a class="page-scroll {%- if page.lang!="en" and page.lang != "kr"%} btn-primary {% endif %}" href="index">Français</a>
+                </li>
+                <li>
+                    <a class="page-scroll {%- if page.lang=="en" %} btn-primary {% endif %}" href="index-en">English</a>
+                </li>
+                <li>
+                    <a class="page-scroll {%- if page.lang=="kr" %} btn-primary {% endif %}" href="index-kr">한국어</a>
                 </li>
             </ul>
         </div>

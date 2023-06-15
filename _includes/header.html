@@ -1,10 +1,18 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <h1>Doshrock West Island</h1>
+            <h1>{%- include i18n.html token='doshrock_upper' -%}</h1>
             <hr>
-            <p>We are all about bringing fresh and quality food to our customers.</p>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            <p>{%- include i18n.html token='brief_intro' -%}</p>
+			<!--
+			<p>{{ site.data.i18n[_lang] | inspect }}</p>
+			<p>{{ site.default_lang | inspect }}</p>
+			<p>{{ page.lang | inspect }}</p>
+			<p>{{ _lang | inspect }}</p>
+			-->
+			<!--{{ site.data.i18n['fr'] | inspect }}-->
+
+            <a href="#about" class="btn btn-primary btn-xl page-scroll">{%- include i18n.html token='key_about' -%}</a>
         </div>
     </div>
 </header>

@@ -1,4 +1,4 @@
 ---
+lang: fr
 layout: front
-comments: true
 ---
