@@ -1,154 +1,23 @@
 <section class="no-padding" id="portfolio">
     <div class="container-fluid">
         <div class="row no-gutter">
-
+{% for cat in site.data.menu %}
             <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/menu/bibimbap_01.jpg" class="img-responsive" alt="T">
+				<a href="#{{cat[0]}}" class="portfolio-box" data-toggle="modal">
+					<img src="img/menu/{{cat[1].image}}" class="img-responsive" alt="T">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-                                Bibimbap
+								{{ cat[1].category}}
                             </div>
-							<div class="project-name"> Riz Mélangé aux Légumes </div>
-							<div class="project-name">Mixed Rices </div>
-							<div class="project-name">비빔밥</div>
+							<div class="project-name">{{cat[1].category_fr}}</div>
+							<div class="project-name">{{cat[1].category_en}}</div>
+							<div class="project-name">{{cat[1].category_kr}}</div>
                         </div>
                     </div>
                 </a>
             </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/menu/bibimbap_tofu_01.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">Tofu Bibimbap</div>
-							<div class="project-name"> Riz Mélangé aux Légumes avec Tofu</div>
-							<div class="project-name">Mixed Rices with Tofu</div>
-							<div class="project-name">두부 비빔밥</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/menu/jeyuk_doshrock_01.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">Jeyuk Doshrock</div>
-							<div class="project-name">Doshrock au Porc Épicé</div>
-							<div class="project-name">Spicy Port Doshrock</div>
-							<div class="project-name">제육 도시락</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/menu/gim-mari_01.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">Gim-mari</div>
-							<div class="project-name">Rouleaux d'Algue Frits</div>
-							<div class="project-name">Fried Seaweed Rolls</div>
-							<div class="project-name">김말이 튀김</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/menu/mandu_01.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">Mandu</div>
-							<div class="project-name">Dumplings Frits</div>
-							<div class="project-name">Fried Dumplings</div>
-							<div class="project-name">만두 튀김</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/menu/shrimp_01.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">Crevettes</div>
-                            <div class="project-name">Crevettes Frits</div>
-							<div class="project-name">Fried Shrimps</div>
-							<div class="project-name">새우튀김</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-3 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/menu/seaweed_salad_01.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">Salad de Algues</div>
-                            <div class="project-name">Salad de Algues</div>
-							<div class="project-name">Seaweed Salad</div>
-							<div class="project-name">미역 샐러드</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/menu/tteokbokki_01.jpg" class="img-responsive" alt="T">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Tteokbokki
-                            </div>
-							<div class="project-name">Gâteau de Riz Épicé</div>
-							<div class="project-name">Spicy Rice Cake</div>
-							<div class="project-name">떡볶이</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/menu/cheese_tteokbokki_01.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">Cheese Tteokbokki</div>
-							<div class="project-name">Gâteau de Riz Épicé avec Garniture au Formage</div>
-							<div class="project-name">Spicy Rice Cake with Cheese Topping</div>
-							<div class="project-name">치즈 떡볶이</div>
-                    </div>
-                    </div>
-                </a>
-            </div>
-
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="#" class="portfolio-box">
-                    <img src="img/menu/sundubu_01.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">Seafood Sundubu</div>
-							<div class="project-name">Soft Tofu Soup with Seafood</div>
-							<div class="project-name">Soupe de Tofu Moelleux aux Fruits de Mer</div>
-							<div class="project-name">해물 순두부</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
+{% endfor %}
         </div>
     </div>
 </section>

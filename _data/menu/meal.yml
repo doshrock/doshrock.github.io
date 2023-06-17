@@ -1,0 +1,105 @@
+category: Bol de Riz
+category_en: Rice bowl
+category_fr: Bol de Riz
+category_kr: 비빔밥/덮밥
+image: meal_02.jpg
+menu:
+  - id: 31
+    name: Bibimbap
+    name_en: Bibimbap
+    name_fr: Bibimbap
+    name_kr: 비빔밥
+    image: bibimbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 13.99
+  - id: 32
+    name: Bulgogi Bibimbap
+    name_en: Bibimbap with Beef
+    name_fr: Bibimbap avec Bœuf
+    name_kr: 불고기 비빔밥
+    image: beef_bibimbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 17.99
+  - id: 33
+    name: Tofu Bibimbap
+    name_en: Bibimbap with Tofu
+    name_fr: Bibimbap avec Tofu
+    name_kr: 두부 비빔밥
+    image: bibimbap_tofu_02.jpg
+    prices:
+      - quantity: 1
+        price: 15.99
+  - id: 34
+    name: Chicken Mayo Dupbap
+    name_en: Dupbap with Chicken Mayo
+    name_fr: Dupbap avec Poulet Mayo
+    name_kr: 치킨마요덮밥
+    image: chicken_mayo_dupbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 15.99
+  - id: 35
+    name: Tuna Mayo Dupbap
+    name_en: Dupbap with Tuna Mayo
+    name_fr: Dupbap avec Thon Mayo
+    name_kr: 참치마요덮밥
+    image: tuna_mayo_dupbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 15.99
+  - id: 36
+    name: Japchae Dupbap
+    name_en: Dupbap with Japchae
+    name_fr: Dupbap avec Japchae
+    name_kr: 잡채덮밥
+    image: japchae_dupbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 13.99
+  - id: 37
+    name: Jeyuk Dupbap
+    name_en: Dupbap with Pork
+    name_fr: Dupbap avec Porc
+    name_kr: 제육덮밥
+    image: jeyuk_dupbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 13.99
+  - id: 38
+    name: Bulgogi Dupbap
+    name_en: Dupbap with Beef
+    name_fr: Dupbap avec Bœuf
+    name_kr: 불고기덮밥
+    image: bulgogi_dupbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 15.99
+  - id: 39
+    name: Sundubu
+    name_en: Soft Tofu Soup
+    name_fr: Soupe au Tofu Tendre
+    name_kr: 순두부
+    image: sundubu_02.jpg
+    prices:
+      - quantity: 1
+        price: 16.99
+  - id: 40
+    name: Seafood Sundubu
+    name_en: Soft Tofu Soup with Seafood
+    name_fr: Soupe au Tofu Tendre avec Fruits de Mer
+    name_kr: 해물순두부
+    image: sundubu_02.jpg
+    prices:
+      - quantity: 1
+        price: 17.99
+  - id: 40
+    name: Kimchi Jjigae
+    name_en: Kimchi Stew
+    name_fr: Ragoût de Kimchi
+    name_kr: 김치찌개
+    image: kimchi_jjigae_02.jpg
+    prices:
+      - quantity: 1
+        price: 16.99

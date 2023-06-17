@@ -1,0 +1,56 @@
+category: BBQ Coréen
+category_en: Korean BBQ
+category_fr: BBQ Coréen
+category_kr: 한국 바베큐
+image: bbq_02.jpg
+menu:
+  - id: 21
+    name: Bulgogi
+    name_en: Marinated Beef
+    name_fr: Bœuf Mariné
+    name_kr: 불고기
+    image: bulgogi_02.jpg
+    prices:
+      - quantity: 1
+        price: 17.99
+  - id: 22
+    name: Jeyuk
+    name_en: Marinated Pork
+    name_fr: Porc Mariné
+    name_kr: 제육볶음
+    image: jeyuk_02.jpg
+    prices:
+      - quantity: 1
+        price: 16.99
+  - id: 23
+    name: Dakgalbi
+    name_en: Marinated Chicken
+    name_fr: Poulet Mariné
+    name_kr: 닭갈비
+    image: dakgalbi_02.jpg
+    prices:
+      - quantity: 1
+        price: 17.99
+    modifiers:
+      - cheese: 1
+      - mandu: 2
+      - rice_cake: 1
+      - egg: 1
+  - id: 24
+    name: Don-katsu
+    name_en: Pork Cutlet
+    name_fr: Escalope de Porc
+    name_kr: 돈까스
+    image: donkatsu_02.jpg
+    prices:
+      - quantity: 1
+        price: 15.99
+  - id: 25
+    name: Chicken-katsu
+    name_en: Chicken Cutlet
+    name_fr: Escalope de Poulet
+    name_kr: 치킨까스
+    image: chickenkatsu_02.jpg
+    prices:
+      - quantity: 1
+        price: 15.99
