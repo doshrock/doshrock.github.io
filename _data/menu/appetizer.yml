@@ -69,12 +69,12 @@ menu:
         price: 15.99
       - quantity: 20
         price: 20.99
+
   - id: 8
-    name:
-      defaut: Kimchi
-      en: Kimchi
-      fr: Kimchi
-      kr: 김치
+    name: Kimchi
+    name_en: Kimchi
+    name_fr: Kimchi
+    name_kr: 김치
     image: kimchi_02.jpg
     prices:
       - quantity: 40oz

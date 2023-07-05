@@ -49,15 +49,15 @@ menu:
     prices:
       - quantity: 1
         price: 15.99
-  - id: 36
-    name: Japchae Dupbap
-    name_en: Dupbap with Japchae
-    name_fr: Dupbap avec Japchae
-    name_kr: 잡채덮밥
-    image: japchae_dupbap_02.jpg
-    prices:
-      - quantity: 1
-        price: 13.99
+  #- id: 36
+    #name: Japchae Dupbap
+    #name_en: Dupbap with Japchae
+    #name_fr: Dupbap avec Japchae
+    #name_kr: 잡채덮밥
+    #image: japchae_dupbap_02.jpg
+    #prices:
+      #- quantity: 1
+        #price: 13.99
   - id: 37
     name: Jeyuk Dupbap
     name_en: Dupbap with Pork
@@ -84,7 +84,7 @@ menu:
     image: sundubu_02.jpg
     prices:
       - quantity: 1
-        price: 16.99
+        price: 14.99
   - id: 40
     name: Seafood Sundubu
     name_en: Soft Tofu Soup with Seafood
@@ -93,7 +93,7 @@ menu:
     image: sundubu_02.jpg
     prices:
       - quantity: 1
-        price: 17.99
+        price: 16.99
   - id: 40
     name: Kimchi Jjigae
     name_en: Kimchi Stew
@@ -102,4 +102,4 @@ menu:
     image: kimchi_jjigae_02.jpg
     prices:
       - quantity: 1
-        price: 16.99
+        price: 15.99

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+{% include head.html %}
+<body id="page-top">
+
+
+<div class="container">
+{% for cat in site.data.menu %}
+	<div class="row md-12 gx-12 gy-12">
+				<strong>{{ cat[0] | capital}}</strong>
+				{% for menu_detail in cat[1].menu %}
+				<div class="row gx-12">
+					<div class="col-md-1 gx-12 gy-24"><img src="img/menu/{{menu_detail.image}}" alt="{{ menu_detail.name }}" class="img-circle" width="40" height="40"></div>
+					<div class="col-md-7 gx-2 gy-24"> {{ menu_detail.name }} / {{menu_detail.name_en}}</div>
+						<div class="col-md-4 gx-12 gy-24" >$
+							{% if menu_detail.prices[0].price < 10 %}
+							{{menu_detail.prices[0].price | plus:1}}
+							 {% else if menu_detail.prices[0].price < 20 %}
+							{{menu_detail.prices[0].price | plus:3}}
+							 {% else %}
+							{{menu_detail.prices[0].price | plus:4}}
+							 {% endif %}
+
+						</div>
+				</div>
+				{% endfor %}
+
+				<br/>
+	</div>
+
+
+
+{% endfor %}
+</div>
+
+</body>
+</html>

@@ -12,7 +12,7 @@ menu:
     image: japchae_02.jpg
     prices:
       - quantity: 1
-        price: 13.99
+        price: 12.99
   - id: 42
     name: Bulgogi Japchae
     name_en: Japchae with Beef
@@ -21,7 +21,7 @@ menu:
     image: bulgogi_japchae_02.jpg
     prices:
       - quantity: 1
-        price: 15.99
+        price: 14.99
   - id: 43
     name: Mild Ramen
     name_en: Mild Reman
@@ -30,7 +30,7 @@ menu:
     image: ramen_02.jpg
     prices:
       - quantity: 1
-        price: 13.99
+        price: 7.99
     modifiers:
       - cheese: 1
       - mandu: 2
@@ -44,7 +44,7 @@ menu:
     image: ramen_02.jpg
     prices:
       - quantity: 1
-        price: 13.99
+        price: 7.99
     modifiers:
       - cheese: 1
       - mandu: 2
@@ -58,7 +58,7 @@ menu:
     image: tteokbokki_02.jpg
     prices:
       - quantity: 1
-        price: 14.99
+        price: 10.99
   - id: 45
     name: Cheese Tteokbokki
     name_en: Tteokbokki with Cheese
@@ -67,4 +67,4 @@ menu:
     image: cheese_tteokbokki_02.jpg
     prices:
       - quantity: 1
-        price: 16.99
+        price: 13.99
