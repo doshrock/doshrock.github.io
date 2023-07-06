@@ -60,15 +60,6 @@ menu:
       - quantity: 1
         price: 17.99
   - id: 67
-    name: Japchae Doshrock
-    name_en: Doshrock with Japchae
-    name_fr: Bulgogi avec Japchae
-    name_kr: 잡채 도시락
-    image: japchae_doshrock_02.jpg
-    prices:
-      - quantity: 1
-        price: 16.99
-  - id: 68
     name: Meat Combo Doshrock
     name_en: Doshrock with all BBQ
     name_fr: Bulgogi avec BBQ
@@ -77,7 +68,7 @@ menu:
     prices:
       - quantity: 1
         price: 24.99
-  - id: 69
+  - id: 68
     name: Fry Combo Doshrock
     name_en: Doshrock with Fries
     name_fr: Bulgogi avec Frits
