@@ -51,9 +51,9 @@ menu:
       - quantity: 1
         price: 17.99
   - id: 66
-    name: Dakgalbi Doshrock
+    name: Chicken-galbi Doshrock
     name_en: Doshrock with Marinaded Chicken
-    name_fr: Bulgogi avec Poulet Mariné
+    name_fr: Doshrock avec Poulet Mariné
     name_kr: 닭갈비 도시락
     image: dakgalbi_doshrock_02.jpg
     prices:
