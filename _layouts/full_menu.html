@@ -7,15 +7,18 @@
 <div class="container">
 {% for cat in site.data.menu %}
 	<div class="row md-12 gx-12 gy-12">
-				<strong>{{ cat[0] | capital}}</strong>
+		<strong>{{ cat[1].category}} / {{ cat[1].category_en}} </strong>
+				<br/>
+				<br/>
 				{% for menu_detail in cat[1].menu %}
 				<div class="row gx-12">
-					<div class="col-md-1 gx-12 gy-24"><img src="img/menu/{{menu_detail.image}}" alt="{{ menu_detail.name }}" class="img-circle" width="40" height="40"></div>
-					<div class="col-md-7 gx-2 gy-24"> {{ menu_detail.name }} / {{menu_detail.name_en}}</div>
+					<div class="col-md-1 gx-12 gy-24"><img src="img/menu/{{menu_detail.image}}" alt="{{ menu_detail.category }}" class="img-circle" width="40" height="40"></div>
+					<div class="col-md-7 gx-2 gy-24">  {{menu_detail.id }}. {{ menu_detail.name }} / {{menu_detail.name_en}}</div>
 						<div class="col-md-4 gx-12 gy-24" >${{menu_detail.prices[0].price}}</div>
 				</div>
 				{% endfor %}
 
+				<br/>
 				<br/>
 	</div>
 
