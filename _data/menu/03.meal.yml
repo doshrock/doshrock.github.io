@@ -58,7 +58,7 @@ menu:
     #prices:
       #- quantity: 1
         #price: 13.99
-  - id: 37
+  - id: 36
     name: Jeyuk Dupbap
     name_en: Dupbap with Pork
     name_fr: Dupbap avec Porc
@@ -67,7 +67,7 @@ menu:
     prices:
       - quantity: 1
         price: 13.99
-  - id: 38
+  - id: 37
     name: Bulgogi Dupbap
     name_en: Dupbap with Beef
     name_fr: Dupbap avec Bœuf
@@ -76,7 +76,7 @@ menu:
     prices:
       - quantity: 1
         price: 15.99
-  - id: 39
+  - id: 38
     name: Sundubu
     name_en: Soft Tofu Soup
     name_fr: Soupe au Tofu Tendre
@@ -85,7 +85,7 @@ menu:
     prices:
       - quantity: 1
         price: 14.99
-  - id: 40
+  - id: 39
     name: Seafood Sundubu
     name_en: Soft Tofu Soup with Seafood
     name_fr: Soupe au Tofu Tendre avec Fruits de Mer
