@@ -40,6 +40,7 @@
             <div class="col-lg-12 col-sm-12">
 				  <aside>
 					  <div class="container text-center">
+		<hr>
 							<strong>{{ cat[1].category_fr}} / {{ cat[1].category_en}} ({{ cat[1].category}})</strong>
 					  </div>
 				  </aside>
@@ -56,18 +57,16 @@
 									<div class="col-md-10">
 												<div class="row md-12">
 													<div class="col-md-1"></div>
-													<div class="col-md-10">
+													<div class="col-md-11">
 														<img src="img/menu/{{menu_detail.image}}" class="img-responsive" alt="T">
 													</div>
-													<div class="col-md-1"></div>
 												</div>
 												<div class="portfolio-box-caption">
 													<div class="portfolio-box-caption-content">
 														<div class="row md-12">
-															<div class="col-md-1"></div>
 															<div class="col-md-8">
 																<span class="text-muted">
-																{{ menu_detail.name}}
+																	{{ menu_detail.name}} /<br/>
 																{% if page.lang == 'en' %}
 																	{{ menu_detail.name_en}}<br/>
 																{% else if page.lang == 'fr' %}
