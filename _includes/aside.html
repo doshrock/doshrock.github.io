@@ -1,8 +1,18 @@
+<section class="no-padding" id="full_menu">
   <aside class="bg-dark">
       <div class="container text-center">
           <div class="about">
               <h2>{%- include i18n.html token='key_see_menu' -%}</h2>
-              <a href="full_menu" target="full_menu" class="btn btn-default btn-xl wow tada">{%- include i18n.html token='key_menu_view' -%}</a>
+			  {% if page.lang == 'en' %}
+				  <a href="full_menu_en" target="full_menu" class="btn btn-default btn-xl wow tada">{%- include i18n.html token='key_menu_view' -%}</a>
+			  {% else if page.lang == 'fr' %}
+				  <a href="full_menu_fr" target="full_menu" class="btn btn-default btn-xl wow tada">{%- include i18n.html token='key_menu_view' -%}</a>
+			  {% else if page.lang == 'kr' %}
+				  <a href="full_menu_kr" target="full_menu" class="btn btn-default btn-xl wow tada">{%- include i18n.html token='key_menu_view' -%}</a>
+			  {% else %}
+				  <a href="full_menu" target="full_menu" class="btn btn-default btn-xl wow tada">{%- include i18n.html token='key_menu_view' -%}</a>
+			  {% endif %}
           </div>
       </div>
   </aside>
+</section>

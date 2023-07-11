@@ -4,6 +4,8 @@
 <body id="page-top">
 
 
+	{% comment %}
+<!--
 <div class="container">
 {% for cat in site.data.menu %}
 	<div class="row md-12 gx-12 gy-12">
@@ -26,6 +28,85 @@
 
 {% endfor %}
 </div>
+-->
+	{% endcomment %}
 
+
+
+<section class="no-padding" id="full_menu">
+    <div class="container-fluid">
+        <div class="row">
+{% for cat in site.data.menu %}
+            <div class="col-lg-12 col-sm-12">
+				  <aside>
+					  <div class="container text-center">
+							<strong>{{ cat[1].category_fr}} / {{ cat[1].category_en}} ({{ cat[1].category}})</strong>
+					  </div>
+				  </aside>
+
+				<!--a href="#" class="portfolio-box"-->
+
+				<div class="row lg-12">
+				<div class="col-lg-12 col-sm-12">
+					<div class="row lg-12">
+				{% for menu_detail in cat[1].menu %}
+					<div class="col-lg-3 col-sm-3">
+								<div class="row md-12">
+									<div class="col-md-1"></div>
+									<div class="col-md-10">
+												<div class="row md-12">
+													<div class="col-md-1"></div>
+													<div class="col-md-10">
+														<img src="img/menu/{{menu_detail.image}}" class="img-responsive" alt="T">
+													</div>
+													<div class="col-md-1"></div>
+												</div>
+												<div class="portfolio-box-caption">
+													<div class="portfolio-box-caption-content">
+														<div class="row md-12">
+															<div class="col-md-1"></div>
+															<div class="col-md-8">
+																<span class="text-muted">
+																{{ menu_detail.name}}
+																{% if page.lang == 'en' %}
+																	{{ menu_detail.name_en}}<br/>
+																{% else if page.lang == 'fr' %}
+																	{{ menu_detail.name_fr}}<br/>
+																{% else if page.lang == 'kr' %}
+																	{{ menu_detail.name_kr}}<br/>
+																{% endif %}
+																</span>
+															</div>
+
+															<div class="col-md-2"><span class="text-muted">${{menu_detail.prices[0].price}}</span></div>
+
+														</div>
+													</div>
+												</div>
+												<br/><br/>
+											<!--/a-->
+									</div>
+									<div class="col-md-1"></div>
+								</div>
+					</div>
+				{% endfor %}
+					</div>
+				</div>
+				</div>
+
+
+
+
+            </div>
+{% endfor %}
+        </div>
+    </div>
+</section>
+
+
+
+
+
+  {% include scripts.html %}
 </body>
 </html>

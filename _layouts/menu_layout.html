@@ -1,0 +1,78 @@
+ <!-- Portfolio Modals -->
+ {% for cat in site.data.menu %}
+    <div class="portfolio-modal modal fade" id="{{cat[0]}}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+				<div class="row">
+					<div class="col-lg-10 col-lg-offset-1">
+						<div class="modal-body">
+							<h2>{{ cat[1].category }}</h2>
+							<hr class="star-primary">
+
+							<!--<img src="../css/common_style/img/team/{{ team[1].img }}" class="img-responsive img-centered" alt="{{ team[1].alt }}">-->
+
+							<div class="container-fluid">
+								<div class="row gx-12 gy-12">
+									{% for menu_detail in cat[1].menu %}
+									<div class="col-lg-4 col-sm-6 gy-12">
+										<!--<a href="#{{cat[0]}}" class="portfolio-box" data-toggle="modal">-->
+										<img src="img/menu/{{menu_detail.image}}" class="img-responsive" alt="{{menu_detail.name}}">
+											<div class="portfolio-box-caption">
+												<div class="portfolio-box-caption-content">
+													<!--<div class="project-category text-faded">-->
+													<div class="project-category">
+														{{ menu_detail.name }}
+													</div>
+													<div class="project-name text-muted">
+														{{menu_detail.name_en}}
+													</div>
+													<br/>
+													<br/>
+													<br/>
+													<!--<div class="project-name">{{cat[1].category_en}}</div>-->
+													<!--<div class="project-name">{{cat[1].category_kr}}</div>-->
+												</div>
+											</div>
+										<!--</a>-->
+									</div>
+									{% endfor %}
+								</div>
+							</div>
+
+							{% comment %}
+							{% for image in site.static_files %}
+							{% if image.path contains 'photos' and image.path contains curr_year_str
+							 escape and image.path contains team[1].short %}
+								<img src="{{ image.path }}" width="100%"  alt="">
+							{% endif %}
+							{% endfor %}
+							<br/>
+
+							{% assign players = "" | split:"/" %}
+							{% for p in team[1].players %}
+								{% assign p1 = p | prepend: '<span class="badge badge-secondary">' | append: '</span>' %}
+								{% assign players = players | push: p1 %}
+							{% endfor %}
+							{% assign players = players | sort | join: " | "%}
+								{{players}}
+
+
+
+							{% endcomment %}
+
+							<br/><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+
+{% endfor %}
