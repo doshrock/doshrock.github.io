@@ -9,7 +9,13 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.5504180455846!2d-73.86889382365958!3d45.47885973246041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc93ba6d9b3c001%3A0xb8bb7b8bf65b3567!2s15742%20Pierrefonds%20Blvd.%2C%20Pierrefonds%2C%20QC%20H9H%203X6!5e0!3m2!1sen!2sca!4v1686778782368!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
-        <div class="col-lg-2 col-lg-offset-2 text-center">
+        <div class="col-lg-2 col-lg-offset-1 text-center">
+			<a href="tel:{{site.phone_number}}">
+                <i class="fa fa-phone fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.phone_number }}</p>
+            </a>
+        </div>
+        <div class="col-lg-2 col-lg-offset-1 text-center">
             <a href="https://twitter.com/{{ site.twitter_username }}">
                 <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                 <p>{{ site.twitter_username }}</p>

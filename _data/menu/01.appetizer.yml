@@ -6,7 +6,7 @@ image: appetizer_02.jpg
 menu:
   - id: 1
     name: Crevettes Frits
-    name_en: Shrimp Fries
+    name_en: Frided Shrimp
     name_fr: Crevettes Frits
     name_kr: 새우튀김
     image: shrimp_02.jpg
@@ -81,7 +81,7 @@ menu:
         price: 3.49
   - id: 9
     name: Geotjeori
-    name_en: Quick Pickled Fresh Kimchi
+    name_en: Fresh Kimchi
     name_fr: Kimchi Frais Mariné Rapide
     name_kr: 겉절이
     image: kimchi_fresh_02.jpg
