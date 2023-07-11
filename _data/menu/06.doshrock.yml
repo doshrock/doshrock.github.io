@@ -6,8 +6,8 @@ image: doshrock_02.jpg
 menu:
   - id: 61
     name: Bulgogi Doshrock
-    name_en: Doshrock with Beef
-    name_fr: Bulgogi avec Bœuf
+    name_en: Doshrock with Grilled Beef
+    name_fr: Bulgogi avec Bœuf Grillé
     name_kr: 불고기 도시락
     image: bulgogi_doshrock_02.jpg
     prices:
@@ -15,8 +15,8 @@ menu:
         price: 17.99
   - id: 62
     name: Jeyuk Doshrock
-    name_en: Doshrock with Pork
-    name_fr: Bulgogi avec Porc
+    name_en: Doshrock with Spicy Pork
+    name_fr: Bulgogi avec Porc Épicé
     name_kr: 제육 도시락
     image: jeyuk_doshrock_02.jpg
     prices:
@@ -24,8 +24,8 @@ menu:
         price: 16.99
   - id: 63
     name: Donkatsu Doshrock
-    name_en: Doshrock with Pork
-    name_fr: Bulgogi avec Porc
+    name_en: Doshrock with Pork Cutlet
+    name_fr: Bulgogi avec Katsu de Porc
     name_kr: 돈까스 도시락
     image: donkatsu_doshrock_02.jpg
     prices:
@@ -33,9 +33,8 @@ menu:
         price: 16.99
   - id: 64
     name: Chickenkatsu Doshrock
-    name_en: Doshrock with Chicken
-    name_fr: Bulgogi avec Chicken
-
+    name_en: Doshrock with Chicken Cutlet
+    name_fr: Bulgogi avec Katsu de Chicken
     name_kr: 치킨까스 도시락
     image: chickenkatsu_doshrock_02.jpg
     prices:
@@ -43,7 +42,7 @@ menu:
         price: 17.99
   - id: 65
     name: Kkanpoong Doshrock
-    name_en: Doshrock with Chicken Fries
+    name_en: Doshrock with Fried Chicken
     name_fr: Bulgogi avec Poulet Frits
     name_kr: 깐풍 도시락
     image: kkanpoong_doshrock_02.jpg
@@ -52,7 +51,7 @@ menu:
         price: 17.99
   - id: 66
     name: Chicken-galbi Doshrock
-    name_en: Doshrock with Marinaded Chicken
+    name_en: Doshrock with Marinated Chicken
     name_fr: Doshrock avec Poulet Mariné
     name_kr: 닭갈비 도시락
     image: dakgalbi_doshrock_02.jpg
@@ -67,7 +66,7 @@ menu:
     image: meat_combo_doshrock_02.jpg
     prices:
       - quantity: 1
-        price: 24.99
+        price: 19.99
   - id: 68
     name: Fry Combo Doshrock
     name_en: Doshrock with Fries
@@ -76,4 +75,4 @@ menu:
     image: fry_combo_doshrock_02.jpg
     prices:
       - quantity: 1
-        price: 24.99
+        price: 19.99

@@ -21,7 +21,7 @@ menu:
     image: beef_bibimbap_02.jpg
     prices:
       - quantity: 1
-        price: 17.99
+        price: 16.99
   - id: 33
     name: Tofu Bibimbap
     name_en: Bibimbap with Tofu
