@@ -31,7 +31,40 @@ menu:
     prices:
       - quantity: 1
         price: 15.99
+
   - id: 34
+    name: Dolsot Bibimbap
+    name_en: Stone Plate Bibimbap
+    name_fr: Bibimbap dans Assiette en Pierre
+    name_kr: 돌솥 비빔밥
+    image: dol_bibimbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 13.99
+  - id: 34
+    name: Dolsot Bulgogi Bibimbap
+    name_en: Stone Plate Bibimbap with Grilled Beef
+    name_fr: Bibimbap avec Bœuf dans Assiette en Pierre
+    name_kr: 돌솥 불고기 비빔밥
+    image: dol_beef_bibimbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 16.99
+  - id: 35
+    name: Dolsot Tofu Bibimbap
+    name_en: Stone Plate Bibimbap with Tofu
+    name_fr: Bibimbap avec Tofu dans Assiette en Pierre
+    name_kr: 돌솥 두부 비빔밥
+    image: dol_tofu_bibimbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 15.99
+
+
+
+
+
+  - id: 37
     name: Chicken Mayo Dupbap
     name_en: Dupbap with Chicken Mayo
     name_fr: Dupbap avec Poulet Mayo
@@ -40,7 +73,7 @@ menu:
     prices:
       - quantity: 1
         price: 15.99
-  - id: 35
+  - id: 38
     name: Tuna Mayo Dupbap
     name_en: Dupbap with Tuna Mayo
     name_fr: Dupbap avec Thon Mayo
@@ -58,7 +91,7 @@ menu:
     #prices:
       #- quantity: 1
         #price: 13.99
-  - id: 36
+  - id: 39
     name: Jeyuk Dupbap
     name_en: Dupbap with Pork
     name_fr: Dupbap avec Porc
@@ -67,7 +100,7 @@ menu:
     prices:
       - quantity: 1
         price: 13.99
-  - id: 37
+  - id: 40
     name: Bulgogi Dupbap
     name_en: Dupbap with Beef
     name_fr: Dupbap avec Bœuf
@@ -76,7 +109,7 @@ menu:
     prices:
       - quantity: 1
         price: 15.99
-  - id: 38
+  - id: 41
     name: Sundubu
     name_en: Soft Tofu Soup
     name_fr: Soupe au Tofu Tendre
@@ -85,7 +118,7 @@ menu:
     prices:
       - quantity: 1
         price: 14.99
-  - id: 39
+  - id: 42
     name: Seafood Sundubu
     name_en: Soft Tofu Soup with Seafood
     name_fr: Soupe au Tofu Tendre avec Fruits de Mer
@@ -94,7 +127,7 @@ menu:
     prices:
       - quantity: 1
         price: 16.99
-  - id: 40
+  - id: 43
     name: Kimchi Jjigae
     name_en: Kimchi Stew
     name_fr: Ragoût de Kimchi

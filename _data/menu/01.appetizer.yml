@@ -18,7 +18,7 @@ menu:
     name_en: Mandu Fries (Pork)
     name_fr: Mandu Frits (Porc)
     name_kr: 만두튀김 (돼지고기)
-    image: mandu_02.jpg
+    image: mandu_pork_02.jpg
     prices:
       - quantity: 6
         price: 6.99
@@ -27,7 +27,16 @@ menu:
     name_en: Mandu Fries (Chicken)
     name_fr: Mandu Frits (Poulet)
     name_kr: 만두튀김 (치킨)
-    image: mandu_02.jpg
+    image: mandu_chicken_02.jpg
+    prices:
+      - quantity: 6
+        price: 6.99
+  - id: 4
+    name: Mandu Frits (Bœuf)
+    name_en: Mandu Fries (Beef)
+    name_fr: Mandu Frits (Bœuf)
+    name_kr: 만두튀김 (소고기)
+    image: mandu_beef_02.jpg
     prices:
       - quantity: 6
         price: 6.99
