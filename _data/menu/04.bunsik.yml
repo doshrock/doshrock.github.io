@@ -68,3 +68,39 @@ menu:
     prices:
       - quantity: 1
         price: 13.99
+  - id: 47
+    name: Gimbap
+    name_en: Gimbap
+    name_fr: Gimbap
+    name_kr: 김밥
+    image: gimbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 7.99
+  - id: 48
+    name: Bulgogi Gimbap
+    name_en: Bulgogi Gimbap
+    name_fr: Bulgogi Gimbap
+    name_kr: 블고기 김밥
+    image: bulgogi_gimbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 9.99
+  - id: 49
+    name: Donkatsu Gimbap
+    name_en: Donkatsu Gimbap
+    name_fr: Donkatsu Gimbap
+    name_kr: 돈까스 김밥
+    image: donkatsu_gimbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 9.99
+  - id: 50
+    name: Thon Gimbap
+    name_en: Tuna Gimbap
+    name_fr: Thon Gimbap
+    name_kr: 참치 김밥
+    image: tuna_gimbap_02.jpg
+    prices:
+      - quantity: 1
+        price: 9.99
