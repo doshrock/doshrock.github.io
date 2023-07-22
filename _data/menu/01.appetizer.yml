@@ -68,7 +68,7 @@ menu:
       - quantity: 200g
         price: 6.99
   - id: 7
-    name: Dak-Gangjung
+    name: Chicken Gangjung
     name_en: Chicken Gangjung
     name_fr: Gangjung de Poulet
     name_kr: 닭강정
@@ -80,6 +80,17 @@ menu:
         price: 20.99
 
   - id: 8
+    name: Ganjang Chicken
+    name_en: Ganjang Chicken
+    name_fr: Poulet å la Sauce Soja
+    name_kr: 닭강정
+    image: ganjang_chicken_02.jpg
+    prices:
+      - quantity: 10
+        price: 15.99
+      - quantity: 20
+        price: 20.99
+  - id: 9
     name: Kimchi
     name_en: Kimchi
     name_fr: Kimchi
@@ -88,7 +99,7 @@ menu:
     prices:
       - quantity: 40oz
         price: 3.49
-  - id: 9
+  - id: 10
     name: Geotjeori
     name_en: Fresh Kimchi
     name_fr: Kimchi Frais Mariné Rapide
@@ -97,7 +108,7 @@ menu:
     prices:
       - quantity: 80oz
         price: 9.99
-  - id: 10
+  - id: 11
     name: Salad de Algues
     name_en: Seaweed Salad
     name_fr: Salad de Algues
@@ -106,7 +117,7 @@ menu:
     prices:
       - quantity: 100g
         price: 3.99
-  - id: 11
+  - id: 12
     name: Riz
     name_en: Rice
     name_fr: Riz
