@@ -41,7 +41,7 @@ menu:
     prices:
       - quantity: 1
         price: 13.99
-  - id: 34
+  - id: 35
     name: Dolsot Bulgogi Bibimbap
     name_en: Stone Plate Bibimbap with Grilled Beef
     name_fr: Bibimbap avec Bœuf dans Assiette en Pierre
@@ -50,7 +50,7 @@ menu:
     prices:
       - quantity: 1
         price: 16.99
-  - id: 35
+  - id: 36
     name: Dolsot Tofu Bibimbap
     name_en: Stone Plate Bibimbap with Tofu
     name_fr: Bibimbap avec Tofu dans Assiette en Pierre

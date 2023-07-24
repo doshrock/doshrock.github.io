@@ -40,7 +40,7 @@ menu:
     prices:
       - quantity: 6
         price: 6.99
-  - id: 4
+  - id: 5
     name: Mandu Frits (Légume)
     name_en: Mandu Fries (Vegetable)
     name_fr: Mandu Frits (Légume)
@@ -49,7 +49,7 @@ menu:
     prices:
       - quantity: 8
         price: 6.99
-  - id: 5
+  - id: 6
     name: Gim-mari
     name_en: Seaweed Roll Fries
     name_fr: Rouleaux d'Algue Frits
@@ -58,7 +58,7 @@ menu:
     prices:
       - quantity: 4
         price: 5.99
-  - id: 6
+  - id: 7
     name: Pommes Frites
     name_en: French Fries
     name_fr: Pommes Frites
@@ -67,7 +67,7 @@ menu:
     prices:
       - quantity: 200g
         price: 6.99
-  - id: 7
+  - id: 8
     name: Chicken Gangjung
     name_en: Chicken Gangjung
     name_fr: Gangjung de Poulet
@@ -79,7 +79,7 @@ menu:
       - quantity: 20
         price: 20.99
 
-  - id: 8
+  - id: 9
     name: Ganjang Chicken
     name_en: Ganjang Chicken
     name_fr: Poulet å la Sauce Soja
@@ -90,7 +90,7 @@ menu:
         price: 15.99
       - quantity: 20
         price: 20.99
-  - id: 9
+  - id: 10
     name: Kimchi
     name_en: Kimchi
     name_fr: Kimchi
@@ -99,7 +99,7 @@ menu:
     prices:
       - quantity: 40oz
         price: 3.49
-  - id: 10
+  - id: 11
     name: Geotjeori
     name_en: Fresh Kimchi
     name_fr: Kimchi Frais Mariné Rapide
@@ -108,7 +108,7 @@ menu:
     prices:
       - quantity: 80oz
         price: 9.99
-  - id: 11
+  - id: 12
     name: Salad de Algues
     name_en: Seaweed Salad
     name_fr: Salad de Algues
@@ -117,7 +117,7 @@ menu:
     prices:
       - quantity: 100g
         price: 3.99
-  - id: 12
+  - id: 13
     name: Riz
     name_en: Rice
     name_fr: Riz

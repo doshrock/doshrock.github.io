@@ -66,7 +66,7 @@ menu:
     image: meat_combo_doshrock_02.jpg
     prices:
       - quantity: 1
-        price: 19.99
+        price: 24.99
   - id: 68
     name: Fry Combo Doshrock
     name_en: Doshrock with Combo Fries
@@ -75,4 +75,4 @@ menu:
     image: fry_combo_doshrock_02.jpg
     prices:
       - quantity: 1
-        price: 19.99
+        price: 24.99
