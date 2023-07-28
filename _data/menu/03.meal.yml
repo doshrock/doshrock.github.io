@@ -128,6 +128,24 @@ menu:
       - quantity: 1
         price: 16.99
   - id: 43
+    name: Sundubu Doux
+    name_en: Soft Tofu Soup - Mild
+    name_fr: Soupe Doux au Tofu Tendre
+    name_kr: 맑은 순두부
+    image: sundubu_mild_02.jpg
+    prices:
+      - quantity: 1
+        price: 14.99
+  - id: 44
+    name: Seafood Sundubu Doux
+    name_en: Soft Tofu Soup with Seafood - Mild
+    name_fr: Soupe Doux au Tofu Tendre avec Fruits de Mer
+    name_kr: 맑은 해물순두부
+    image: sundubu_mild_seafood_02.jpg
+    prices:
+      - quantity: 1
+        price: 16.99
+  - id: 45
     name: Kimchi Jjigae
     name_en: Kimchi Stew
     name_fr: Ragoût de Kimchi
