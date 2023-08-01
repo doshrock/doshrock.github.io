@@ -9,7 +9,7 @@ menu:
     name_en: Japchae
     name_fr: Japchae
     name_kr: 잡채
-    image: japchae_02.jpg
+    image: new1/japchae.jpg
     prices:
       - quantity: 1
         price: 12.99
@@ -18,7 +18,7 @@ menu:
     name_en: Japchae with Beef
     name_fr: Japchae avec Bœuf
     name_kr: 불고기 잡채
-    image: bulgogi_japchae_02.jpg
+    image: new1/bulgogi_japchae.jpg
     prices:
       - quantity: 1
         price: 14.99
@@ -27,7 +27,7 @@ menu:
     name_en: Mild Reman
     name_fr: Ramen Léger
     name_kr: 라면 (순한맛)
-    image: ramen_02.jpg
+    image: new1/ramen.jpg
     prices:
       - quantity: 1
         price: 7.99
@@ -41,7 +41,7 @@ menu:
     name_en: Spicy Reman
     name_fr: Ramen Épicé
     name_kr: 라면 (매운맛)
-    image: ramen_02.jpg
+    image: new1/ramen.jpg
     prices:
       - quantity: 1
         price: 7.99
@@ -55,7 +55,7 @@ menu:
     name_en: Tteokbokki
     name_fr: Tteokbokki
     name_kr: 떡볶이
-    image: tteokbokki_02.jpg
+    image: new1/tteokbokki.jpg
     prices:
       - quantity: 1
         price: 10.99
@@ -64,7 +64,7 @@ menu:
     name_en: Tteokbokki with Cheese
     name_fr: Tteokbokki avac Formage
     name_kr: 치즈떡볶이
-    image: cheese_tteokbokki_02.jpg
+    image: new1/cheese_tteokbokki.jpg
     prices:
       - quantity: 1
         price: 13.99
@@ -73,7 +73,7 @@ menu:
     name_en: Gimbap
     name_fr: Gimbap
     name_kr: 김밥
-    image: gimbap_02.jpg
+    image: new1/gimbap.jpg
     prices:
       - quantity: 1
         price: 7.99
@@ -82,7 +82,7 @@ menu:
     name_en: Bulgogi Gimbap
     name_fr: Bulgogi Gimbap
     name_kr: 블고기 김밥
-    image: bulgogi_gimbap_02.jpg
+    image: new1/bulgogi_gimbap.jpg
     prices:
       - quantity: 1
         price: 9.99
@@ -91,16 +91,25 @@ menu:
     name_en: Donkatsu Gimbap
     name_fr: Donkatsu Gimbap
     name_kr: 돈까스 김밥
-    image: donkatsu_gimbap_02.jpg
+    image: new1/donkatsu_gimbap.jpg
     prices:
       - quantity: 1
         price: 9.99
   - id: 50
-    name: Thon Gimbap
+    name: Chamchi Gimbap
     name_en: Tuna Gimbap
     name_fr: Thon Gimbap
     name_kr: 참치 김밥
-    image: tuna_gimbap_02.jpg
+    image: new1/tuna_gimbap.jpg
+    prices:
+      - quantity: 1
+        price: 9.99
+  - id: 47
+    name: Kimcheese Gimbap
+    name_en: Kimchi-Cheese Gimbap
+    name_fr: Kimchi-Fromage Gimbap
+    name_kr: 김밥
+    image: new1/gimbap.jpg
     prices:
       - quantity: 1
         price: 9.99

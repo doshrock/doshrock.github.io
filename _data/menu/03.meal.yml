@@ -9,7 +9,7 @@ menu:
     name_en: Bibimbap
     name_fr: Bibimbap
     name_kr: 비빔밥
-    image: bibimbap_02.jpg
+    image: new1/bibimbap.jpg
     prices:
       - quantity: 1
         price: 13.99
@@ -18,7 +18,7 @@ menu:
     name_en: Bibimbap with Beef
     name_fr: Bibimbap avec Bœuf
     name_kr: 불고기 비빔밥
-    image: beef_bibimbap_02.jpg
+    image: new1/bibimbap.jpg
     prices:
       - quantity: 1
         price: 16.99
@@ -27,7 +27,7 @@ menu:
     name_en: Bibimbap with Tofu
     name_fr: Bibimbap avec Tofu
     name_kr: 두부 비빔밥
-    image: bibimbap_tofu_02.jpg
+    image: new1/tofu_bibimbap.jpg
     prices:
       - quantity: 1
         price: 15.99
@@ -37,7 +37,7 @@ menu:
     name_en: Stone Plate Bibimbap
     name_fr: Bibimbap dans Assiette en Pierre
     name_kr: 돌솥 비빔밥
-    image: dol_bibimbap_02.jpg
+    image: new1/dol_tofu_bibimbap.jpg
     prices:
       - quantity: 1
         price: 15.99
@@ -46,7 +46,7 @@ menu:
     name_en: Stone Plate Bibimbap with Grilled Beef
     name_fr: Bibimbap avec Bœuf dans Assiette en Pierre
     name_kr: 돌솥 불고기 비빔밥
-    image: dol_beef_bibimbap_02.jpg
+    image: new1/dol_tofu_bibimbap.jpg
     prices:
       - quantity: 1
         price: 18.99
@@ -55,7 +55,7 @@ menu:
     name_en: Stone Plate Bibimbap with Tofu
     name_fr: Bibimbap avec Tofu dans Assiette en Pierre
     name_kr: 돌솥 두부 비빔밥
-    image: dol_tofu_bibimbap_02.jpg
+    image: new1/dol_tofu_bibimbap.jpg
     prices:
       - quantity: 1
         price: 17.99
@@ -69,7 +69,7 @@ menu:
     name_en: Dupbap with Chicken Mayo
     name_fr: Dupbap avec Poulet Mayo
     name_kr: 치킨마요덮밥
-    image: chicken_mayo_dupbap_02.jpg
+    image: new1/chicken_mayo_dupbap.jpg
     prices:
       - quantity: 1
         price: 15.99
@@ -78,7 +78,7 @@ menu:
     name_en: Dupbap with Tuna Mayo
     name_fr: Dupbap avec Thon Mayo
     name_kr: 참치마요덮밥
-    image: tuna_mayo_dupbap_02.jpg
+    image: new1/tuna_mayo_dupbap.jpg
     prices:
       - quantity: 1
         price: 15.99
@@ -96,7 +96,7 @@ menu:
     name_en: Dupbap with Pork
     name_fr: Dupbap avec Porc
     name_kr: 제육덮밥
-    image: jeyuk_dupbap_with_kimchi_02.jpg
+    image: new1/jeyuk_dupbap.jpg
     prices:
       - quantity: 1
         price: 13.99
@@ -105,7 +105,7 @@ menu:
     name_en: Dupbap with Beef
     name_fr: Dupbap avec Bœuf
     name_kr: 불고기덮밥
-    image: bulgogi_dupbap_02.jpg
+    image: new1/bulgogi_dupbap.jpg
     prices:
       - quantity: 1
         price: 15.99
@@ -114,16 +114,16 @@ menu:
     name_en: Soft Tofu Soup
     name_fr: Soupe au Tofu Tendre
     name_kr: 순두부
-    image: sundubu_02.jpg
+    image: new1/sundubu.jpg
     prices:
       - quantity: 1
         price: 14.99
   - id: 42
-    name: Seafood Sundubu
+    name: Haemul Sundubu
     name_en: Soft Tofu Soup with Seafood
     name_fr: Soupe au Tofu Tendre avec Fruits de Mer
     name_kr: 해물순두부
-    image: sundubu_02.jpg
+    image: new1/sundubu.jpg
     prices:
       - quantity: 1
         price: 16.99
@@ -132,16 +132,16 @@ menu:
     name_en: Soft Tofu Soup - Mild
     name_fr: Soupe Doux au Tofu Tendre
     name_kr: 맑은 순두부
-    image: sundubu_mild_02.jpg
+    image: new1/mild_sundubu.jpg
     prices:
       - quantity: 1
         price: 14.99
   - id: 44
-    name: Seafood Sundubu Doux
+    name: Haemul Sundubu Doux
     name_en: Soft Tofu Soup with Seafood - Mild
     name_fr: Soupe Doux au Tofu Tendre avec Fruits de Mer
     name_kr: 맑은 해물순두부
-    image: sundubu_mild_seafood_02.jpg
+    image: new1/mild_sundubu.jpg
     prices:
       - quantity: 1
         price: 16.99
@@ -150,7 +150,7 @@ menu:
     name_en: Kimchi Stew
     name_fr: Ragoût de Kimchi
     name_kr: 김치찌개
-    image: kimchi_jjigae_02.jpg
+    image: new1/kimchi_jjigae.jpg
     prices:
       - quantity: 1
         price: 15.99
