@@ -23,7 +23,7 @@ menu:
       - quantity: 1
         price: 14.99
   - id: 43
-    name: Mild Ramen
+    name: Soon Ramen
     name_en: Mild Reman
     name_fr: Ramen Léger
     name_kr: 라면 (순한맛)
@@ -37,7 +37,7 @@ menu:
       - rice_cake: 1
       - egg: 1
   - id: 44
-    name: Spicy Ramen
+    name: Maewoon Ramen
     name_en: Spicy Reman
     name_fr: Ramen Épicé
     name_kr: 라면 (매운맛)

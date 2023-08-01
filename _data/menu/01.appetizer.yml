@@ -5,7 +5,7 @@ category_kr: 애피타이저
 image: appetizer_02.jpg
 menu:
   - id: 1
-    name: Crevettes Frits
+    name: Saewoo Tuigim
     name_en: Frided Shrimp
     name_fr: Crevettes Frits
     name_kr: 새우튀김
@@ -15,36 +15,36 @@ menu:
       - quantity: 4
         price: 7.99
   - id: 2
-    name: Mandu Frits (Porc)
-    name_en: Mandu Fries (Pork)
-    name_fr: Mandu Frits (Porc)
+    name: Porc Mandu
+    name_en: Pork Dumplings (Pork)
+    name_fr: Dumplings de Porc
     name_kr: 만두튀김 (돼지고기)
     image: new1/chicken_dumplings.jpg
     prices:
       - quantity: 6
         price: 6.99
   - id: 3
-    name: Mandu Frits (Poulet)
-    name_en: Mandu Fries (Chicken)
-    name_fr: Mandu Frits (Poulet)
+    name: Chicken Mandu
+    name_en: Chicken Dumplings
+    name_fr: Dumplings de Poulet
     name_kr: 만두튀김 (치킨)
     image: new1/chicken_dumplings.jpg
     prices:
       - quantity: 6
         price: 6.99
   - id: 4
-    name: Mandu Frits (Bœuf)
-    name_en: Mandu Fries (Beef)
-    name_fr: Mandu Frits (Bœuf)
+    name: Bulgogi Mandu
+    name_en: Bulgogi Dumplings
+    name_fr: Dumplings de Bulgogi
     name_kr: 만두튀김 (소고기)
     image: new1/beef_dumplings.jpg
     prices:
       - quantity: 6
         price: 6.99
   - id: 5
-    name: Mandu Frits (Légume)
-    name_en: Mandu Fries (Vegetable)
-    name_fr: Mandu Frits (Légume)
+    name: Vege Mandu
+    name_en: Vege Dumplings
+    name_fr: Dumplings de Légume
     name_kr: 만두튀김 (야채)
     image: new1/vege_dumplings.jpg
     prices:
@@ -60,7 +60,7 @@ menu:
       - quantity: 4
         price: 5.99
   - id: 7
-    name: Pommes Frites
+    name: Gamja Tuigim
     name_en: French Fries
     name_fr: Pommes Frites
     name_kr: 감자튀김
@@ -69,7 +69,7 @@ menu:
       - quantity: 200g
         price: 6.99
   - id: 8
-    name: Chicken Gangjung
+    name: Dak-Gangjung
     name_en: Chicken Gangjung
     name_fr: Gangjung de Poulet
     name_kr: 닭강정
@@ -82,7 +82,7 @@ menu:
 
   - id: 9
     name: Ganjang Chicken
-    name_en: Ganjang Chicken
+    name_en: Soy-Chicken
     name_fr: Poulet å la Sauce Soja
     name_kr: 닭강정
     image: new1/soy_chicken.jpg
@@ -91,8 +91,9 @@ menu:
         price: 15.99
       - quantity: 20
         price: 20.99
+
   - id: 10
-    name: Poulet å la Sauce Soja
+    name: Snow Oninon Chicken
     name_en: Snow Onion Chicken
     name_fr: Poulet à l'Oignon Neige
     name_kr: 스노우 치킨
@@ -121,7 +122,7 @@ menu:
       #- quantity: 80oz
         #price: 9.99
   - id: 12
-    name: Salad de Algues
+    name: Miyeok Julgi
     name_en: Seaweed Salad
     name_fr: Salad de Algues
     name_kr: 미역샐러드
@@ -130,7 +131,7 @@ menu:
       - quantity: 100g
         price: 3.99
   - id: 13
-    name: Riz
+    name: Bap
     name_en: Rice
     name_fr: Riz
     name_kr: 공기밥

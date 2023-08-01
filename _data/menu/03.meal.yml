@@ -59,11 +59,6 @@ menu:
     prices:
       - quantity: 1
         price: 17.99
-
-
-
-
-
   - id: 37
     name: Chicken Mayo Dupbap
     name_en: Dupbap with Chicken Mayo
@@ -74,7 +69,7 @@ menu:
       - quantity: 1
         price: 15.99
   - id: 38
-    name: Tuna Mayo Dupbap
+    name: Chamchi Mayo Dupbap
     name_en: Dupbap with Tuna Mayo
     name_fr: Dupbap avec Thon Mayo
     name_kr: 참치마요덮밥
@@ -128,7 +123,7 @@ menu:
       - quantity: 1
         price: 16.99
   - id: 43
-    name: Sundubu Doux
+    name: Malgun Sundubu
     name_en: Soft Tofu Soup - Mild
     name_fr: Soupe Doux au Tofu Tendre
     name_kr: 맑은 순두부
@@ -137,7 +132,7 @@ menu:
       - quantity: 1
         price: 14.99
   - id: 44
-    name: Haemul Sundubu Doux
+    name: Malgun Haemul Sundubu
     name_en: Soft Tofu Soup with Seafood - Mild
     name_fr: Soupe Doux au Tofu Tendre avec Fruits de Mer
     name_kr: 맑은 해물순두부
