@@ -6,7 +6,7 @@ image: appetizer_02.jpg
 menu:
   - id: 1
     name: Saewoo Tuigim
-    name_en: Frided Shrimp
+    name_en: Frided Shrimps
     name_fr: Crevettes Frits
     name_kr: 새우튀김
     image: new1/shrimp.jpg
@@ -16,9 +16,9 @@ menu:
         price: 7.99
   - id: 2
     name: Porc Mandu
-    name_en: Pork Dumplings (Pork)
+    name_en: Pork Dumplings
     name_fr: Dumplings de Porc
-    name_kr: 만두튀김 (돼지고기)
+    name_kr: 튀김만두 (돼지고기)
     image: new1/chicken_dumplings.jpg
     prices:
       - quantity: 6
@@ -27,7 +27,7 @@ menu:
     name: Chicken Mandu
     name_en: Chicken Dumplings
     name_fr: Dumplings de Poulet
-    name_kr: 만두튀김 (치킨)
+    name_kr: 튀김만두 (치킨)
     image: new1/chicken_dumplings.jpg
     prices:
       - quantity: 6
@@ -36,7 +36,7 @@ menu:
     name: Bulgogi Mandu
     name_en: Bulgogi Dumplings
     name_fr: Dumplings de Bulgogi
-    name_kr: 만두튀김 (소고기)
+    name_kr: 튀김만두 (소고기)
     image: new1/beef_dumplings.jpg
     prices:
       - quantity: 6
