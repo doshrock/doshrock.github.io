@@ -30,6 +30,7 @@ url: "https://doshrock.com" # the base hostname & protocol for your site, e.g. h
 #twitter_username2: doshrock
 #github_username:  doshrock
 facebook_username: doshrock.mtl
+facebook_profile_id: 100093881222758
 instagram_username: "doshrock.mtl"
 email_address: "doshrock.com@gmail.com"
 markdown: kramdown
