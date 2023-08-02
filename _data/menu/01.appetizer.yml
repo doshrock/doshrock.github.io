@@ -100,7 +100,7 @@ menu:
     image: new1/snow_chicken.jpg
     prices:
       - quantity: 10
-        price: 15.99
+        price: 16.99
       - quantity: 20
         price: 20.99
   - id: 11
