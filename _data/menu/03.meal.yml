@@ -18,7 +18,7 @@ menu:
     name_en: Bibimbap with Beef
     name_fr: Bibimbap avec Bœuf
     name_kr: 불고기 비빔밥
-    image: new1/bibimbap.jpg
+    image: new1/bulgogi_bibimbap.jpg
     prices:
       - quantity: 1
         price: 16.99
