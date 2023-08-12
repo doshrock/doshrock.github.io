@@ -9,6 +9,8 @@ menu:
     name_en: Frided Shrimps
     name_fr: Crevettes Frits
     name_kr: 새우튀김
+    tag_en: [Crispy, Appetizer]
+    tag_fr: [Croustillant, Entrée]
     image: new1/shrimp.jpg
 
     prices:
@@ -20,6 +22,8 @@ menu:
     name_fr: Dumplings de Porc
     name_kr: 튀김만두 (돼지고기)
     image: new1/chicken_dumplings.jpg
+    tag_en: [Crispy, Appetizer]
+    tag_fr: [Croustillant, Entrée]
     prices:
       - quantity: 6
         price: 6.99
@@ -28,6 +32,8 @@ menu:
     name_en: Chicken Dumplings
     name_fr: Dumplings de Poulet
     name_kr: 튀김만두 (치킨)
+    tag_en: [Crispy, Appetizer]
+    tag_fr: [Croustillant, Entrée]
     image: new1/chicken_dumplings.jpg
     prices:
       - quantity: 6
@@ -37,6 +43,8 @@ menu:
     name_en: Bulgogi Dumplings
     name_fr: Dumplings de Bulgogi
     name_kr: 튀김만두 (소고기)
+    tag_en: [Crispy, Appetizer, Marinated]
+    tag_fr: [Croustillant, Entrée, Mariné]
     image: new1/beef_dumplings.jpg
     prices:
       - quantity: 6
@@ -46,6 +54,8 @@ menu:
     name_en: Vege Dumplings
     name_fr: Dumplings de Légume
     name_kr: 만두튀김 (야채)
+    tag_en: [Vegetarian, Crispy, Appetizer]
+    tag_fr: [Végétarien, Croustillant, Entrée]
     image: new1/vege_dumplings.jpg
     prices:
       - quantity: 8
@@ -55,6 +65,8 @@ menu:
     name_en: Seaweed Roll Fries
     name_fr: Rouleaux d'Algue Frits
     name_kr: 김말이 튀김
+    tag_en: [Vegetarian, Crispy, Appetizer]
+    tag_fr: [Végétarien, Croustillant, Entrée]
     image: new1/gimari.jpg
     prices:
       - quantity: 4
@@ -64,6 +76,8 @@ menu:
     name_en: French Fries
     name_fr: Pommes Frites
     name_kr: 감자튀김
+    tag_en: [Vegetarian, Crispy, Appetizer]
+    tag_fr: [Végétarien, Croustillant, Entrée]
     image: new1/french_fries.jpg
     prices:
       - quantity: 200g
@@ -73,18 +87,21 @@ menu:
     name_en: Chicken Gangjung
     name_fr: Gangjung de Poulet
     name_kr: 닭강정
+    tag_en: [Crispy, Grilled, Spicy Sauce, Korean Fried Chicken]
+    tag_fr: [Croustillant, Grillé, Sauce Épicée, Poulet Frit Coréen]
     image: new1/chicken_gangjung.jpg
     prices:
       - quantity: 10
         price: 15.99
       - quantity: 20
         price: 20.99
-
   - id: 9
     name: Ganjang Chicken
-    name_en: Soy-Chicken
-    name_fr: Poulet å la Sauce Soja
-    name_kr: 닭강정
+    name_en: Soy and Galic Chicken
+    name_fr: Poulet å la Sauce Soja et Ail
+    name_kr: 간장치킨
+    tag_en: [Crispy, Marinated, Korean Fried Chicken]
+    tag_fr: [Croustillant, Mariné, Poulet Frit Coréen]
     image: new1/soy_chicken.jpg
     prices:
       - quantity: 10
@@ -97,6 +114,8 @@ menu:
     name_en: Snow Onion Chicken
     name_fr: Poulet à l'Oignon Neige
     name_kr: 스노우 치킨
+    tag_en: [Crispy, Deep-fried, Marinated, Mild Sauce, Korean BBQ]
+    tag_fr: [Croustillant, Mariné, Sauce Doux, BBQ Coréen]
     image: new1/snow_chicken.jpg
     prices:
       - quantity: 10
@@ -108,24 +127,30 @@ menu:
     name_en: Kimchi
     name_fr: Kimchi
     name_kr: 김치
+    tag_en: [Spicy Sauce, House Specialty, Dairy-Free, Side Dish]
+    tag_fr: [Sauce Épicée, Spécialité de la Maison, Sans Produits Laitiers, Accompagnement]
     image: new1/kimchi.jpg
     prices:
       - quantity: 40oz
         price: 3.49
-  #- id: 11
-    #name: Geotjeori
-    #name_en: Fresh Kimchi
-    #name_fr: Kimchi Frais Mariné Rapide
-    #name_kr: 겉절이
-    #image: kimchi_fresh_02.jpg
-    #prices:
-      #- quantity: 80oz
-        #price: 9.99
+  - id: 11
+    name: Geotjeori
+    name_en: Fresh Kimchi
+    name_fr: Kimchi Frais Mariné Rapide
+    name_kr: 겉절이
+    image: kimchi_fresh_02.jpg
+    tag_en: [Spicy Sauce, House Specialty, Dairy-Free, Side Dish, Chef's Special]
+    tag_fr: [Sauce Épicée, Spécialité de la Maison, Sans Produits Laitiers, Accompagnement,  Spécialité du Chef]]
+    prices:
+      - quantity: 80oz
+        price: 9.99
   - id: 12
     name: Miyeok Julgi
     name_en: Seaweed Salad
     name_fr: Salad de Algues
     name_kr: 미역샐러드
+    tag_en: [Vegetarian, Seafood, Side Dish]
+    tag_fr: [Végétarien, Fruits de Mer, Accompagnement]
     image: new1/seaweed_salad.jpg
     prices:
       - quantity: 100g
@@ -135,6 +160,8 @@ menu:
     name_en: Rice
     name_fr: Riz
     name_kr: 공기밥
+    tag_en: [Vegetarian, Side Dish]
+    tag_fr: [Végétarien, Accompagnement]
     image: new1/rice.jpg
     prices:
       - quantity: 200g

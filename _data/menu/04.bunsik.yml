@@ -10,6 +10,8 @@ menu:
     name_fr: Japchae
     name_kr: 잡채
     image: new1/japchae.jpg
+    tag_en: [Vegetarian Option, Korean Noodles]
+    tag_fr: [Option Végétarien, Nouilles Coréens]
     prices:
       - quantity: 1
         price: 12.99
@@ -18,6 +20,8 @@ menu:
     name_en: Japchae with Beef
     name_fr: Japchae avec Bœuf
     name_kr: 불고기 잡채
+    tag_en: [Marinated, Korean BBQ, Korean Noodles]
+    tag_fr: [Mariné, BBQ Coréen, Nouilles Coréens]
     image: new1/bulgogi_japchae.jpg
     prices:
       - quantity: 1
@@ -27,6 +31,8 @@ menu:
     name_en: Mild Reman
     name_fr: Ramen Léger
     name_kr: 라면 (순한맛)
+    tag_en: [Spicy Sauce, Korean Stews]
+    tag_fr: [Sauce Épicée, Ragoûts Coréens]
     image: new1/ramen.jpg
     prices:
       - quantity: 1
@@ -41,6 +47,8 @@ menu:
     name_en: Spicy Reman
     name_fr: Ramen Épicé
     name_kr: 라면 (매운맛)
+    tag_en: [Spicy Sauce, Korean Stews]
+    tag_fr: [Sauce Épicée, Ragoûts Coréens]
     image: new1/ramen.jpg
     prices:
       - quantity: 1
@@ -55,6 +63,9 @@ menu:
     name_en: Tteokbokki
     name_fr: Tteokbokki
     name_kr: 떡볶이
+    tag_en: [Spicy Sauce, Signature Dish]
+    tag_fr: [Sauce Épicée, Spécialité du la Maison]
+
     image: new1/tteokbokki.jpg
     prices:
       - quantity: 1
@@ -64,6 +75,8 @@ menu:
     name_en: Tteokbokki with Cheese
     name_fr: Tteokbokki avac Formage
     name_kr: 치즈떡볶이
+    tag_en: [Spicy Sauce, Cheese]
+    tag_fr: [Sauce Épicée, Fromage]
     image: new1/cheese_tteokbokki.jpg
     prices:
       - quantity: 1
@@ -73,6 +86,8 @@ menu:
     name_en: Gimbap
     name_fr: Gimbap
     name_kr: 김밥
+    tag_en: [Vegetarian Option]
+    tag_fr: [Option Végétarien]
     image: new1/gimbap.jpg
     prices:
       - quantity: 1
@@ -82,6 +97,8 @@ menu:
     name_en: Bulgogi Gimbap
     name_fr: Bulgogi Gimbap
     name_kr: 블고기 김밥
+    tag_en: [Korean BBQ, Marinated, Signature Dish, House Specialty]
+    tag_fr: [Korean BBQ, Mariné, Plat Signature, Spécialité de la Maison]
     image: new1/bulgogi_gimbap.jpg
     prices:
       - quantity: 1
@@ -91,6 +108,8 @@ menu:
     name_en: Donkatsu Gimbap
     name_fr: Donkatsu Gimbap
     name_kr: 돈까스 김밥
+    tag_en: [Crispy]
+    tag_fr: [Croustillant]
     image: new1/donkatsu_gimbap.jpg
     prices:
       - quantity: 1
@@ -100,6 +119,8 @@ menu:
     name_en: Tuna Gimbap
     name_fr: Thon Gimbap
     name_kr: 참치 김밥
+    tag_en: [Seafood]
+    tag_fr: [Fruits de Mer]
     image: new1/tuna_gimbap.jpg
     prices:
       - quantity: 1
@@ -108,7 +129,9 @@ menu:
     name: Kimcheese Gimbap
     name_en: Kimchi-Cheese Gimbap
     name_fr: Kimchi-Fromage Gimbap
-    name_kr: 김밥
+    name_kr: 김치즈 김밥
+    tag_en: [Cheese]
+    tag_fr: [Fromage]
     image: new1/gimbap.jpg
     prices:
       - quantity: 1
