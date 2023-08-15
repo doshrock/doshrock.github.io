@@ -40,14 +40,7 @@
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
-
-
-
-
-
-
-
-
+</nav>
 
 
 
@@ -72,30 +65,6 @@
 
     {% assign tag_elements = tag_elements | append: ',' | append: tag_element %}
   {% endfor %}
-
-
-
-
-
-
-        <div class="row">
-            <div class="col-lg-12 col-sm-12">
-				<div class="tag-buttons">
-							<button class="tag-button btn-success" data-tag="all">All/Tout</button>&nbsp;
-					{% for tag_element in unique_tags %}
-						{% assign len = tag_element | size %}
-						{% if len > 0 %}
-							<button class="tag-button btn-success" data-tag="{{ tag_element }}">{{ tag_element }}</button>&nbsp;
-						{% endif %}
-					  {% endfor %}
-				</div>
-		</div>
-
-
-
-</nav>
-
-
 
 <section class="no-padding" id="full_menu">
     <div class="container-fluid">
