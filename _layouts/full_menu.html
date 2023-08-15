@@ -69,6 +69,23 @@
 <section class="no-padding" id="full_menu">
     <div class="container-fluid">
         <div class="row">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+            <div class="col-lg-12 col-sm-12">
+				<div class="tag-buttons">
+							<button class="tag-button btn-success" data-tag="all">All/Tout</button>&nbsp;
+					{% for tag_element in unique_tags %}
+						{% assign len = tag_element | size %}
+						{% if len > 0 %}
+							<button class="tag-button btn-success" data-tag="{{ tag_element }}">{{ tag_element }}</button>&nbsp;
+						{% endif %}
+					  {% endfor %}
+				</div>
+		</div>
+        <div class="row">
 {% for cat in site.data.menu %}
             <div class="col-lg-12 col-sm-12">
 				  <aside>
