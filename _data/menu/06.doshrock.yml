@@ -9,8 +9,9 @@ menu:
     name_en: Doshrock with Grilled Beef
     name_fr: Doshrock avec Bœuf Grillé
     name_kr: 불고기 도시락
-    tag_en: [Korean BBQ, Marinated, Main Course]
-    tag_fr: [BBQ Coéen, Mariné, Plat Principal]
+    tag_en: [Korean-BBQ, Marinated, Main-Course, Signature-Dish]
+    tag_fr: [BBQ-Coréen, Mariné, Plat-Principal, Plat-Signature]
+    tag_kr: [한국바베큐, 양념, 식사, 인기메뉴]
 
     tag_en:
     image: new1/bulgogi_doshrock.jpg
@@ -22,8 +23,9 @@ menu:
     name_en: Doshrock with Spicy Pork
     name_fr: Doshrock avec Porc Épicé
     name_kr: 제육 도시락
-    tag_en: [Spicy Sauce, Korean BBQ, Marinated, Main Course, House Speciality]
-    tag_fr: [Sauce Épicée, BBQ Coéen, Mariné, Plat Principal, Spécialité du la Maison]
+    tag_en: [Spicy-Sauce, Korean-BBQ, Marinated, Main-Course, House-Specialty]
+    tag_fr: [Sauce-Épicée, BBQ-Coréen, Mariné, Plat-Principal, Spécialité-de-la-Maison]
+    tag_kr: [매운소스, 한국바베큐, 양념, 식사, 하우스스페셜]
     image: new1/jeyuk_doshrock.jpg
     prices:
       - quantity: 1
@@ -33,8 +35,9 @@ menu:
     name_en: Doshrock with Pork Cutlet
     name_fr: Doshrock avec Katsu de Porc
     name_kr: 돈까스 도시락
-    tag_en: [Crispy, Main Course]
-    tag_fr: [Croustillant, Plat Principal]
+    tag_en: [Crispy, Main-Course, Deep-Fried]
+    tag_fr: [Croustillant, Plat-Principal, Frit]
+    tag_kr: [바삭함, 식사, 튀김]
     image: new1/donkatsu_doshrock.jpg
     prices:
       - quantity: 1
@@ -44,8 +47,9 @@ menu:
     name_en: Doshrock with Chicken Cutlet
     name_fr: Doshrock avec Katsu de Chicken
     name_kr: 치킨까스 도시락
-    tag_en: [Crispy, Main Course, Signature Dish]
-    tag_fr: [Croustillant, Plat Principal, Plat Signature]
+    tag_en: [Crispy, Main-Course, Signature-Dish, Deep-Fried, Korean-Fried-Chicken]
+    tag_fr: [Croustillant, Plat-Principal, Plat-Signature, Frit, Poulet-Frit-Coréen]
+    tag_kr: [바삭함, 식사, 인기메뉴, 한국바베큐, 튀김]
     image: new1/chickenkatsu_doshrock.jpg
     prices:
       - quantity: 1
@@ -54,8 +58,9 @@ menu:
     name: Kkanpoong Doshrock
     name_en: Doshrock with Sweet and Spicy Chicken
     name_fr: Doshrock avec Poulet Frit Sucré et Épicé
-    tag_en: [Crispy, Main Course, House Specialty]
-    tag_fr: [Croustillant, Plat Principal, Spécialité le la Maison]
+    tag_en: [Crispy, Main-Course, House-Specialty, Korean-BBQ, Korean-Fried-Chicken, Signature-Dish,]
+    tag_fr: [Croustillant, Plat-Principal, Spécialité-de-la-Maison, BBQ-Coréen, Poulet-Frit-Coréen, Plat-Signature]
+    tag_kr: [바삭함, 식사, 하우스스페셜, 인기메뉴, 한국바베큐, 한국치킨,  튀김]
     name_kr: 깐풍 도시락
     image: new1/kkanpoong_doshrock.jpg
     prices:
@@ -66,8 +71,9 @@ menu:
     name_en: Doshrock with Marinated Chicken
     name_fr: Doshrock avec Poulet Mariné
     name_kr: 닭갈비 도시락
-    tag_en: [Spicy Sauce, Main Course, House Speciality]
-    tag_fr: [Sauce Épicée, Plat Principal, Spécialité du la Maison]
+    tag_en: [Spicy-Sauce, Main-Course, House-Specialty, Korean-BBQ]
+    tag_fr: [Sauce-Épicée, Plat-Principal, Spécialité-de-la-Maison, BBQ-Coréen]
+    tag_kr: [매운소스, 식사, 하우스스페셜, 한국바베큐]
     image: new1/dakgalbi_doshrock.jpg
     prices:
       - quantity: 1
@@ -77,8 +83,9 @@ menu:
     name_en: Doshrock with BBQ Combo
     name_fr: Doshrock avec BBQ Trio
     name_kr: 고기콤보 도시락
-    tag_en: [Korean BBQ, Marinated, Main Course, Spicy Sauce]
-    tag_fr: [BBQ Coéen, Mariné, Plat Principal, Sauce Épicée]
+    tag_en: [Korean-BBQ, Marinated, Main-Course, Spicy-Sauce]
+    tag_fr: [BBQ-Coréen, Mariné, Plat-Principal, Sauce-Épicée]
+    tag_kr: [매운소스, 식사, 양념, 한국바베큐]
     image: new1/bbq_combo_doshrock.jpg
     prices:
       - quantity: 1
@@ -88,8 +95,9 @@ menu:
     name_en: Doshrock with Combo Fries
     name_fr: Doshrock avec Frits Trio
     name_kr: 튀김콤보 도시락
-    tag_en: [Crispy, Main Course]
-    tag_fr: [Croustillant, Plat Principal]
+    tag_en: [Crispy, Main-Course, Deep-Fried]
+    tag_fr: [Croustillant, Plat-Principal, Frit]
+    tag_kr: [바삭함, 식사, 튀김]
     image: new1/fry_combo_doshrock.jpg
     prices:
       - quantity: 1

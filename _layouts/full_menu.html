@@ -1,35 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
 {% include head.html %}
-<body id="page-top" style="background-image: url(filler1.png);">
 
+<body id="page-top">
 
-	{% comment %}
-<!--
-<div class="container">
-{% for cat in site.data.menu %}
-	<div class="row md-12 gx-12 gy-12">
-		<strong>{{ cat[1].category}} / {{ cat[1].category_en}} </strong>
-				<br/>
-				<br/>
-				{% for menu_detail in cat[1].menu %}
-				<div class="row gx-12">
-					<div class="col-md-1 gx-12 gy-24"><img src="img/menu/{{menu_detail.image}}" alt="{{ menu_detail.category }}" class="img-circle" width="40" height="40"></div>
-					<div class="col-md-7 gx-2 gy-24">  {{menu_detail.id }}. {{ menu_detail.name }} / {{menu_detail.name_en}}</div>
-						<div class="col-md-4 gx-12 gy-24" >${{menu_detail.prices[0].price}}</div>
-				</div>
-				{% endfor %}
-
-				<br/>
-				<br/>
-	</div>
-
-
-
-{% endfor %}
-</div>
--->
-	{% endcomment %}
+<div class="black-background"></div>
 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -65,7 +40,61 @@
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
+
+
+
+
+
+
+
+
+
+
+
+  {% assign all_tags = "" %}
+  {% for cat in site.data.menu %}
+		{% for menu_detail in cat[1].menu %}
+			{% if page.lang == 'fr' %}
+				{% assign item_tag = menu_detail.tag_fr | join: ',' %}
+			{% elsif page.lang == 'en' %}
+				{% assign item_tag = menu_detail.tag_en | join: ',' %}
+			{% else %}
+				{% assign item_tag = menu_detail.tag_kr | join: ',' %}
+			{% endif %}
+			{% assign all_tags = all_tags | append: ',' | append: item_tag %}
+		{% endfor %}
+  {% endfor %}
+
+  {% assign unique_tags = all_tags | split: ',' | uniq | sort %}
+  {% assign tag_elements = "" %}
+  {% for tag in unique_tags %}
+    {% capture tag_element %}{ "tag": "{{ tag }}"}{% endcapture %}
+
+    {% assign tag_elements = tag_elements | append: ',' | append: tag_element %}
+  {% endfor %}
+
+
+
+
+
+
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+				<div class="tag-buttons">
+							<button class="tag-button btn-success" data-tag="all">All/Tout</button>&nbsp;
+					{% for tag_element in unique_tags %}
+						{% assign len = tag_element | size %}
+						{% if len > 0 %}
+							<button class="tag-button btn-success" data-tag="{{ tag_element }}">{{ tag_element }}</button>&nbsp;
+						{% endif %}
+					  {% endfor %}
+				</div>
+		</div>
+
+
+
 </nav>
+
 
 
 <section class="no-padding" id="full_menu">
@@ -75,18 +104,23 @@
             <div class="col-lg-12 col-sm-12">
 				  <aside>
 					  <div class="container text-center">
-		<hr>
+					<hr>
 							<strong>{{ cat[1].category_fr}} / {{ cat[1].category_en}} ({{ cat[1].category}})</strong>
 					  </div>
 				  </aside>
 
-				<!--a href="#" class="portfolio-box"-->
 
 				<div class="row lg-12">
 				<div class="col-lg-12 col-sm-12">
 					<div class="row lg-12">
 				{% for menu_detail in cat[1].menu %}
-					<div class="col-lg-4 col-sm-4">
+					{% if page.lang == 'fr' %}
+						<div class="col-lg-4 col-sm-4 menu-item" data-tags="{{menu_detail.tag_fr | join: ' '}}">
+					{% elsif page.lang == 'en' %}
+						<div class="col-lg-4 col-sm-4 menu-item" data-tags="{{menu_detail.tag_en | join: ' '}}">
+					{% else %}
+						<div class="col-lg-4 col-sm-4 menu-item" data-tags="{{menu_detail.tag_kr | join: ' '}}">
+					{% endif %}
 								<div class="row md-12">
 									<div class="col-md-1"></div>
 									<div class="col-md-10">
@@ -122,7 +156,6 @@
 													</div>
 												</div>
 												<br/><br/>
-											<!--/a-->
 									</div>
 									<div class="col-md-1"></div>
 								</div>
@@ -143,8 +176,26 @@
 
 
 
+    <script>
+		const tagButtons = document.querySelectorAll('.tag-button');
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        tagButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const selectedTag = button.getAttribute('data-tag');
+                menuItems.forEach(item => {
+                    const itemTags = item.getAttribute('data-tags').split(' ');
+                    if (itemTags.includes(selectedTag) || selectedTag === 'all') {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
 
 
+    </script>
   {% include scripts.html %}
 </body>
 </html>

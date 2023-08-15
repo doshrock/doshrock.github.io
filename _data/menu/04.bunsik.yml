@@ -10,8 +10,9 @@ menu:
     name_fr: Japchae
     name_kr: 잡채
     image: new1/japchae.jpg
-    tag_en: [Vegetarian Option, Korean Noodles]
-    tag_fr: [Option Végétarien, Nouilles Coréens]
+    tag_en: [Vegetarian-Option, Noodles, Bunsik]
+    tag_fr: [Option-Végétarien, Nouilles, Bunsik]
+    tag_kr: [채식옵션, 면류, 분식]
     prices:
       - quantity: 1
         price: 12.99
@@ -20,8 +21,9 @@ menu:
     name_en: Japchae with Beef
     name_fr: Japchae avec Bœuf
     name_kr: 불고기 잡채
-    tag_en: [Marinated, Korean BBQ, Korean Noodles]
-    tag_fr: [Mariné, BBQ Coréen, Nouilles Coréens]
+    tag_en: [Marinated, Korean-BBQ, Noodles, Bunsik]
+    tag_fr: [Mariné, BBQ-Coréen, Nouilles, Bunsik]
+    tag_kr: [양념, 한국바베큐, 면류, 분식]
     image: new1/bulgogi_japchae.jpg
     prices:
       - quantity: 1
@@ -31,8 +33,9 @@ menu:
     name_en: Mild Reman
     name_fr: Ramen Léger
     name_kr: 라면 (순한맛)
-    tag_en: [Spicy Sauce, Korean Stews]
-    tag_fr: [Sauce Épicée, Ragoûts Coréens]
+    tag_en: [Spicy-Sauce, Korean-Stews, Bunsik, Mild, Noodles]
+    tag_fr: [Sauce-Épicée, Ragoûts-Coréens, Bunsik, Doux, Nouilles]
+    tag_kr: [매운소스, 국물, 면류, 분식, 안매움]
     image: new1/ramen.jpg
     prices:
       - quantity: 1
@@ -47,8 +50,9 @@ menu:
     name_en: Spicy Reman
     name_fr: Ramen Épicé
     name_kr: 라면 (매운맛)
-    tag_en: [Spicy Sauce, Korean Stews]
-    tag_fr: [Sauce Épicée, Ragoûts Coréens]
+    tag_en: [Spicy-Sauce, Korean-Stews, Bunsik, Noodles]
+    tag_fr: [Sauce-Épicée, Ragoûts-Coréens, Bunsik, Nouilles]
+    tag_kr: [매운소스, 국물, 면류, 분식]
     image: new1/ramen.jpg
     prices:
       - quantity: 1
@@ -63,9 +67,9 @@ menu:
     name_en: Tteokbokki
     name_fr: Tteokbokki
     name_kr: 떡볶이
-    tag_en: [Spicy Sauce, Signature Dish]
-    tag_fr: [Sauce Épicée, Spécialité du la Maison]
-
+    tag_en: [Spicy-Sauce, Signature-Dish, Bunsik]
+    tag_fr: [Sauce-Épicée, Plat-Signature, Bunsik]
+    tag_kr: [매운소스, 인기메뉴, 분식]
     image: new1/tteokbokki.jpg
     prices:
       - quantity: 1
@@ -75,8 +79,9 @@ menu:
     name_en: Tteokbokki with Cheese
     name_fr: Tteokbokki avac Formage
     name_kr: 치즈떡볶이
-    tag_en: [Spicy Sauce, Cheese]
-    tag_fr: [Sauce Épicée, Fromage]
+    tag_en: [Spicy-Sauce, Cheese, Signature-Dish, Bunsik]
+    tag_fr: [Sauce-Épicée, Fromage, Plat-Signature, Bunsik]
+    tag_kr: [매운소스, 치즈, 인기메뉴, 분식]
     image: new1/cheese_tteokbokki.jpg
     prices:
       - quantity: 1
@@ -86,8 +91,9 @@ menu:
     name_en: Gimbap
     name_fr: Gimbap
     name_kr: 김밥
-    tag_en: [Vegetarian Option]
-    tag_fr: [Option Végétarien]
+    tag_en: [Vegetarian-Option, Bunsik]
+    tag_fr: [Option-Végétarien, Bunsik]
+    tag_kr: [채식옵션, 분식]
     image: new1/gimbap.jpg
     prices:
       - quantity: 1
@@ -97,8 +103,9 @@ menu:
     name_en: Bulgogi Gimbap
     name_fr: Bulgogi Gimbap
     name_kr: 블고기 김밥
-    tag_en: [Korean BBQ, Marinated, Signature Dish, House Specialty]
-    tag_fr: [Korean BBQ, Mariné, Plat Signature, Spécialité de la Maison]
+    tag_en: [Korean-BBQ, Marinated, Signature-Dish, House-Specialty, Bunsik]
+    tag_fr: [BBQ-Coréen, Mariné, Plat-Signature, Spécialité-de-la-Maison, Bunsik]
+    tag_kr: [한국바베큐, 양념, 인기메뉴, 하우스스페셜, 분식]
     image: new1/bulgogi_gimbap.jpg
     prices:
       - quantity: 1
@@ -108,8 +115,9 @@ menu:
     name_en: Donkatsu Gimbap
     name_fr: Donkatsu Gimbap
     name_kr: 돈까스 김밥
-    tag_en: [Crispy]
-    tag_fr: [Croustillant]
+    tag_en: [Crispy, Bunsik]
+    tag_fr: [Croustillant, Bunsik]
+    tag_kr: [바삭함, 분식]
     image: new1/donkatsu_gimbap.jpg
     prices:
       - quantity: 1
@@ -119,8 +127,9 @@ menu:
     name_en: Tuna Gimbap
     name_fr: Thon Gimbap
     name_kr: 참치 김밥
-    tag_en: [Seafood]
-    tag_fr: [Fruits de Mer]
+    tag_en: [Seafood, Bunsik]
+    tag_fr: [Fruits-de-Mer, Bunsik]
+    tag_kr: [해산물, 분식]
     image: new1/tuna_gimbap.jpg
     prices:
       - quantity: 1
@@ -130,8 +139,9 @@ menu:
     name_en: Kimchi-Cheese Gimbap
     name_fr: Kimchi-Fromage Gimbap
     name_kr: 김치즈 김밥
-    tag_en: [Cheese]
-    tag_fr: [Fromage]
+    tag_en: [Cheese, Bunsik]
+    tag_fr: [Fromage, Bunsik]
+    tag_kr: [치즈, 분식]
     image: new1/gimbap.jpg
     prices:
       - quantity: 1
