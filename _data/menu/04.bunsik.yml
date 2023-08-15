@@ -33,8 +33,8 @@ menu:
     name_en: Mild Reman
     name_fr: Ramen Léger
     name_kr: 라면 (순한맛)
-    tag_en: [Spicy-Sauce, Korean-Stews, Bunsik, Mild, Noodles]
-    tag_fr: [Sauce-Épicée, Ragoûts-Coréens, Bunsik, Doux, Nouilles]
+    tag_en: [Spicy-Sauce, Korean-Stews, Bunsik, Noodles]
+    tag_fr: [Sauce-Épicée, Ragoûts-Coréens, Bunsik, Nouilles]
     tag_kr: [매운소스, 국물, 면류, 분식, 안매움]
     image: new1/ramen.jpg
     prices:

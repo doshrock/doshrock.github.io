@@ -152,9 +152,9 @@ menu:
     name: Malgun Sundubu
     name_en: Soft Tofu Soup - Mild
     name_fr: Soupe Doux au Tofu Tendre
-    tag_en: [Mild-Sauce, Mild, Korean-Stews]
-    tag_fr: [Sauce-Doux, Doux, Ragoûts-Coréens]
-    tag_kr: [순한소스, 안매움, 국물]
+    tag_en: [Mild-Sauce, Korean-Stews]
+    tag_fr: [Sauce-Doux, Ragoûts-Coréens]
+    tag_kr: [순한소스, 국물]
     name_kr: 맑은 순두부
     image: new1/mild_sundubu.jpg
     prices:
@@ -165,9 +165,9 @@ menu:
     name_en: Soft Tofu Soup with Seafood - Mild
     name_fr: Soupe Doux au Tofu Tendre avec Fruits de Mer
     name_kr: 맑은 해물순두부
-    tag_en: [Milde-Sauce, Mild, Korean-Stews, House-Specialty, Seafood]
-    tag_fr: [Sauce-Doux, Doux, Ragoûts-Coréens, Spécialité-de-la-Maison, Fruits-de-Mer]
-    tag_kr: [순한소스, 안매움, 국물, 하우스스페셜, 해산물]
+    tag_en: [Mild-Sauce, Korean-Stews, House-Specialty, Seafood]
+    tag_fr: [Sauce-Doux, Ragoûts-Coréens, Spécialité-de-la-Maison, Fruits-de-Mer]
+    tag_kr: [순한소스, 국물, 하우스스페셜, 해산물]
     image: new1/mild_sundubu.jpg
     prices:
       - quantity: 1

@@ -60,7 +60,7 @@ menu:
     name_kr: 만두튀김 (야채)
     tag_en: [Vegetarian, Crispy, Appetizer, Deep-Fried]
     tag_fr: [Végétarien, Croustillant, Entrée, Frit]
-    tag_kr: [채식주의, 바삭함, 애피타이저, 튀김]
+    tag_kr: [채식, 바삭함, 애피타이저, 튀김]
     image: new1/vege_dumplings.jpg
     prices:
       - quantity: 8
@@ -72,7 +72,7 @@ menu:
     name_kr: 김말이 튀김
     tag_en: [Vegetarian, Crispy, Appetizer, Deep-Fried]
     tag_fr: [Végétarien, Croustillant, Entrée, Frit]
-    tag_kr: [채식주의, 바삭함, 애피타이저, 튀김]
+    tag_kr: [채식, 바삭함, 애피타이저, 튀김]
     image: new1/gimari.jpg
     prices:
       - quantity: 4
@@ -84,7 +84,7 @@ menu:
     name_kr: 감자튀김
     tag_en: [Vegetarian, Crispy, Appetizer, Deep-Fried]
     tag_fr: [Végétarien, Croustillant, Entrée, Frit]
-    tag_kr: [채식주의, 바삭함, 애피타이저, 튀김]
+    tag_kr: [채식, 바삭함, 애피타이저, 튀김]
     image: new1/french_fries.jpg
     prices:
       - quantity: 200g
@@ -110,7 +110,7 @@ menu:
     name_kr: 간장치킨
     tag_en: [Crispy, Deep-Fried, Marinated, Korean-Fried-Chicken, Appetizer]
     tag_fr: [Croustillant, Frit, Mariné, Poulet-Frit-Coréen, Entrée]
-    tag_kr: [바삭함, 애피타이저, 튀김, 매운소스, 한국치킨, 양념]
+    tag_kr: [바삭함, 애피타이저, 튀김, 한국치킨, 양념]
     image: new1/soy_chicken.jpg
     prices:
       - quantity: 10
@@ -162,7 +162,7 @@ menu:
     name_kr: 미역샐러드
     tag_en: [Vegetarian, Seafood, Side-Dish, Appetizer]
     tag_fr: [Végétarien, Fruits-de-Mer, Accompagnement, Entrée]
-    tag_kr: [채식주의, 해산물, 반찬, 애피타이저]
+    tag_kr: [채식, 해산물, 반찬, 애피타이저]
     image: new1/seaweed_salad.jpg
     prices:
       - quantity: 100g
@@ -174,7 +174,7 @@ menu:
     name_kr: 공기밥
     tag_en: [Vegetarian, Side-Dish, Appetizer]
     tag_fr: [Végétarien, Accompagnement, Entrée]
-    tag_kr: [채식주의, 반찬, 애피타이저]
+    tag_kr: [채식, 반찬, 애피타이저]
     image: new1/rice.jpg
     prices:
       - quantity: 200g
