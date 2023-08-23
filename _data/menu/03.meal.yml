@@ -60,7 +60,7 @@ menu:
     tag_en: [Main-Course, Korean-BBQ, Signature-Dish, Marinated]
     tag_fr: [Plat-Principal, BBQ-Coréen, Plat-Signature, Mariné]
     tag_kr: [한국바베큐, 인기메뉴, 양념, 식사]
-    image: new1/dol_tofu_bibimbap.jpg
+    image: new1/dol_bulgogi_bibimbap.jpg
     prices:
       - quantity: 1
         price: 18.99
