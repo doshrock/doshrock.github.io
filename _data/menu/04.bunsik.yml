@@ -10,9 +10,9 @@ menu:
     name_fr: Japchae
     name_kr: 잡채
     image: new1/japchae.jpg
-    tag_en: [Vegetarian-Option, Noodles, Bunsik]
-    tag_fr: [Option-Végétarien, Nouilles, Bunsik]
-    tag_kr: [채식옵션, 면류, 분식]
+    tag_en: [Vegetarian-Option, Noodles, Bunsik, Gluten-Free]
+    tag_fr: [Option-Végétarien, Nouilles, Bunsik, Sans-Gluten]
+    tag_kr: [채식옵션, 면류, 분식, 글루텐프리]
     prices:
       - quantity: 1
         price: 12.99
@@ -21,9 +21,9 @@ menu:
     name_en: Japchae with Beef
     name_fr: Japchae avec Bœuf
     name_kr: 불고기 잡채
-    tag_en: [Marinated, Korean-BBQ, Noodles, Bunsik]
-    tag_fr: [Mariné, BBQ-Coréen, Nouilles, Bunsik]
-    tag_kr: [양념, 한국바베큐, 면류, 분식]
+    tag_en: [Marinated, Korean-BBQ, Noodles, Bunsik, Gluten-Free]
+    tag_fr: [Mariné, BBQ-Coréen, Nouilles, Bunsik, Sans-Gluten]
+    tag_kr: [양념, 한국바베큐, 면류, 분식, 글루텐프리]
     image: new1/bulgogi_japchae.jpg
     prices:
       - quantity: 1
@@ -91,9 +91,9 @@ menu:
     name_en: Gimbap
     name_fr: Gimbap
     name_kr: 김밥
-    tag_en: [Vegetarian-Option, Bunsik]
-    tag_fr: [Option-Végétarien, Bunsik]
-    tag_kr: [채식옵션, 분식]
+    tag_en: [Vegetarian-Option, Bunsik, Gluten-Free]
+    tag_fr: [Option-Végétarien, Bunsik, Sans-Gluten]
+    tag_kr: [채식옵션, 분식, 글루텐프리]
     image: new1/gimbap.jpg
     prices:
       - quantity: 1
@@ -104,8 +104,8 @@ menu:
     name_fr: Bulgogi Gimbap
     name_kr: 블고기 김밥
     tag_en: [Korean-BBQ, Marinated, Signature-Dish, House-Specialty, Bunsik]
-    tag_fr: [BBQ-Coréen, Mariné, Plat-Signature, Spécialité-de-la-Maison, Bunsik]
-    tag_kr: [한국바베큐, 양념, 인기메뉴, 하우스스페셜, 분식]
+    tag_fr: [BBQ-Coréen, Mariné, Plat-Signature, Spécialité-de-la-Maison, Bunsik, Sans-Gluten, Gluten-Free]
+    tag_kr: [한국바베큐, 양념, 인기메뉴, 하우스스페셜, 분식, 글루텐프리]
     image: new1/bulgogi_gimbap.jpg
     prices:
       - quantity: 1

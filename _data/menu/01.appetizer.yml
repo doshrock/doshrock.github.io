@@ -172,9 +172,9 @@ menu:
     name_en: Rice
     name_fr: Riz
     name_kr: 공기밥
-    tag_en: [Vegetarian, Side-Dish, Appetizer]
-    tag_fr: [Végétarien, Accompagnement, Entrée]
-    tag_kr: [채식, 반찬, 애피타이저]
+    tag_en: [Vegetarian, Side-Dish, Appetizer, Gluten-Free]
+    tag_fr: [Végétarien, Accompagnement, Entrée, Sans-Gluten]
+    tag_kr: [채식, 반찬, 애피타이저, 글루텐프리]
     image: new1/rice.jpg
     prices:
       - quantity: 200g
