@@ -54,6 +54,28 @@ languageNames:
   fr: French
   kr: Korean
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
+table_order:
+    - "https://doshrock.clusterpos.com/#/table/220fe989-2876-46f7-ab1d-30e68ab3d0f6" #1
+    - "https://doshrock.clusterpos.com/#/table/698c9362-d6ad-41ee-898e-91a547065fe0" #2
+    - "https://doshrock.clusterpos.com/#/table/c304ed25-f8c4-4cd0-b57d-9df604891ee4" #3
+    - "https://doshrock.clusterpos.com/#/table/25743879-aa9d-4fb0-8588-15bd72e8de80" #4
+    - "https://doshrock.clusterpos.com/#/table/25743879-aa9d-4fb0-8588-15bd72e8de80" #5
+    - "https://doshrock.clusterpos.com/#/table/ee0f12d4-ceff-4765-9151-149d7a812810" #6
+    - "https://doshrock.clusterpos.com/#/table/13bfce31-0f21-4990-a60d-037e717d0d64" #7
+    - "https://doshrock.clusterpos.com/#/table/5ca5ae80-ca42-4a17-9601-4e9225a67b95" #8
+    - "https://doshrock.clusterpos.com/#/table/38181ccb-38e3-4378-b242-94e1edcad5fe" #9
+    - "https://doshrock.clusterpos.com/#/table/57aa8c33-890a-45ed-bdda-7144709a9a37" #10
+    - "https://doshrock.clusterpos.com/#/table/260533ac-142d-4a54-b3a0-30737ec26522" #11
+    - "https://doshrock.clusterpos.com/#/table/d5321618-6912-476e-ab16-f1213568115a" #12
+    - "https://doshrock.clusterpos.com/#/table/e0e31083-2ea7-444c-abf7-aa326881541f" #13
+    - "https://doshrock.clusterpos.com/#/table/fbad92ec-3dd7-4fd3-a8a6-1a88d8d44c63" #14
+    - "https://doshrock.clusterpos.com/#/table/54f5c8c8-ed17-40d6-98af-82e9e23890ac" #15
+    - "https://doshrock.clusterpos.com/#/table/79117742-c4fb-4e42-ad7d-92f5a0b5cb03" #16
+    - "https://doshrock.clusterpos.com/#/table/2ca34b01-986e-46c3-b578-47e2b0495bd4" #17
+    - "https://doshrock.clusterpos.com/#/table/e4ba66d7-e141-491e-ad17-d33adc771792" #18
+    - "https://doshrock.clusterpos.com/#/table/e67bb153-7567-4f5c-ad9c-f9b6a158aadb" #19
+    - "https://doshrock.clusterpos.com/#/table/5783da53-c434-461f-a807-fafcb818f191" #20
+
 
 
 # Exclude from processing.

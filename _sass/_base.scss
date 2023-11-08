@@ -395,3 +395,15 @@ body {
 
 }
 
+.box-link {
+  display: block;
+  text-align: center;
+  padding: 20px; /* Adjust the padding to make the link bigger */
+  border: 1px solid #ccc; /* Optional border for styling */
+  text-decoration: none; /* Remove default underline */
+  color: #333; /* Link color */
+}
+
+.box-link:hover {
+  background-color: #f0f0f0; /* Optional hover effect */
+}
