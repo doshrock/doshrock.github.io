@@ -154,10 +154,12 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center;
+    background-position: center center;
     //background-image: url('../img/back.jpg'),
-	background: linear-gradient(to top, rgba(44,36,33,0) 10%,
-              rgba(44,36,33,1)), url('../img/back1.jpg');
+	background: linear-gradient(to top, rgba(44,36,33,0.5) 10%,
+              rgba(44,36,33,1)) 10%, url('../img/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 
 
     text-align: center;
@@ -235,7 +237,7 @@ header {
         color: white;
         opacity: 0;
         display: block;
-        background: rgba( $theme-primary, .9 );
+        background: rgba( $theme-primary, .6 );
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -251,15 +253,15 @@ header {
             .project-category,
             .project-name {
                 @include sans-serif-font;
-                padding: 0 15px;
+                padding: 0 32px;
             }
             .project-category {
                 text-transform: uppercase;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 30px;
             }
             .project-name {
-                font-size: 18px;
+                font-size: 26px;
             }
         }
     }
@@ -272,10 +274,10 @@ header {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
-                    font-size: 16px;
+                    font-size: 30px;
                 }
                 .project-name {
-                    font-size: 22px;
+                    font-size: 26px;
                 }
             }
         }
