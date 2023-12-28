@@ -61,8 +61,8 @@ menu:
     name_en: Bulgogi Dumplings
     name_fr: Dumplings de Bulgogi
     name_kr: 튀김만두 (소고기)
-    tag_en: [Crispy, Appetizer, Marinated, Deep-Fried]
-    tag_fr: [Croustillant, Entrée, Mariné, Frit]
+    tag_en: [Crispy, Appetizer, Marinated, Deep-Fried, Beef]
+    tag_fr: [Croustillant, Entrée, Mariné, Frit, Bœuf]
     tag_kr: [바삭함, 애피타이저, 양념, 튀김]
     image: new1/beef_dumplings.jpg
     prices:

@@ -33,9 +33,9 @@ menu:
     name_en: Bibimbap with Beef
     name_fr: Bibimbap avec Bœuf
     name_kr: 불고기 비빔밥
-    tag_en: [Main-Course, Korean-BBQ, Marinated, Signature-Dish, Gluten-Free]
-    tag_fr: [Plat-Principal, BBQ-Coréen, Mariné, Plat-Signature, Sans-Gluten]
-    tag_kr: [한국바베큐, 양념, 인기메뉴, 식사, 글루텐프리]
+    tag_en: [Main-Course, Korean-BBQ, Marinated, Signature-Dish, Gluten-Free, Beef]
+    tag_fr: [Plat-Principal, BBQ-Coréen, Mariné, Plat-Signature, Sans-Gluten, Bœuf]
+    tag_kr: [한국바베큐, 양념, 인기메뉴, 식사, 글루텐프리, 소고기]
     image: new1/bulgogi_bibimbap.jpg
     prices:
       - quantity: 1
@@ -81,9 +81,9 @@ menu:
     name_en: Stone Plate Bibimbap with Grilled Beef
     name_fr: Bibimbap avec Bœuf dans Assiette en Pierre
     name_kr: 돌솥 불고기 비빔밥
-    tag_en: [Main-Course, Korean-BBQ, Signature-Dish, Marinated, Gluten-Free]
-    tag_fr: [Plat-Principal, BBQ-Coréen, Plat-Signature, Mariné, Sans-Gluten]
-    tag_kr: [한국바베큐, 인기메뉴, 양념, 식사, 글루텐프리]
+    tag_en: [Main-Course, Korean-BBQ, Signature-Dish, Marinated, Gluten-Free, Beef]
+    tag_fr: [Plat-Principal, BBQ-Coréen, Plat-Signature, Mariné, Sans-Gluten, Bœuf]
+    tag_kr: [한국바베큐, 인기메뉴, 양념, 식사, 글루텐프리, 소고기]
     image: new1/dol_bulgogi_bibimbap.jpg
     prices:
       - quantity: 1
