@@ -5,13 +5,35 @@
                 <h2 class="section-heading">{%- include i18n.html token='key_contact' -%}</h2>
                 <hr class="primary">
                 <p>{%- include i18n.html token='key_hours' -%}</p>
-					Lun/Mon: 17:00 - 20:30 (05:00 PM - 08:30 PM)<br/>
-					Mar/Tue: 11:00 - 20:30 (11:00 AM - 08:30 PM)<br/>
-					Mer/Wed: 11:00 - 20:30 (11:00 AM - 08:30 PM)<br/>
-					Jeu/Thr: 11:00 - 20:30 (11:00 AM - 08:30 PM)<br/>
-					Ven/Fri: 11:00 - 21:00 (11:00 AM - 09:00 PM)<br/>
-					Sam/Sat: 11:00 - 21:00 (11:00 AM - 09:00 PM)<br/>
-					Dim/Sun: 11:00 - 20:30 (11:00 AM - 08:30 PM)<br/>
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3 text-center">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th scope="row">Lun/Mon</th><td>&nbsp;</td><td>17:00 - 20:30</td>
+                </tr>
+                <tr>
+                  <th scoe="row">Mar/Tue</th><td colspan="2">Fermé / Closed</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mer/Wed</th><td>11:30 - 15:00</td><td>17:00 - 20:30</td>
+                </tr>
+                <tr>
+                  <th scope="row">Jeu/Thr</th><td>11:30 - 15:00</td><td>17:00 - 20:30</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ven/Fri</th><td>11:30 - 15:00</td><td>17:00 - 21:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Sam/Sat</th><td colspan="2">11:30 - 21:00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Dim/Sun</th><td colspan="2">11:30 - 20:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 				<p>
                 <hr class="primary">
 				<strong>{%- include i18n.html token='key_find_us_map' -%}</strong><br/>
