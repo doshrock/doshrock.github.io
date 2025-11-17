@@ -1,5 +1,6 @@
 ---
-layout: full_menu
+layout: xml_menu
+title: Menu - English
 lang: en
-comments: true
+permalink: /full_menu_en
 ---
