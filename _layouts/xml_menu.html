@@ -57,8 +57,37 @@
         font-weight: bold;
         color: #333;
         margin-bottom: 15px;
-        padding-bottom: 10px;
+        padding: 15px;
         border-bottom: 3px solid #f05f40;
+        cursor: pointer;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+        transition: background-color 0.2s ease;
+        position: relative;
+        padding-right: 50px;
+    }
+    .menu-category-title:hover {
+        background-color: #f0f0f0;
+    }
+    .menu-category-title::after {
+        content: '\f078';
+        font-family: 'FontAwesome';
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: transform 0.3s ease;
+    }
+    .menu-category-title.expanded::after {
+        transform: translateY(-50%) rotate(180deg);
+    }
+    .menu-category-items {
+        display: none;
+        overflow: hidden;
+    }
+    .menu-category-items.expanded {
+        display: block;
+        animation: slideDown 0.3s ease;
     }
     .menu-item {
         margin-bottom: 20px;
@@ -217,8 +246,9 @@
 
         var html = '<div class="row">';
 
-        categories.forEach(function(category) {
+        categories.forEach(function(category, catIndex) {
             var categoryName = category.getAttribute('Name') || 'Unnamed Category';
+            var categoryId = 'category-' + catIndex;
             var items = category.querySelectorAll('Item');
 
             // Skip categories with no active mobile app items
@@ -228,8 +258,10 @@
 
             if (activeItems.length === 0) return;
 
+            // All categories collapsed by default
             html += '<div class="col-lg-12 menu-category">';
-            html += '<div class="menu-category-title">' + escapeHtml(categoryName) + '</div>';
+            html += '<div class="menu-category-title" data-category-id="' + categoryId + '">' + escapeHtml(categoryName) + '</div>';
+            html += '<div class="menu-category-items" id="' + categoryId + '">';
             html += '<div class="row">';
 
             activeItems.forEach(function(item, index) {
@@ -274,6 +306,7 @@
             });
 
             html += '</div>'; // end row
+            html += '</div>'; // end menu-category-items
             html += '</div>'; // end category
         });
 
@@ -305,6 +338,31 @@
                     }
                 });
             }
+        });
+
+        // Add accordion behavior to category titles
+        var categoryTitles = document.querySelectorAll('.menu-category-title');
+        categoryTitles.forEach(function(title) {
+            title.addEventListener('click', function(e) {
+                var categoryId = title.getAttribute('data-category-id');
+                var categoryItems = document.getElementById(categoryId);
+
+                // Toggle current category
+                categoryItems.classList.toggle('expanded');
+                title.classList.toggle('expanded');
+
+                // Scroll to bring the category title to the top
+                setTimeout(function() {
+                    var navHeight = document.querySelector('#mainNav').offsetHeight || 70;
+                    var elementPosition = title.getBoundingClientRect().top + window.pageYOffset;
+                    var offsetPosition = elementPosition - navHeight - 10;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }, 350);
+            });
         });
     }
 
