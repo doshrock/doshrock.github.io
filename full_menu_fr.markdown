@@ -1,5 +1,6 @@
 ---
-layout: full_menu
+layout: xml_menu
+title: Menu - Français
 lang: fr
-comments: true
+permalink: /full_menu_fr
 ---

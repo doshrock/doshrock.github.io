@@ -1,6 +1,6 @@
 ---
-layout: full_menu
+layout: xml_menu
+title: Menu - 한국어
 lang: kr
-
-comments: true
+permalink: /full_menu_kr
 ---
