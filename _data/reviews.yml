@@ -1,0 +1,77 @@
+# =============================================================================
+# GOOGLE REVIEWS DATA FILE
+# =============================================================================
+#
+# HOW TO UPDATE:
+# 1. Change the overall_rating and total_reviews numbers below
+# 2. Add ALL your 5-star Google reviews to the all_reviews list
+# 3. Save this file and push to GitHub - the website updates automatically!
+#
+# RANDOM DISPLAY:
+# - The website will randomly select 3 reviews to display on each visit
+# - Add as many reviews as you want - more reviews = more variety!
+# - Each visitor sees different reviews
+#
+# See UPDATE_REVIEWS.md for detailed instructions on getting real review data
+#
+# =============================================================================
+
+# Overall rating from Google (check your Google Business Profile)
+overall_rating: 4.9
+total_reviews: 242
+
+# Your Google Maps place URL
+google_place_url: "https://maps.app.goo.gl/T9RvBhv4FG2nTNir6"
+
+# =============================================================================
+# ALL REVIEWS
+# =============================================================================
+# Add ALL your 5-star Google reviews here!
+# The website will randomly select 3 reviews to display on each visit.
+#
+# To add a real review:
+# - name: Copy from Google review
+# - rating: Always 5 for featured reviews
+# - date: Copy from Google (e.g., "2 weeks ago", "1 month ago")
+# - text: Copy the review text from Google
+# - avatar: Right-click reviewer's profile pic → Copy image address
+# - has_photo: Set to true if review has a photo, false if not
+# - photo: Right-click review photo → Copy image address (only if has_photo: true)
+#
+# =============================================================================
+
+all_reviews:
+  # Review 1 - REPLACE WITH REAL REVIEWS FROM GOOGLE
+  - name: "Sarah Johnson"
+    rating: 5
+    date: "4 weeks ago"
+    text: "Cozy restaurant with amazing Korean food. Has the homecook meal feel, service is very kind and welcoming, will definitely be back 😊"
+    avatar: "https://lh3.googleusercontent.com/a-/ALV-UjUp3hFMJWLWZJDNe2VYp9Awab9qVhRQL8A0HjzEOUzUsqUtXrN-=s48-p-k-no-mo"
+    has_photo: true
+    photo: "https://lh3.googleusercontent.com/geougc-cs/AMBA38utSWU1yUKUR01hoBSqL5yCgaUVtc_uYfQhb2GPVY5I1ZOnzCJ94KRQPD5ntuYydhGy0VP600z3usD45ruXIN6hwVJ1fcZagJmBXJZz22MDs-FhHYksRew7jj3bpCXQ2309qS_4HZq1fSAv=s2048-v1"
+
+  # Review 2 - REPLACE WITH REAL REVIEWS FROM GOOGLE
+  - name: "Michael Chen"
+    rating: 5
+    date: "3 weeks ago"
+    text: "Best Korean restaurant in the West Island! Fresh ingredients, generous portions, and friendly staff."
+    avatar: "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"
+    has_photo: false
+
+  # Review 3 - REPLACE WITH REAL REVIEWS FROM GOOGLE
+  - name: "Marie Dubois"
+    rating: 5
+    date: "1 month ago"
+    text: "Délicieux! Authentic Korean cuisine with a great atmosphere. The kimchi is homemade and fantastic!"
+    avatar: "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y"
+    has_photo: false
+
+  # Add more reviews here - as many as you want!
+  # The more reviews you add, the more variety visitors will see
+  # Example:
+  # - name: "John Doe"
+  #   rating: 5
+  #   date: "1 week ago"
+  #   text: "Great food and service!"
+  #   avatar: "URL"
+  #   has_photo: false

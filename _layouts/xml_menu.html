@@ -6,28 +6,23 @@
 
 <div class="black-background"></div>
 
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+<nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="/#page-top">{%- include i18n.html token='doshrock_upper' -%}</a>
-        </div>
+        <a class="navbar-brand page-scroll" href="/#page-top">{%- include i18n.html token='doshrock_upper' -%}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll {%- if page.lang!="en" and page.lang != "kr"%} btn-primary {% endif %}" href="full_menu_fr">Français</a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll {%- if page.lang!="en" and page.lang != "kr"%} btn btn-primary {% endif %}" href="full_menu_fr">Français</a>
                 </li>
-                <li>
-                    <a class="page-scroll {%- if page.lang=="en" %} btn-primary {% endif %}" href="full_menu_en">English</a>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll {%- if page.lang=="en" %} btn btn-primary {% endif %}" href="full_menu_en">English</a>
                 </li>
-                <li>
-                    <a class="page-scroll {%- if page.lang=="kr" %} btn-primary {% endif %}" href="full_menu_kr">한국어</a>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll {%- if page.lang=="kr" %} btn btn-primary {% endif %}" href="full_menu_kr">한국어</a>
                 </li>
             </ul>
         </div>

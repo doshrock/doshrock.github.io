@@ -2,7 +2,7 @@
  {% for cat in site.data.menu %}
     <div class="portfolio-modal modal fade" id="{{cat[0]}}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
+            <div class="close-modal" data-bs-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
@@ -11,7 +11,7 @@
             <div class="container">
 
 				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1">
+					<div class="col-lg-10 offset-lg-1">
 						<div class="modal-body">
 							<h2>{{ cat[1].category }}</h2>
 							<hr class="star-primary">
@@ -67,7 +67,7 @@
 
 							{% endcomment %}
 
-							<br/><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+							<br/><button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 						</div>
 					</div>
 				</div>

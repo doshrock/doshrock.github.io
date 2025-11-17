@@ -1,0 +1,90 @@
+<section id="news" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{%- include i18n.html token='key_news' -%}</h2>
+                <hr class="primary">
+                <p class="text-muted">{%- include i18n.html token='para_news_intro' -%}</p>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 50px;">
+            <!-- Montreal Gazette Article -->
+            <div class="col-lg-6 col-md-6">
+                <div class="news-box">
+                    <img src="https://smartcdn.gprod.postmedia.digital/montrealgazette/wp-content/uploads/2024/01/0104-city-col-kramberger.jpg?quality=90&strip=all&w=1128&h=846&type=webp&sig=gpypsjY85097IdgIuRc4gg" class="news-thumbnail" alt="Montreal Gazette Article">
+                    <h3>Montreal Gazette</h3>
+                    <p class="text-muted"><em>West Island Gazette - March 2020</em></p>
+                    <blockquote class="blockquote">
+                        <p>"Two new eateries hope to find a niche on the West Island... Doshrock Korean Restaurant brings authentic Korean cuisine to Pierrefonds."</p>
+                    </blockquote>
+                    <a href="https://montrealgazette.com/news/local-news/west-island-gazette/kramberger-two-new-eateries-hope-to-find-a-niche-on-the-west-island" target="_blank" class="btn btn-primary">{%- include i18n.html token='key_read_more' -%}</a>
+                </div>
+            </div>
+
+            <!-- Michael Libling Article -->
+            <div class="col-lg-6 col-md-6">
+                <div class="news-box">
+                    <img src="https://i0.wp.com/www.michaellibling.com/wp-content/uploads/2023/10/IMG_4496-rotated.jpeg?w=320&ssl=1" class="news-thumbnail" alt="Michael Libling Article">
+                    <h3>Michael Libling - Novelist</h3>
+                    <p class="text-muted"><em>GenreWriter Thoughts</em></p>
+                    <blockquote class="blockquote">
+                        <p>"A wonderful addition to the Montreal food scene... Doshrock offers an authentic Korean dining experience that's worth the visit."</p>
+                    </blockquote>
+                    <a href="https://www.michaellibling.com/genrewriter/thoughts/" target="_blank" class="btn btn-primary">{%- include i18n.html token='key_read_more' -%}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    #news {
+        padding: 80px 0;
+    }
+
+    .news-box {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-thumbnail {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .news-box h3 {
+        color: #F05F40;
+        margin-bottom: 10px;
+    }
+
+    .news-box blockquote {
+        border-left: 4px solid #F05F40;
+        padding-left: 20px;
+        margin: 20px 0;
+        flex-grow: 1;
+    }
+
+    .news-box blockquote p {
+        font-style: italic;
+        color: #555;
+        font-size: 16px;
+    }
+
+    .news-box .btn {
+        margin-top: 20px;
+        align-self: flex-start;
+    }
+
+    .bg-light {
+        background-color: #f8f9fa;
+    }
+</style>

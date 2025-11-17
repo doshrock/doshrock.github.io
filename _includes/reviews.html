@@ -1,0 +1,72 @@
+<section id="reviews">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{%- include i18n.html token='key_reviews' -%}</h2>
+                <hr class="primary">
+                <p class="text-white" style="margin-bottom: 30px;">{%- include i18n.html token='para_reviews_intro' -%}</p>
+            </div>
+        </div>
+
+        <!-- Elfsight Google Reviews Widget -->
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="google-reviews-widget">
+                    <!--
+                    ============================================================
+                    PASTE YOUR ELFSIGHT WIDGET CODE HERE
+                    ============================================================
+
+                    After setting up your Elfsight widget, you'll get code that looks like:
+
+                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                    <div class="elfsight-app-YOUR-WIDGET-ID"></div>
+
+                    Replace this entire comment block with that code.
+                    ============================================================
+                    -->
+
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-b6256e7a-3cd4-4f6c-8988-80993bc12761" data-elfsight-app-lazy></div>
+                    <!-- End temporary placeholder -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    #reviews {
+        padding: 80px 0;
+        background-color: #222;
+    }
+
+    #reviews h2 {
+        color: white;
+    }
+
+    #reviews p {
+        color: white;
+    }
+
+    #reviews hr.primary {
+        border-color: #F05F40;
+    }
+
+    .google-reviews-widget {
+        margin: 30px 0;
+    }
+
+    /* Style adjustments for Elfsight widget */
+    .google-reviews-widget .elfsight-app-abc123def456 {
+        background: transparent !important;
+    }
+
+    /* Make sure widget is responsive */
+    @media (max-width: 768px) {
+        .google-reviews-widget {
+            margin: 20px 0;
+        }
+    }
+</style>
