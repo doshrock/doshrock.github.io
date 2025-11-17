@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}">
+{% include head.html %}
+
+<body id="page-top">
+
+<div class="black-background"></div>
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="/#page-top">{%- include i18n.html token='doshrock_upper' -%}</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll {%- if page.lang!="en" and page.lang != "kr"%} btn-primary {% endif %}" href="xml_menu_fr">Français</a>
+                </li>
+                <li>
+                    <a class="page-scroll {%- if page.lang=="en" %} btn-primary {% endif %}" href="xml_menu_en">English</a>
+                </li>
+                <li>
+                    <a class="page-scroll {%- if page.lang=="kr" %} btn-primary {% endif %}" href="xml_menu_kr">한국어</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="no-padding" id="xml_menu">
+    <div class="container-fluid">
+        <div class="row">
+            <br/><br/><br/><br/><br/>
+            <div class="col-lg-12 col-sm-12">
+                <div id="loading" class="text-center">
+                    <p>Loading menu...</p>
+                </div>
+                <div id="menu-container"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .menu-category {
+        margin-bottom: 50px;
+    }
+    .menu-category-title {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #f05f40;
+    }
+    .menu-item {
+        margin-bottom: 20px;
+    }
+    .menu-item-card {
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        padding: 20px;
+        transition: all 0.2s ease;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        height: 100%;
+        cursor: pointer;
+    }
+    .menu-item-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+    .menu-item-card.expanded {
+        background-color: #fff;
+    }
+    .menu-item-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    .menu-item-content {
+        text-align: left;
+    }
+    .menu-item-name {
+        font-weight: bold;
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 15px;
+    }
+    .menu-item-description {
+        display: none;
+        font-size: 13px;
+        color: #555;
+        margin-top: 15px;
+        padding: 15px;
+        background-color: #fff3cd;
+        border-left: 4px solid #f05f40;
+        border-radius: 5px;
+        line-height: 1.6;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .menu-item-description.visible {
+        display: block;
+        animation: slideDown 0.3s ease;
+    }
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .click-hint {
+        font-size: 11px;
+        color: #999;
+        margin-top: 10px;
+        font-style: italic;
+    }
+    .click-hint i {
+        margin-right: 5px;
+    }
+    .menu-item-price {
+        font-size: 20px;
+        color: #f05f40;
+        font-weight: bold;
+    }
+    #loading {
+        padding: 50px 0;
+        font-size: 18px;
+        color: #666;
+        text-align: center;
+    }
+    #menu-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+</style>
+
+<script>
+(function() {
+    'use strict';
+
+    var currentLang = '{{ page.lang }}' || 'fr';
+
+    // Function to get language-specific name
+    function getItemName(item) {
+        var name = item.getAttribute('Name') || '';
+        var friendlyName = item.getAttribute('MobileAppFriendlyName') || '';
+
+        if (currentLang === 'fr') {
+            // For French, use the part before " / " in MobileAppFriendlyName
+            if (friendlyName.indexOf(' / ') !== -1) {
+                return friendlyName.split(' / ')[0].trim();
+            }
+            // If no French/English separator, extract English part from Name
+            var parts = name.split(/[\u3131-\uD79D]/); // Split on Korean characters
+            return (parts[0] || name).trim();
+        } else if (currentLang === 'en') {
+            // For English, use the part after " / " in MobileAppFriendlyName
+            if (friendlyName.indexOf(' / ') !== -1) {
+                return friendlyName.split(' / ')[1].trim();
+            }
+            // Otherwise use the whole friendlyName or extract from Name
+            if (friendlyName) {
+                return friendlyName;
+            }
+            var parts = name.split(/[\u3131-\uD79D]/);
+            return (parts[0] || name).trim();
+        } else if (currentLang === 'kr') {
+            // For Korean, extract Korean part from Name
+            var koreanMatch = name.match(/[\u3131-\uD79D\uAC00-\uD7A3]+/);
+            return koreanMatch ? koreanMatch[0] : name;
+        }
+
+        // Default: return full name
+        return name;
+    }
+
+    // Function to render menu from XML
+    function renderMenu(xmlDoc) {
+        var container = document.getElementById('menu-container');
+        var loading = document.getElementById('loading');
+
+        if (!xmlDoc) {
+            loading.innerHTML = '<p class="text-danger">Error: Could not load menu.</p>';
+            return;
+        }
+
+        var categories = xmlDoc.querySelectorAll('Category');
+
+        if (categories.length === 0) {
+            loading.innerHTML = '<p class="text-danger">Error: No menu categories found.</p>';
+            return;
+        }
+
+        var html = '<div class="row">';
+
+        categories.forEach(function(category) {
+            var categoryName = category.getAttribute('Name') || 'Unnamed Category';
+            var items = category.querySelectorAll('Item');
+
+            // Skip categories with no active mobile app items
+            var activeItems = Array.from(items).filter(function(item) {
+                return item.getAttribute('MobileAppActive') === 'true';
+            });
+
+            if (activeItems.length === 0) return;
+
+            html += '<div class="col-lg-12 menu-category">';
+            html += '<div class="menu-category-title">' + escapeHtml(categoryName) + '</div>';
+            html += '<div class="row">';
+
+            activeItems.forEach(function(item, index) {
+                var itemName = item.getAttribute('Name') || 'Unnamed Item';
+                var price = item.getAttribute('Price') || '0.00';
+                var friendlyName = item.getAttribute('MobileAppFriendlyName') || itemName;
+                var description = item.getAttribute('MobileAppDescription') || '';
+                var imageURL = item.getAttribute('MobileAppImageURL') || '';
+
+                // Display name based on language
+                var displayName = getItemName(item);
+                var itemId = 'item-' + category.getAttribute('tUID') + '-' + index;
+
+                html += '<div class="col-lg-4 col-md-6 col-sm-12 menu-item">';
+                html += '  <div class="menu-item-card" data-item-id="' + itemId + '">';
+
+                // Image
+                if (imageURL) {
+                    html += '    <img src="' + escapeHtml(imageURL) + '" class="menu-item-image" alt="' + escapeHtml(displayName) + '">';
+                }
+
+                html += '    <div class="menu-item-content">';
+
+                // Name (language-specific)
+                html += '      <div class="menu-item-name">' + escapeHtml(displayName) + '</div>';
+
+                // Price
+                html += '      <div class="menu-item-price">$' + escapeHtml(price) + '</div>';
+
+                // Description (hidden by default)
+                if (description) {
+                    html += '      <div class="menu-item-description" id="desc-' + itemId + '">' + escapeHtml(description) + '</div>';
+                    html += '      <div class="click-hint"><i class="fa fa-info-circle"></i>Click for details</div>';
+                }
+
+                html += '    </div>'; // end menu-item-content
+                html += '  </div>'; // end menu-item-card
+                html += '</div>'; // end col
+            });
+
+            html += '</div>'; // end row
+            html += '</div>'; // end category
+        });
+
+        html += '</div>'; // end main row
+
+        loading.style.display = 'none';
+        container.innerHTML = html;
+
+        // Add click handlers to menu items with descriptions
+        var cards = document.querySelectorAll('.menu-item-card');
+        cards.forEach(function(card) {
+            var itemId = card.getAttribute('data-item-id');
+            var description = document.getElementById('desc-' + itemId);
+
+            if (description) {
+                card.addEventListener('click', function(e) {
+                    // Toggle description visibility
+                    description.classList.toggle('visible');
+                    card.classList.toggle('expanded');
+
+                    // Update hint text
+                    var hint = card.querySelector('.click-hint');
+                    if (hint) {
+                        if (description.classList.contains('visible')) {
+                            hint.innerHTML = '<i class="fa fa-times-circle"></i>Click to hide details';
+                        } else {
+                            hint.innerHTML = '<i class="fa fa-info-circle"></i>Click for details';
+                        }
+                    }
+                });
+            }
+        });
+    }
+
+    // Escape HTML to prevent XSS
+    function escapeHtml(text) {
+        var div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    // Load and parse XML
+    function loadMenu() {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '{{ site.baseurl }}/assets/data/menu.xml', true);
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    var parser = new DOMParser();
+                    var xmlDoc = parser.parseFromString(xhr.responseText, 'text/xml');
+                    renderMenu(xmlDoc);
+                } else {
+                    document.getElementById('loading').innerHTML = '<p class="text-danger">Error loading menu. Please try again later.</p>';
+                }
+            }
+        };
+        xhr.send();
+    }
+
+    // Load menu when page is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', loadMenu);
+    } else {
+        loadMenu();
+    }
+})();
+</script>
+
+{% include scripts.html %}
+
+</body>
+</html>
