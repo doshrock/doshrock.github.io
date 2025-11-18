@@ -54,36 +54,75 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Enhanced scrollspy with manual active state management
 $(document).ready(function() {
-    // Refresh scrollspy after page loads
-    $('[data-spy="scroll"]').each(function () {
-        $(this).scrollspy('refresh');
-    });
-
-    // Manual scroll tracking for better accuracy
+    // Manual scroll tracking for accurate highlighting
     function updateActiveNav() {
-        var scrollPos = $(document).scrollTop() + 150;
+        var scrollPos = $(window).scrollTop() + 150;
+        var found = false;
 
-        $('#mainNav .nav-link').each(function() {
+        // Check each section
+        $('#mainNav .nav-link.page-scroll').each(function() {
             var currLink = $(this);
-            var refElement = $(currLink.attr('href'));
+            var href = currLink.attr('href');
 
-            if (refElement.length > 0 && refElement.position().top <= scrollPos &&
-                refElement.position().top + refElement.height() > scrollPos) {
-                $('#mainNav .nav-item').removeClass('active');
-                currLink.parent().addClass('active');
-            } else {
-                currLink.parent().removeClass('active');
+            // Skip external links
+            if (!href || href.indexOf('http') === 0) {
+                return;
+            }
+
+            try {
+                var refElement = $(href);
+                if (refElement.length === 0) {
+                    return;
+                }
+
+                var sectionTop = refElement.offset().top;
+                var sectionBottom = sectionTop + refElement.outerHeight();
+
+                if (sectionTop <= scrollPos && sectionBottom > scrollPos && !found) {
+                    $('#mainNav .nav-item').removeClass('active');
+                    currLink.parent().addClass('active');
+                    console.log('Active section:', href);
+                    found = true;
+                }
+            } catch(e) {
+                console.error('Error processing link:', href, e);
             }
         });
+
+        // If no section found, remove all active states
+        if (!found && scrollPos > 200) {
+            // Keep last section active if we're at the bottom
+            if ($(window).scrollTop() + $(window).height() >= $(document).height() - 100) {
+                $('#mainNav .nav-item').removeClass('active');
+                $('#mainNav .nav-link.page-scroll:last').parent().addClass('active');
+            }
+        }
     }
 
+    // Update on scroll
     $(window).on('scroll', updateActiveNav);
-    updateActiveNav(); // Initial call
+
+    // Initial call
+    setTimeout(updateActiveNav, 100);
 
     // Handle nav link clicks
     $('#mainNav .nav-link.page-scroll').on('click', function() {
-        $('#mainNav .nav-item').removeClass('active');
-        $(this).parent().addClass('active');
+        var href = $(this).attr('href');
+        if (href && href.indexOf('#') === 0) {
+            $('#mainNav .nav-item').removeClass('active');
+            $(this).parent().addClass('active');
+        }
     });
+});
+
+// Highlight current day in opening hours
+$(document).ready(function() {
+    // Get current day of week (0 = Sunday, 1 = Monday, etc.) based on browser timezone
+    var currentDay = new Date().getDay();
+
+    // Find and highlight the row with matching data-day attribute
+    $('.opening-hours-table tr[data-day="' + currentDay + '"]').addClass('current-day');
+
+    console.log('Current day of week:', currentDay);
 });
 </script>

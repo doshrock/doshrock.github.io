@@ -486,27 +486,30 @@ header {
 }
 
 // Active nav item highlighting with underline
-#mainNav .navbar-nav .nav-item.active .nav-link,
-#mainNav .navbar-nav .nav-item .nav-link.active {
+#mainNav .navbar-nav .nav-item.active > .nav-link {
   position: relative;
-  font-weight: bold;
+  font-weight: bold !important;
+  color: #000 !important;
 }
 
-#mainNav .navbar-nav .nav-item.active .nav-link::after,
-#mainNav .navbar-nav .nav-item .nav-link.active::after {
+#mainNav .navbar-nav .nav-item.active > .nav-link::after {
   content: '';
   position: absolute;
-  bottom: -2px;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
   height: 3px;
   background-color: $theme-primary;
   border-radius: 2px;
+  display: block;
 }
 
-#mainNav.affix .navbar-nav .nav-item.active .nav-link::after,
-#mainNav.affix .navbar-nav .nav-item .nav-link.active::after {
+#mainNav.affix .navbar-nav .nav-item.active > .nav-link {
+  color: #000 !important;
+}
+
+#mainNav.affix .navbar-nav .nav-item.active > .nav-link::after {
   background-color: $theme-primary;
 }
 
@@ -590,4 +593,20 @@ header {
     right: 20px;
     font-size: 40px;
   }
+}
+
+// Opening hours current day highlight
+.opening-hours-table tr.current-day {
+  background-color: rgba($theme-primary, 0.15);
+  font-weight: bold;
+  border-left: 4px solid $theme-primary;
+}
+
+.opening-hours-table tr.current-day th {
+  color: $theme-primary;
+  font-weight: bold;
+}
+
+.opening-hours-table tr {
+  transition: background-color 0.3s ease;
 }
