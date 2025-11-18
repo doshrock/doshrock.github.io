@@ -439,11 +439,34 @@ body {
 
 // Navbar transparency adjustments
 #mainNav {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(255, 255, 255, 0.95) !important;
 }
 
 #mainNav.affix {
-  background-color: rgba(255, 255, 255, 0.9) !important;
+  background-color: rgba(255, 255, 255, 0.98) !important;
+}
+
+// Navbar text color - black
+#mainNav .navbar-brand,
+#mainNav .nav-link,
+#mainNav .navbar-nav .nav-item a {
+  color: #222 !important;
+}
+
+#mainNav .navbar-brand:hover,
+#mainNav .navbar-brand:focus,
+#mainNav .nav-link:hover,
+#mainNav .navbar-nav .nav-item a:hover {
+  color: #000 !important;
+}
+
+// Hamburger icon color - black
+#mainNav .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+#mainNav .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 // Ensure header is visible
