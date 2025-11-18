@@ -3,6 +3,40 @@
       <div class="container text-center">
           <div class="about">
               <h2>{%- include i18n.html token='key_see_menu' -%}</h2>
+
+              <!-- Menu Image Thumbnails -->
+              <div class="row" style="margin-top: 30px; margin-bottom: 40px;">
+                  <div class="col-lg-3 col-md-6 col-sm-6">
+                      <div class="menu-thumbnail-box">
+                          <a href="#" class="menu-image-link" data-image="/img/menu/print/menu2026_1.jpg">
+                              <img src="/img/menu/print/menu2026_1.jpg" class="img-responsive menu-thumbnail" alt="Menu Page 1">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6">
+                      <div class="menu-thumbnail-box">
+                          <a href="#" class="menu-image-link" data-image="/img/menu/print/menu2026_2.jpg">
+                              <img src="/img/menu/print/menu2026_2.jpg" class="img-responsive menu-thumbnail" alt="Menu Page 2">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6">
+                      <div class="menu-thumbnail-box">
+                          <a href="#" class="menu-image-link" data-image="/img/menu/print/menu2026_3.jpg">
+                              <img src="/img/menu/print/menu2026_3.jpg" class="img-responsive menu-thumbnail" alt="Menu Page 3">
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6">
+                      <div class="menu-thumbnail-box">
+                          <a href="#" class="menu-image-link" data-image="/img/menu/print/menu2026_4.jpg">
+                              <img src="/img/menu/print/menu2026_4.jpg" class="img-responsive menu-thumbnail" alt="Menu Page 4">
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Buttons -->
 			  {% if page.lang == 'en' %}
 				  <a href="full_menu_en" target="full_menu" class="btn btn-secondary btn-xl wow tada">{%- include i18n.html token='key_menu_view' -%}</a>
 			  {% else if page.lang == 'fr' %}
@@ -16,4 +50,10 @@
           </div>
       </div>
   </aside>
+
+  <!-- Menu Image Modal -->
+  <div id="menuImageModal" class="menu-modal">
+      <span class="menu-modal-close">&times;</span>
+      <img class="menu-modal-content" id="menuModalImage">
+  </div>
 </section>
