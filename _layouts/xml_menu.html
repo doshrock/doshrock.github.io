@@ -4,398 +4,762 @@
 
 <body id="page-top">
 
-<div class="black-background"></div>
-
-<nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container-fluid">
-        <a class="navbar-brand page-scroll" href="/#page-top">{%- include i18n.html token='doshrock_upper' -%}</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll {%- if page.lang!="en" and page.lang != "kr"%} btn btn-primary {% endif %}" href="full_menu_fr">Français</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll {%- if page.lang=="en" %} btn btn-primary {% endif %}" href="full_menu_en">English</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll {%- if page.lang=="kr" %} btn btn-primary {% endif %}" href="full_menu_kr">한국어</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<section class="no-padding" id="xml_menu">
-    <div class="container-fluid">
-        <div class="row">
-            <br/><br/><br/><br/><br/>
-            <div class="col-lg-12 col-sm-12">
-                <div id="loading" class="text-center">
-                    <p>Loading menu...</p>
-                </div>
-                <div id="menu-container"></div>
+    <!-- Hero Header -->
+    <header class="menu-header">
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 class="display-3 fw-bold">{{ page.title }}</h1>
+                <hr class="light my-4">
+                <p class="lead text-white-50">Experience the authentic taste of Korea</p>
             </div>
         </div>
-    </div>
-</section>
+    </header>
 
-<style>
-    .menu-category {
-        margin-bottom: 50px;
-    }
-    .menu-category-title {
-        font-size: 32px;
-        font-weight: bold;
-        color: #333;
-        margin-bottom: 15px;
-        padding: 15px;
-        border-bottom: 3px solid #f05f40;
-        cursor: pointer;
-        background-color: #f8f8f8;
-        border-radius: 5px;
-        transition: background-color 0.2s ease;
-        position: relative;
-        padding-right: 50px;
-    }
-    .menu-category-title:hover {
-        background-color: #f0f0f0;
-    }
-    .menu-category-title::after {
-        content: '\f078';
-        font-family: 'FontAwesome';
-        position: absolute;
-        right: 20px;
-        top: 50%;
-        transform: translateY(-50%);
-        transition: transform 0.3s ease;
-    }
-    .menu-category-title.expanded::after {
-        transform: translateY(-50%) rotate(180deg);
-    }
-    .menu-category-items {
-        display: none;
-        overflow: hidden;
-    }
-    .menu-category-items.expanded {
-        display: block;
-        animation: slideDown 0.3s ease;
-    }
-    .menu-item {
-        margin-bottom: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-    .menu-item-card {
-        background-color: #f8f8f8;
-        border-radius: 10px;
-        padding: 20px;
-        transition: all 0.2s ease;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        height: 100%;
-        cursor: pointer;
-        display: flex;
-        flex-direction: column;
-    }
-    .menu-item-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-    }
-    .menu-item-card.expanded {
-        background-color: #fff;
-    }
-    .menu-item-image {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 10px;
-        margin-bottom: 15px;
-    }
-    .menu-item-content {
-        text-align: left;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-    }
-    .menu-item-name {
-        font-weight: bold;
-        font-size: 18px;
-        color: #333;
-        margin-bottom: 15px;
-        min-height: 44px;
-    }
-    .menu-item-description {
-        display: none;
-        font-size: 13px;
-        color: #555;
-        margin-top: 15px;
-        padding: 15px;
-        background-color: #fff3cd;
-        border-left: 4px solid #f05f40;
-        border-radius: 5px;
-        line-height: 1.6;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    .menu-item-description.visible {
-        display: block;
-        animation: slideDown 0.3s ease;
-    }
-    @keyframes slideDown {
-        from {
-            opacity: 0;
-            transform: translateY(-10px);
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand page-scroll" href="/#page-top">{%- include i18n.html token='doshrock_upper' -%}</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll {%- if page.lang == " fr" %} btn btn-primary {% endif %}"
+                            href="full_menu_fr">Français</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll {%- if page.lang == " en" %} btn btn-primary {% endif %}"
+                            href="full_menu_en">English</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll {%- if page.lang == " kr" %} btn btn-primary {% endif %}"
+                            href="full_menu_kr">한국어</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="no-padding" id="xml_menu">
+        <div class="container-fluid">
+            <div class="row">
+                <br /><br /><br /><br /><br />
+                <div class="col-lg-12 col-sm-12">
+                    <div id="loading" class="text-center">
+                        <p>Loading menu...</p>
+                    </div>
+
+                    <!-- Category Grid -->
+                    <div id="category-grid-wrapper" class="py-5"
+                        style="background-color: #222; margin-left: -15px; margin-right: -15px; display:none;">
+                        <div id="category-grid" class="container">
+                            <h2 class="text-center mb-4 section-heading text-white">Menu Categories</h2>
+                            <hr class="light">
+                            <div class="row justify-content-center" id="category-grid-items">
+                                <!-- Categories will be injected here -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="menu-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        :root {
+            --primary-color: #f05f40;
+            --primary-dark: #d94e33;
+            --text-dark: #222;
+            --text-muted: #666;
+            --bg-light: #f8f9fa;
+            --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            --card-hover-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+            --transition-speed: 0.3s;
         }
-        to {
+
+        body {
+            font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg-light);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        /* Header Styles */
+        .menu-header {
+            position: relative;
+            width: 100%;
+            min-height: 30vh;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%),
+            url('{{ site.baseurl }}/img/cover.jpg');
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .header-content-inner h1 {
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+
+        hr.light {
+            border-color: white;
+            border-width: 3px;
+            max-width: 50px;
+            margin: 0 auto 20px;
             opacity: 1;
+        }
+
+        /* Navbar Adjustments */
+        #mainNav {
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        #mainNav .navbar-brand {
+            color: var(--primary-color);
+            font-weight: 700;
+        }
+
+        /* Category Grid Styles */
+        .section-heading {
+            font-size: 2.5rem;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+        }
+
+        hr.primary {
+            border-color: var(--primary-color);
+            border-width: 3px;
+            max-width: 50px;
+            margin: 0 auto 3rem;
+            opacity: 1;
+        }
+
+        .category-card {
+            cursor: pointer;
+            transition: all var(--transition-speed) ease;
+            border-radius: 16px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: var(--card-shadow);
+            height: 100%;
+            position: relative;
+            border: none;
+        }
+
+        .category-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--card-hover-shadow);
+        }
+
+        .category-thumb-wrapper {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .category-thumb {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .category-card:hover .category-thumb {
+            transform: scale(1.1);
+        }
+
+        .category-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 60%);
+            opacity: 0.8;
+            transition: opacity 0.3s;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .category-card:hover .category-overlay {
+            opacity: 1;
+        }
+
+        /* Collage Styles */
+        .category-collage {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            overflow: hidden;
+            gap: 4px;
+            padding: 4px;
+            background: #fff;
+        }
+
+        .collage-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            border-radius: 2px;
+            border: 3px solid #fff;
+            box-sizing: border-box;
+        }
+
+        .category-card:hover .collage-img {
+            /* Transform is handled inline for rotation, we just want to scale up slightly more on hover if needed,
+               but since we have inline transforms, we might need to be careful.
+               Let's rely on the inline scale and maybe just adjust z-index or brightness. */
+            filter: brightness(1.1);
+        }
+
+        /* 1 Image */
+        .collage-1 {
+            grid-template-columns: 1fr;
+        }
+
+        /* 2 Images */
+        .collage-2 {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        /* 3 Images */
+        .collage-3 {
+            grid-template-columns: 1.5fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .collage-3 .collage-img:nth-child(1) {
+            grid-row: 1 / span 2;
+            grid-column: 1;
+        }
+
+        .collage-3 .collage-img:nth-child(2) {
+            grid-row: 1;
+            grid-column: 2;
+        }
+
+        .collage-3 .collage-img:nth-child(3) {
+            grid-row: 2;
+            grid-column: 2;
+        }
+
+        /* 4 Images */
+        .collage-4 {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .category-info {
+            padding: 20px;
+            text-align: center;
+            background: #fff;
+            position: relative;
+            z-index: 2;
+        }
+
+        .category-name {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--text-dark);
+            margin: 0;
+            letter-spacing: 0.5px;
+        }
+
+        /* Menu Category Section */
+        .menu-category {
+            margin-bottom: 80px;
+            scroll-margin-top: 100px;
+        }
+
+        .menu-category-title {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid var(--primary-color);
+            display: inline-block;
+        }
+
+        /* Menu Item Cards */
+        .menu-item-card {
+            background-color: #fff;
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all var(--transition-speed) ease;
+            box-shadow: var(--card-shadow);
+            height: 100%;
+            border: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu-item-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--card-hover-shadow);
+        }
+
+        .menu-item-image-wrapper {
+            height: 240px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .menu-item-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .menu-item-card:hover .menu-item-image {
+            transform: scale(1.05);
+        }
+
+        .menu-item-content {
+            padding: 25px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .menu-item-name {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--text-dark);
+            line-height: 1.4;
+        }
+
+        .menu-item-price {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            font-weight: 800;
+            white-space: nowrap;
+            margin-left: 15px;
+        }
+
+        .menu-item-description {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-top: 10px;
+            display: none;
+            /* Hidden by default */
+            transition: all 0.3s ease;
+        }
+
+        .menu-item-description.expanded {
+            display: block;
+            /* Visible when expanded */
+        }
+
+        .click-hint {
+            font-size: 0.8rem;
+            color: #aaa;
+            margin-top: auto;
+            padding-top: 15px;
+            text-align: right;
+            font-style: italic;
+        }
+
+        #loading {
+            padding: 100px 0;
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        .spinner-border {
+            width: 3rem;
+            height: 3rem;
+            color: var(--primary-color);
+        }
+
+        @media (max-width: 768px) {
+            .menu-header {
+                min-height: 30vh;
+            }
+
+            .section-heading {
+                font-size: 2rem;
+            }
+
+            .menu-item-image-wrapper {
+                height: 200px;
+            }
+
+            .menu-item-image-wrapper {
+                height: 200px;
+            }
+        }
+
+        /* Floating Button Styles */
+        #back-to-categories {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+            border-radius: 50px;
+            padding: 12px 24px;
+            font-weight: 700;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        #back-to-categories.visible {
+            opacity: 1;
+            visibility: visible;
             transform: translateY(0);
         }
-    }
-    .click-hint {
-        font-size: 11px;
-        color: #999;
-        margin-top: 10px;
-        font-style: italic;
-        min-height: 18px;
-    }
-    .click-hint i {
-        margin-right: 5px;
-    }
-    .menu-item-price {
-        font-size: 20px;
-        color: #f05f40;
-        font-weight: bold;
-        margin-top: auto;
-    }
-    #loading {
-        padding: 50px 0;
-        font-size: 18px;
-        color: #666;
-        text-align: center;
-    }
-    #menu-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 15px;
-    }
-</style>
 
-<script>
-(function() {
-    'use strict';
-
-    var currentLang = '{{ page.lang }}' || 'fr';
-
-    // Function to get language-specific name
-    function getItemName(item) {
-        var name = item.getAttribute('Name') || '';
-        var friendlyName = item.getAttribute('MobileAppFriendlyName') || '';
-
-        if (currentLang === 'fr') {
-            // For French, use the part before " / " in MobileAppFriendlyName
-            if (friendlyName.indexOf(' / ') !== -1) {
-                return friendlyName.split(' / ')[0].trim();
-            }
-            // If no French/English separator, extract English part from Name
-            var parts = name.split(/[\u3131-\uD79D]/); // Split on Korean characters
-            return (parts[0] || name).trim();
-        } else if (currentLang === 'en') {
-            // For English, use the part after " / " in MobileAppFriendlyName
-            if (friendlyName.indexOf(' / ') !== -1) {
-                return friendlyName.split(' / ')[1].trim();
-            }
-            // Otherwise use the whole friendlyName or extract from Name
-            if (friendlyName) {
-                return friendlyName;
-            }
-            var parts = name.split(/[\u3131-\uD79D]/);
-            return (parts[0] || name).trim();
-        } else if (currentLang === 'kr') {
-            // For Korean, extract Korean part from Name
-            var koreanMatch = name.match(/[\u3131-\uD79D\uAC00-\uD7A3]+/);
-            return koreanMatch ? koreanMatch[0] : name;
+        #back-to-categories:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(240, 95, 64, 0.4) !important;
         }
 
-        // Default: return full name
-        return name;
-    }
-
-    // Function to render menu from XML
-    function renderMenu(xmlDoc) {
-        var container = document.getElementById('menu-container');
-        var loading = document.getElementById('loading');
-
-        if (!xmlDoc) {
-            loading.innerHTML = '<p class="text-danger">Error: Could not load menu.</p>';
-            return;
+        @media (max-width: 576px) {
+            #back-to-categories {
+                padding: 12px;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                justify-content: center;
+            }
         }
+    </style>
 
-        var categories = xmlDoc.querySelectorAll('Category');
+    <!-- Floating Back to Categories Button -->
+    <button id="back-to-categories" class="btn btn-primary shadow-lg" title="Back to Categories">
+        <i class="fa fa-th-large"></i> <span class="d-none d-sm-inline">Categories</span>
+    </button>
 
-        if (categories.length === 0) {
-            loading.innerHTML = '<p class="text-danger">Error: No menu categories found.</p>';
-            return;
-        }
+    <script>
+        (function () {
+            'use strict';
 
-        var html = '<div class="row">';
+            var currentLang = '{{ page.lang }}' || 'fr';
 
-        categories.forEach(function(category, catIndex) {
-            var categoryName = category.getAttribute('Name') || 'Unnamed Category';
-            var categoryId = 'category-' + catIndex;
-            var items = category.querySelectorAll('Item');
+            // Function to get language-specific name
+            function getItemName(item) {
+                var name = item.getAttribute('Name') || '';
+                var friendlyName = item.getAttribute('MobileAppFriendlyName') || '';
 
-            // Skip categories with no active mobile app items
-            var activeItems = Array.from(items).filter(function(item) {
-                return item.getAttribute('MobileAppActive') === 'true';
-            });
+                if (currentLang === 'fr') {
+                    // For French, use the part before " / " in MobileAppFriendlyName
+                    if (friendlyName.indexOf(' / ') !== -1) {
+                        return friendlyName.split(' / ')[0].trim();
+                    }
+                    // If no French/English separator, extract English part from Name
+                    var parts = name.split(/[\u3131-\uD79D]/); // Split on Korean characters
+                    return (parts[0] || name).trim();
+                } else if (currentLang === 'en') {
+                    // For English, use the part after " / " in MobileAppFriendlyName
+                    if (friendlyName.indexOf(' / ') !== -1) {
+                        return friendlyName.split(' / ')[1].trim();
+                    }
+                    // Otherwise use the whole friendlyName or extract from Name
+                    if (friendlyName) {
+                        return friendlyName;
+                    }
+                    var parts = name.split(/[\u3131-\uD79D]/);
+                    return (parts[0] || name).trim();
+                } else if (currentLang === 'kr') {
+                    // For Korean, extract Korean part from Name
+                    var koreanMatch = name.match(/[\u3131-\uD79D\uAC00-\uD7A3]+/);
+                    return koreanMatch ? koreanMatch[0] : name;
+                }
 
-            if (activeItems.length === 0) return;
+                // Default: return full name
+                return name;
+            }
 
-            // All categories collapsed by default
-            html += '<div class="col-lg-12 menu-category">';
-            html += '<div class="menu-category-title" data-category-id="' + categoryId + '">' + escapeHtml(categoryName) + '</div>';
-            html += '<div class="menu-category-items" id="' + categoryId + '">';
-            html += '<div class="row">';
-
-            activeItems.forEach(function(item, index) {
-                var itemName = item.getAttribute('Name') || 'Unnamed Item';
-                var price = item.getAttribute('Price') || '0.00';
-                var friendlyName = item.getAttribute('MobileAppFriendlyName') || itemName;
+            // Function to get language-specific description
+            function getItemDescription(item) {
                 var description = item.getAttribute('MobileAppDescription') || '';
-                var imageURL = item.getAttribute('MobileAppImageURL') || '';
+                var parts = description.split(' / ');
 
-                // Display name based on language
-                var displayName = getItemName(item);
-                var itemId = 'item-' + category.getAttribute('tUID') + '-' + index;
+                if (currentLang === 'fr') {
+                    return parts[0] || description;
+                } else if (currentLang === 'en') {
+                    return parts[1] || parts[0] || description;
+                } else if (currentLang === 'kr') {
+                    return parts[2] || parts[0] || description;
+                }
+                return description;
+            }
 
-                html += '<div class="col-lg-4 col-md-6 col-sm-12 menu-item">';
-                html += '  <div class="menu-item-card" data-item-id="' + itemId + '">';
+            // Function to render menu from XML
+            function renderMenu(xmlDoc) {
+                var container = document.getElementById('menu-container');
+                var loading = document.getElementById('loading');
+                var categoryGrid = document.getElementById('category-grid');
+                var categoryGridItems = document.getElementById('category-grid-items');
 
-                // Image
-                if (imageURL) {
-                    html += '    <img src="' + escapeHtml(imageURL) + '" class="menu-item-image" alt="' + escapeHtml(displayName) + '">';
+                if (!xmlDoc) {
+                    loading.innerHTML = '<p class="text-danger">Error: Could not load menu.</p>';
+                    return;
                 }
 
-                html += '    <div class="menu-item-content">';
+                var categories = xmlDoc.querySelectorAll('Category');
 
-                // Name (language-specific)
-                html += '      <div class="menu-item-name">' + escapeHtml(displayName) + '</div>';
-
-                // Price
-                html += '      <div class="menu-item-price">$' + escapeHtml(price) + '</div>';
-
-                // Description (hidden by default) - always render hint area for consistent height
-                if (description) {
-                    html += '      <div class="menu-item-description" id="desc-' + itemId + '">' + escapeHtml(description) + '</div>';
-                    html += '      <div class="click-hint"><i class="fa fa-info-circle"></i>Click for details</div>';
-                } else {
-                    // Empty placeholder to maintain consistent height
-                    html += '      <div class="click-hint" style="visibility: hidden;">&nbsp;</div>';
+                if (categories.length === 0) {
+                    loading.innerHTML = '<p class="text-danger">Error: No menu categories found.</p>';
+                    return;
                 }
 
-                html += '    </div>'; // end menu-item-content
-                html += '  </div>'; // end menu-item-card
-                html += '</div>'; // end col
-            });
+                var html = '<div class="row">';
+                var gridHtml = '';
 
-            html += '</div>'; // end row
-            html += '</div>'; // end menu-category-items
-            html += '</div>'; // end category
-        });
+                categories.forEach(function (category, catIndex) {
+                    var categoryName = category.getAttribute('Name') || 'Unnamed Category';
+                    var categoryId = 'category-' + catIndex;
+                    var items = category.querySelectorAll('Item');
 
-        html += '</div>'; // end main row
+                    // Skip categories with no active mobile app items
+                    var activeItems = Array.from(items).filter(function (item) {
+                        return item.getAttribute('MobileAppActive') === 'true';
+                    });
 
-        loading.style.display = 'none';
-        container.innerHTML = html;
+                    if (activeItems.length === 0) return;
 
-        // Add click handlers to menu items with descriptions
-        var cards = document.querySelectorAll('.menu-item-card');
-        cards.forEach(function(card) {
-            var itemId = card.getAttribute('data-item-id');
-            var description = document.getElementById('desc-' + itemId);
-
-            if (description) {
-                card.addEventListener('click', function(e) {
-                    // Toggle description visibility
-                    description.classList.toggle('visible');
-                    card.classList.toggle('expanded');
-
-                    // Update hint text
-                    var hint = card.querySelector('.click-hint');
-                    if (hint) {
-                        if (description.classList.contains('visible')) {
-                            hint.innerHTML = '<i class="fa fa-times-circle"></i>Click to hide details';
-                        } else {
-                            hint.innerHTML = '<i class="fa fa-info-circle"></i>Click for details';
+                    // Get images for category thumbnail (up to 4)
+                    var collageImages = [];
+                    for (var i = 0; i < activeItems.length; i++) {
+                        var img = activeItems[i].getAttribute('MobileAppImageURL');
+                        if (img) {
+                            collageImages.push(img);
+                            if (collageImages.length >= 4) break;
                         }
+                    }
+
+                    // Fallback if no images
+                    if (collageImages.length === 0) {
+                        collageImages.push('img/logo1.png');
+                    }
+
+                    // Add to Category Grid
+                    gridHtml += '<div class="col-lg-3 col-md-4 col-sm-6 mb-4">';
+                    gridHtml += '  <div class="category-card" onclick="scrollToCategory(\'' + categoryId + '\')">';
+                    gridHtml += '    <div class="category-thumb-wrapper">';
+
+                    // Generate Collage HTML
+                    var imgCount = collageImages.length;
+                    gridHtml += '      <div class="category-collage collage-' + imgCount + '">';
+
+                    collageImages.forEach(function (imgSrc) {
+                        // Random rotation between -6 and 6 degrees
+                        var rotation = Math.floor(Math.random() * 13) - 6;
+                        // Scale down to make borders visible and prevent clipping
+                        var style = 'transform: rotate(' + rotation + 'deg) scale(0.9);';
+                        gridHtml += '        <img src="' + escapeHtml(imgSrc) + '" class="collage-img" style="' + style + '" alt="Menu Item">';
+                    });
+
+                    gridHtml += '      </div>';
+                    gridHtml += '      <div class="category-overlay"></div>';
+                    gridHtml += '    </div>';
+                    gridHtml += '    <div class="category-info">';
+                    gridHtml += '      <h3 class="category-name">' + escapeHtml(categoryName) + '</h3>';
+                    gridHtml += '    </div>';
+                    gridHtml += '  </div>';
+                    gridHtml += '</div>';
+
+                    // Render Category Section
+                    html += '<div class="col-lg-12 menu-category" id="' + categoryId + '">';
+                    html += '<div class="menu-category-title">' + escapeHtml(categoryName) + '</div>';
+                    html += '<div class="menu-category-items expanded" style="display:block;">';
+                    html += '<div class="row">';
+
+                    activeItems.forEach(function (item, index) {
+                        var itemName = item.getAttribute('Name') || 'Unnamed Item';
+                        var price = item.getAttribute('Price') || '0.00';
+
+                        // Display name based on language
+                        var displayName = getItemName(item);
+                        var displayDescription = getItemDescription(item);
+                        var imageURL = item.getAttribute('MobileAppImageURL') || '';
+                        var itemId = 'item-' + category.getAttribute('tUID') + '-' + index;
+
+                        html += '<div class="col-lg-4 col-md-6 col-sm-12 menu-item mb-4">';
+                        html += '  <div class="menu-item-card" data-item-id="' + itemId + '">';
+
+                        // Image
+                        if (imageURL) {
+                            html += '    <div class="menu-item-image-wrapper">';
+                            html += '      <img src="' + escapeHtml(imageURL) + '" class="menu-item-image" alt="' + escapeHtml(displayName) + '">';
+                            html += '    </div>';
+                        }
+
+                        html += '    <div class="menu-item-content">';
+
+                        // Header (Name + Price)
+                        html += '      <div class="menu-item-header">';
+                        html += '        <div class="menu-item-name">' + escapeHtml(displayName) + '</div>';
+                        html += '        <div class="menu-item-price">$' + escapeHtml(price) + '</div>';
+                        html += '      </div>';
+
+                        // Description
+                        if (displayDescription) {
+                            html += '      <div class="menu-item-description" id="desc-' + itemId + '">' + escapeHtml(displayDescription) + '</div>';
+                            html += '      <div class="click-hint"><i class="fa fa-info-circle"></i> Click for details</div>';
+                        }
+
+                        html += '    </div>'; // end menu-item-content
+                        html += '  </div>'; // end menu-item-card
+                        html += '</div>'; // end col
+                    });
+
+                    html += '</div>'; // end row
+                    html += '</div>'; // end menu-category-items
+                    html += '</div>'; // end category
+                });
+
+                html += '</div>'; // end main row
+
+                loading.style.display = 'none';
+                document.getElementById('category-grid-wrapper').style.display = 'block';
+                categoryGrid.style.display = 'block';
+                categoryGridItems.innerHTML = gridHtml;
+                container.innerHTML = html;
+
+                // Add click handlers to menu items with descriptions
+                var cards = document.querySelectorAll('.menu-item-card');
+                cards.forEach(function (card) {
+                    var itemId = card.getAttribute('data-item-id');
+                    var description = document.getElementById('desc-' + itemId);
+
+                    if (description) {
+                        card.addEventListener('click', function (e) {
+                            // Toggle description visibility
+                            description.classList.toggle('expanded');
+
+                            // Update hint text
+                            var hint = card.querySelector('.click-hint');
+                            if (hint) {
+                                if (description.classList.contains('expanded')) {
+                                    hint.innerHTML = '<i class="fa fa-times-circle"></i> Click to collapse';
+                                } else {
+                                    hint.innerHTML = '<i class="fa fa-info-circle"></i> Click for details';
+                                }
+                            }
+                        });
                     }
                 });
             }
-        });
 
-        // Add accordion behavior to category titles
-        var categoryTitles = document.querySelectorAll('.menu-category-title');
-        categoryTitles.forEach(function(title) {
-            title.addEventListener('click', function(e) {
-                var categoryId = title.getAttribute('data-category-id');
-                var categoryItems = document.getElementById(categoryId);
-
-                // Toggle current category
-                categoryItems.classList.toggle('expanded');
-                title.classList.toggle('expanded');
-
-                // Scroll to bring the category title to the top
-                setTimeout(function() {
+            // Global function for scrolling
+            window.scrollToCategory = function (id) {
+                var element = document.getElementById(id);
+                if (element) {
                     var navHeight = document.querySelector('#mainNav').offsetHeight || 70;
-                    var elementPosition = title.getBoundingClientRect().top + window.pageYOffset;
-                    var offsetPosition = elementPosition - navHeight - 10;
+                    var elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+                    var offsetPosition = elementPosition - navHeight - 20;
 
                     window.scrollTo({
                         top: offsetPosition,
                         behavior: 'smooth'
                     });
-                }, 350);
-            });
-        });
-    }
-
-    // Escape HTML to prevent XSS
-    function escapeHtml(text) {
-        var div = document.createElement('div');
-        div.textContent = text;
-        return div.innerHTML;
-    }
-
-    // Load and parse XML
-    function loadMenu() {
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', '{{ site.baseurl }}/assets/data/menu.xml', true);
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState === 4) {
-                if (xhr.status === 200) {
-                    var parser = new DOMParser();
-                    var xmlDoc = parser.parseFromString(xhr.responseText, 'text/xml');
-                    renderMenu(xmlDoc);
-                } else {
-                    document.getElementById('loading').innerHTML = '<p class="text-danger">Error loading menu. Please try again later.</p>';
                 }
+            };
+
+            // Escape HTML to prevent XSS
+            function escapeHtml(text) {
+                var div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
             }
-        };
-        xhr.send();
-    }
 
-    // Load menu when page is ready
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', loadMenu);
-    } else {
-        loadMenu();
-    }
-})();
-</script>
+            // Load and parse XML
+            function loadMenu() {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', '{{ site.baseurl }}/assets/data/menu.xml', true);
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4) {
+                        if (xhr.status === 200) {
+                            var parser = new DOMParser();
+                            var xmlDoc = parser.parseFromString(xhr.responseText, 'text/xml');
+                            renderMenu(xmlDoc);
+                        } else {
+                            document.getElementById('loading').innerHTML = '<p class="text-danger">Error loading menu. Please try again later.</p>';
+                        }
+                    }
+                };
+                xhr.send();
+            }
 
-{% include scripts.html %}
+            // Load menu when page is ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', loadMenu);
+            } else {
+                loadMenu();
+            }
+
+            // Floating Button Logic
+            var backButton = document.getElementById('back-to-categories');
+            var categoryGrid = document.getElementById('category-grid');
+
+            if (backButton && categoryGrid) {
+                window.addEventListener('scroll', function () {
+                    var gridBottom = categoryGrid.offsetTop + categoryGrid.offsetHeight;
+
+                    if (window.scrollY > gridBottom) {
+                        backButton.classList.add('visible');
+                    } else {
+                        backButton.classList.remove('visible');
+                    }
+                });
+
+                backButton.addEventListener('click', function () {
+                    var navHeight = document.querySelector('#mainNav').offsetHeight || 70;
+                    var targetPosition = categoryGrid.offsetTop - navHeight - 20;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                });
+            }
+        })();
+    </script>
+
+
+
+    {% include scripts.html %}
 
 </body>
+
 </html>
