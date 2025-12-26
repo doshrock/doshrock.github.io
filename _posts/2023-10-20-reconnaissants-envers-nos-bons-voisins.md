@@ -3,7 +3,7 @@ layout: post
 title: "Reconnaissants envers nos bons voisins"
 date: 2023-10-20
 excerpt: "L'histoire de comment nos voisins formidables nous ont aidés à ouvrir Doshrock, et l'importance du soutien communautaire."
-image: /img/blog/temp_sign.jpg
+image: /img/blog/temp_sign.webp
 lang: fr
 ---
 
@@ -17,7 +17,7 @@ Ouvrir un restaurant implique bien plus que de préparer de bons plats. Le proce
 
 C'est alors que notre voisin Jimmy est intervenu. Jimmy dirige [Polydx Plastic](https://polydxplastic.com/), une entreprise de feuilles de plastique de haute qualité ici même dans notre communauté. Quand il a vu que nous attendions notre enseigne officielle, il nous a gentiment offert de créer une enseigne temporaire pour que nous puissions ouvrir nos portes.
 
-![Enseigne temporaire faite par Jimmy](/img/blog/temp_sign.jpg)
+![Enseigne temporaire faite par Jimmy](/img/blog/temp_sign.webp)
 
 Grâce à la générosité de Jimmy, nous avons pu accueillir nos premiers clients le 5 juillet 2023. Son soutien a été inestimable pendant ces premiers jours stressants.
 
@@ -25,15 +25,15 @@ Grâce à la générosité de Jimmy, nous avons pu accueillir nos premiers clien
 
 Notre magnifique logo a été conçu par un designer talentueux en Corée du Sud, qui est un ami de ma fille. Le design capture parfaitement l'essence de Doshrock - combinant des éléments coréens traditionnels avec une atmosphère moderne et accueillante.
 
-![Design du logo Doshrock](/img/blog/doshrock_sign_logo.jpg)
+![Design du logo Doshrock](/img/blog/doshrock_sign_logo.webp)
 
 ## Notre enseigne officielle par Epic Advertising
 
 Pour notre enseigne permanente, nous avons travaillé avec [Epic Advertising](https://www.epicadvertisinginc.ca/). Le propriétaire, Hasan, est incroyablement professionnel et agréable à travailler. Il a compris notre vision et a livré une magnifique enseigne qui représente vraiment Doshrock.
 
-![Installation de l'enseigne officielle](/img/blog/doshrock_sign1.jpg)
+![Installation de l'enseigne officielle](/img/blog/doshrock_sign1.webp)
 
-![Enseigne officielle terminée](/img/blog/doshrock_sign2.jpg)
+![Enseigne officielle terminée](/img/blog/doshrock_sign2.webp)
 
 ## Plus que des partenaires d'affaires
 

@@ -3,7 +3,7 @@ layout: post
 title: "Friendship and Good Food"
 date: 2024-03-13
 excerpt: "How a group of aerospace friends made Doshrock part of their weekly BYOW adventure across Montreal."
-image: /img/blog/20240313_byow_visitor_group.jpg
+image: /img/blog/20240313_byow_visitor_group.webp
 lang: en
 ---
 
@@ -11,7 +11,7 @@ One of the greatest joys of running a restaurant is witnessing the friendships t
 
 ## A Friendship Forged in the Skies
 
-![Our BYOW adventurers](/img/blog/20240313_byow_visitor_group.jpg)
+![Our BYOW adventurers](/img/blog/20240313_byow_visitor_group.webp)
 
 See the gentleman in the blue denim jacket? That's my long-time soccer friend - a great striker with a British accent that I still can't fully understand after all these years! He and the rest of this group worked together in the aerospace industry, and through late nights, challenging projects, and shared dreams, they became life-long friends.
 

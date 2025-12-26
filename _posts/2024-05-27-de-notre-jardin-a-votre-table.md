@@ -3,7 +3,7 @@ layout: post
 title: "De notre jardin à votre table"
 date: 2024-05-27
 excerpt: "Découvrez notre jardin biologique en serre et la tradition coréenne du Ssam - des légumes frais enveloppés avec amour."
-image: /img/blog/20240527_greenhouse_perilla.jpg
+image: /img/blog/20240527_greenhouse_perilla.webp
 lang: fr
 ---
 
@@ -11,7 +11,7 @@ Chaque printemps, nous mettons les mains dans la terre de la meilleure façon po
 
 ## Notre jardin biologique
 
-![Feuilles de périlla fraîches de notre serre](/img/blog/20240527_greenhouse_perilla.jpg)
+![Feuilles de périlla fraîches de notre serre](/img/blog/20240527_greenhouse_perilla.webp)
 
 Nous cultivons des **feuilles de périlla (깻잎)**, de la **laitue**, des **concombres** et des **petits radis** dans notre serre. Ce qui les rend spéciaux? Ils sont 100% biologiques.
 
@@ -19,9 +19,9 @@ Nous cultivons des **feuilles de périlla (깻잎)**, de la **laitue**, des **co
 
 Nous utilisons uniquement du compost et des vers de terre, laissant les microbes vivants préservés dans le sol faire leur travail naturel. Le résultat: des légumes qui ont le goût qu'ils devraient avoir - frais, vibrants et pleins de vie.
 
-![Concombres et radis en croissance](/img/blog/20240527_greenhouse_cucumber_radish.jpg)
+![Concombres et radis en croissance](/img/blog/20240527_greenhouse_cucumber_radish.webp)
 
-![Laitue fraîche prête à être récoltée](/img/blog/20240527_greenhouse_lettice.jpg)
+![Laitue fraîche prête à être récoltée](/img/blog/20240527_greenhouse_lettice.webp)
 
 ## Un cadeau de notre jardin
 

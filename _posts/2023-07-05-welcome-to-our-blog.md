@@ -3,7 +3,7 @@ layout: post
 title: "Welcome to the Doshrock Blog"
 date: 2023-07-05
 excerpt: "We're excited to launch our new blog to share our passion for authentic Korean cuisine."
-image: /img/blog/doshrock_cake.jpg
+image: /img/blog/doshrock_cake.webp
 lang: en
 ---
 

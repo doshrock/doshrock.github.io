@@ -3,7 +3,7 @@ layout: post
 title: "Meet the West Island Champions: Roxboro Rockbottoms"
 date: 2024-07-14
 excerpt: "Our soccer team gathered to watch the Copa America final - celebrating football, friendship, and diversity."
-image: /img/blog/20240714_americancup.jpg
+image: /img/blog/20240714_americancup.webp
 lang: en
 ---
 
@@ -11,7 +11,7 @@ What happens when you mix great football, diverse cultures, and delicious Korean
 
 ## The Roxboro Rockbottoms
 
-![The team watching Copa America final](/img/blog/20240714_americancup.jpg)
+![The team watching Copa America final](/img/blog/20240714_americancup.webp)
 
 Allow me to introduce the **Roxboro Rockbottoms** - the West Island Champions and one of the most special soccer teams you'll ever meet.
 
@@ -36,7 +36,7 @@ At the final whistle, there were hugs all around. That's the Rockbottoms way.
 
 ## A Special Kitchen Visitor
 
-![Bruno's baby visiting the kitchen](/img/blog/20240714_bruno_baby.jpg)
+![Bruno's baby visiting the kitchen](/img/blog/20240714_bruno_baby.webp)
 
 While the adults were glued to the screen, we had a very special visitor in the kitchen - Bruno's baby! The little one was fascinated watching our chef work, eyes wide with curiosity at all the sizzling and stirring.
 

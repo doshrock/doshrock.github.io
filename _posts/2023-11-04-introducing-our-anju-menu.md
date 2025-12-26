@@ -3,7 +3,7 @@ layout: post
 title: "Introducing Our New Anju Menu"
 date: 2023-11-04
 excerpt: "Celebrating our BYOB permit with authentic Korean drinking snacks - discover the tradition of Anju."
-image: /img/blog/20231104_jeyuk_tofu_kimchi.jpg
+image: /img/blog/20231104_jeyuk_tofu_kimchi.webp
 lang: en
 ---
 
@@ -19,7 +19,7 @@ The word "Anju" comes from the Chinese characters 按酒, meaning "to press down
 
 ### Eomuktang (어묵탕) - Fish Cake Soup
 
-![Eomuktang - Korean Fish Cake Soup](/img/blog/20231104_eomuk_tang.jpg)
+![Eomuktang - Korean Fish Cake Soup](/img/blog/20231104_eomuk_tang.webp)
 
 Eomuktang is a beloved Korean comfort food, especially popular during cold weather. This warm, savory soup features Korean fish cakes (eomuk) simmered in a light anchovy and kelp broth. The broth is subtly sweet and deeply satisfying - perfect for sipping between drinks to warm your soul.
 
@@ -27,7 +27,7 @@ In Korea, you'll find Eomuktang at street food stalls, pojangmacha (tent bars), 
 
 ### Jeyuk Tofu Kimchi (제육두부김치) - Spicy Pork with Tofu and Kimchi
 
-![Jeyuk Tofu Kimchi](/img/blog/20231104_jeyuk_tofu_kimchi.jpg)
+![Jeyuk Tofu Kimchi](/img/blog/20231104_jeyuk_tofu_kimchi.webp)
 
 This dish is a trio of flavors and textures that Koreans absolutely love with their drinks. Tender slices of spicy stir-fried pork (jeyuk) are served alongside silky steamed tofu and tangy, fermented kimchi.
 

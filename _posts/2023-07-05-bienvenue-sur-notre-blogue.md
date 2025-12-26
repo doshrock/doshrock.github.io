@@ -3,7 +3,7 @@ layout: post
 title: "Bienvenue sur le blogue de Doshrock"
 date: 2023-07-05
 excerpt: "Nous sommes ravis de lancer notre nouveau blogue pour partager notre passion pour la cuisine coréenne authentique."
-image: /img/blog/doshrock_cake.jpg
+image: /img/blog/doshrock_cake.webp
 lang: fr
 ---
 

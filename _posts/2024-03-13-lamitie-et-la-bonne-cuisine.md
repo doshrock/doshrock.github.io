@@ -3,7 +3,7 @@ layout: post
 title: "L'amitié et la bonne cuisine"
 date: 2024-03-13
 excerpt: "Comment un groupe d'amis de l'aérospatiale a fait de Doshrock une partie de leur aventure BYOW hebdomadaire à travers Montréal."
-image: /img/blog/20240313_byow_visitor_group.jpg
+image: /img/blog/20240313_byow_visitor_group.webp
 lang: fr
 ---
 
@@ -11,7 +11,7 @@ L'une des plus grandes joies de gérer un restaurant est de voir les amitiés qu
 
 ## Une amitié forgée dans les cieux
 
-![Nos aventuriers BYOW](/img/blog/20240313_byow_visitor_group.jpg)
+![Nos aventuriers BYOW](/img/blog/20240313_byow_visitor_group.webp)
 
 Voyez-vous le monsieur en veste de jean bleue? C'est mon ami de longue date du soccer - un excellent attaquant avec un accent britannique que je ne comprends toujours pas complètement après toutes ces années! Lui et le reste de ce groupe ont travaillé ensemble dans l'industrie aérospatiale, et à travers les longues nuits, les projets difficiles et les rêves partagés, ils sont devenus des amis pour la vie.
 

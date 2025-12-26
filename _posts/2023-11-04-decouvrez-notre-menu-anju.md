@@ -3,7 +3,7 @@ layout: post
 title: "Découvrez notre nouveau menu Anju"
 date: 2023-11-04
 excerpt: "Célébrons notre permis d'apporter votre vin avec des accompagnements coréens authentiques - découvrez la tradition de l'Anju."
-image: /img/blog/20231104_jeyuk_tofu_kimchi.jpg
+image: /img/blog/20231104_jeyuk_tofu_kimchi.webp
 lang: fr
 ---
 
@@ -19,7 +19,7 @@ Le mot « Anju » vient des caractères chinois 按酒, signifiant « accompagne
 
 ### Eomuktang (어묵탕) - Soupe de gâteau de poisson
 
-![Eomuktang - Soupe coréenne de gâteau de poisson](/img/blog/20231104_eomuk_tang.jpg)
+![Eomuktang - Soupe coréenne de gâteau de poisson](/img/blog/20231104_eomuk_tang.webp)
 
 L'Eomuktang est un plat réconfortant coréen très apprécié, surtout par temps froid. Cette soupe chaude et savoureuse présente des gâteaux de poisson coréens (eomuk) mijotés dans un bouillon léger d'anchois et d'algues. Le bouillon est subtilement sucré et profondément satisfaisant - parfait à siroter entre les verres pour réchauffer l'âme.
 
@@ -27,7 +27,7 @@ En Corée, vous trouverez l'Eomuktang dans les stands de street food, les pojang
 
 ### Jeyuk Tofu Kimchi (제육두부김치) - Porc épicé avec tofu et kimchi
 
-![Jeyuk Tofu Kimchi](/img/blog/20231104_jeyuk_tofu_kimchi.jpg)
+![Jeyuk Tofu Kimchi](/img/blog/20231104_jeyuk_tofu_kimchi.webp)
 
 Ce plat est un trio de saveurs et de textures que les Coréens adorent avec leurs boissons. De tendres tranches de porc sauté épicé (jeyuk) sont servies aux côtés de tofu vapeur soyeux et de kimchi fermenté acidulé.
 

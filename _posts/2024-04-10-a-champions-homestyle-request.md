@@ -3,7 +3,7 @@ layout: post
 title: "A Champion's Homestyle Request"
 date: 2024-04-10
 excerpt: "When our friend Jin, a multi-sport champion, asked for a taste of home - our chef delivered a special Korean homestyle meal."
-image: /img/blog/20240410_jin.jpg
+image: /img/blog/20240410_jin.webp
 lang: en
 ---
 
@@ -11,7 +11,7 @@ Some of our most memorable moments come from special requests by our regular cus
 
 ## Meet Jin - The Multi-Sport Champion
 
-![Jin enjoying his homestyle meal](/img/blog/20240410_jin.jpg)
+![Jin enjoying his homestyle meal](/img/blog/20240410_jin.webp)
 
 Jin is one of those rare individuals who excels at everything athletic. A **multiple champion of the Montreal Amateur Tennis Asian Cup**, he holds certified instructor licenses and works as a registered lecturer at ski resorts. In winter, he teaches private ski lessons; in summer, he's on the tennis courts. He even plays soccer at the number 7 position!
 

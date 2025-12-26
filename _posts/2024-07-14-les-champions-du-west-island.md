@@ -3,7 +3,7 @@ layout: post
 title: "Les champions du West Island : Roxboro Rockbottoms"
 date: 2024-07-14
 excerpt: "Notre équipe de soccer s'est réunie pour regarder la finale de la Copa America - célébrant le football, l'amitié et la diversité."
-image: /img/blog/20240714_americancup.jpg
+image: /img/blog/20240714_americancup.webp
 lang: fr
 ---
 
@@ -11,7 +11,7 @@ Que se passe-t-il quand on mélange du grand football, des cultures diverses et 
 
 ## Les Roxboro Rockbottoms
 
-![L'équipe regardant la finale de la Copa America](/img/blog/20240714_americancup.jpg)
+![L'équipe regardant la finale de la Copa America](/img/blog/20240714_americancup.webp)
 
 Permettez-moi de vous présenter les **Roxboro Rockbottoms** - les Champions du West Island et l'une des équipes de soccer les plus spéciales que vous rencontrerez.
 
@@ -36,7 +36,7 @@ Au coup de sifflet final, il y avait des accolades partout. C'est la façon Rock
 
 ## Un visiteur spécial en cuisine
 
-![Le bébé de Bruno visitant la cuisine](/img/blog/20240714_bruno_baby.jpg)
+![Le bébé de Bruno visitant la cuisine](/img/blog/20240714_bruno_baby.webp)
 
 Pendant que les adultes étaient rivés à l'écran, nous avons eu un visiteur très spécial dans la cuisine - le bébé de Bruno! Le petit était fasciné en regardant notre chef travailler, les yeux grands ouverts de curiosité devant tous les grésillements et les mélanges.
 

@@ -3,7 +3,7 @@ layout: post
 title: "Corn Cheese - The Perfect Anju"
 date: 2023-11-27
 excerpt: "Introducing our newest Anju addition: the beloved Korean corn cheese - a dish that looks Western but is 100% Korean!"
-image: /img/blog/20231127corncheese.jpg
+image: /img/blog/20231127corncheese.webp
 lang: en
 ---
 
@@ -15,7 +15,7 @@ Despite its Western-sounding name and ingredients, corn cheese is actually a Kor
 
 The dish emerged after canned sweet corn (particularly the Green Giant brand) became widely available in Korea. Korean chefs creatively combined it with mozzarella cheese and mayonnaise, creating a unique fusion that became an instant hit. Records of corn cheese recipes can be found in Korean archives dating back to before 2001!
 
-![Corn Cheese at Doshrock](/img/blog/20231127corncheese.jpg)
+![Corn Cheese at Doshrock](/img/blog/20231127corncheese.webp)
 
 ## Why Koreans Love It as Anju
 

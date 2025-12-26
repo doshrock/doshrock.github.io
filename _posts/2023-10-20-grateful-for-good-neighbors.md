@@ -3,7 +3,7 @@ layout: post
 title: "Grateful for Good Neighbors"
 date: 2023-10-20
 excerpt: "The story of how our amazing neighbors helped us open Doshrock, and the importance of community support."
-image: /img/blog/temp_sign.jpg
+image: /img/blog/temp_sign.webp
 lang: en
 ---
 
@@ -17,7 +17,7 @@ Starting a restaurant involves more than just cooking great food. The permit pro
 
 That's when our neighbor Jimmy stepped in. Jimmy runs [Polydx Plastic](https://polydxplastic.com/), a high-quality plastic sheets business right here in our community. When he saw that we were waiting for our official signage, he kindly offered to create a temporary sign for us so we could open our doors.
 
-![Temporary sign made by Jimmy](/img/blog/temp_sign.jpg)
+![Temporary sign made by Jimmy](/img/blog/temp_sign.webp)
 
 Thanks to Jimmy's generosity, we were able to welcome our first customers on July 5th, 2023. His support meant everything to us during those stressful early days.
 
@@ -25,15 +25,15 @@ Thanks to Jimmy's generosity, we were able to welcome our first customers on Jul
 
 Our beautiful logo was designed by a talented designer in South Korea, who is a friend of my daughter. The design perfectly captures the essence of Doshrock - combining traditional Korean elements with a modern, welcoming feel.
 
-![Doshrock logo design](/img/blog/doshrock_sign_logo.jpg)
+![Doshrock logo design](/img/blog/doshrock_sign_logo.webp)
 
 ## Our Official Sign by Epic Advertising
 
 For our permanent signage, we worked with [Epic Advertising](https://www.epicadvertisinginc.ca/). The owner, Hasan, is incredibly professional and a pleasure to work with. He understood our vision and delivered a beautiful sign that truly represents Doshrock.
 
-![Official sign installation](/img/blog/doshrock_sign1.jpg)
+![Official sign installation](/img/blog/doshrock_sign1.webp)
 
-![Completed official sign](/img/blog/doshrock_sign2.jpg)
+![Completed official sign](/img/blog/doshrock_sign2.webp)
 
 ## More Than Business Partners
 

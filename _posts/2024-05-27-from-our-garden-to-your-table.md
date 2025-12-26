@@ -3,7 +3,7 @@ layout: post
 title: "From Our Garden to Your Table"
 date: 2024-05-27
 excerpt: "Discover our organic greenhouse garden and the Korean tradition of Ssam - fresh vegetables wrapped with love."
-image: /img/blog/20240527_greenhouse_perilla.jpg
+image: /img/blog/20240527_greenhouse_perilla.webp
 lang: en
 ---
 
@@ -11,7 +11,7 @@ Every spring, we get our hands dirty in the best way possible - planting seeds i
 
 ## Our Organic Garden
 
-![Fresh perilla leaves from our greenhouse](/img/blog/20240527_greenhouse_perilla.jpg)
+![Fresh perilla leaves from our greenhouse](/img/blog/20240527_greenhouse_perilla.webp)
 
 We grow **perilla leaves (깻잎)**, **lettuce**, **cucumber**, and **baby radish** in our greenhouse. What makes them special? They're 100% organic.
 
@@ -19,9 +19,9 @@ We grow **perilla leaves (깻잎)**, **lettuce**, **cucumber**, and **baby radis
 
 We use only compost and earthworms, letting the preserved, living microbes in the soil do their natural work. The result is vegetables that taste like they should - fresh, vibrant, and full of life.
 
-![Cucumber and radish growing](/img/blog/20240527_greenhouse_cucumber_radish.jpg)
+![Cucumber and radish growing](/img/blog/20240527_greenhouse_cucumber_radish.webp)
 
-![Fresh lettuce ready for harvest](/img/blog/20240527_greenhouse_lettice.jpg)
+![Fresh lettuce ready for harvest](/img/blog/20240527_greenhouse_lettice.webp)
 
 ## A Gift from Our Garden
 
