@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+
+  <header class="blog-header">
+    <div class="header-content">
+      <div class="header-content-inner">
+        <h1>{%- include i18n.html token='key_blog' -%}</h1>
+        <p>{%- include i18n.html token='para_blog_intro' -%}</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="blog-listing">
+    <div class="container">
+      <div class="row">
+        {% assign posts = site.posts | where: "lang", page.lang %}
+        {% if posts.size == 0 %}
+          {% assign posts = site.posts %}
+        {% endif %}
+        {% for post in posts %}
+        <div class="col-lg-4 col-md-6">
+          <div class="blog-card">
+            {% if post.image %}
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.image | relative_url }}" class="blog-thumbnail" alt="{{ post.title }}">
+            </a>
+            {% else %}
+            <a href="{{ post.url | relative_url }}">
+              <div class="blog-thumbnail-placeholder"></div>
+            </a>
+            {% endif %}
+            <div class="blog-content">
+              <p class="blog-date text-muted">
+                <small>{%- include i18n.html token='key_posted_on' -%} {{ post.date | date: "%B %d, %Y" }}</small>
+              </p>
+              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+              <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+              <a href="{{ post.url | relative_url }}" class="btn btn-primary btn-sm">{%- include i18n.html token='key_read_more' -%}</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      {% if posts.size == 0 %}
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="text-muted">No posts yet. Check back soon!</p>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </section>
+
+  {% include scripts.html %}
+</body>
+
+</html>
+
+<style>
+  .blog-header {
+    position: relative;
+    width: 100%;
+    min-height: 40vh;
+    text-align: center;
+    background: linear-gradient(135deg, #F05F40 0%, #f78d6b 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+  }
+
+  .blog-header .header-content {
+    max-width: 800px;
+    padding: 0 20px;
+  }
+
+  .blog-header h1 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+
+  .blog-header p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.2rem;
+  }
+
+  .blog-listing {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+
+  .blog-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  }
+
+  .blog-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+
+  .blog-card:hover .blog-thumbnail {
+    opacity: 0.9;
+  }
+
+  .blog-thumbnail-placeholder {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg, #F05F40 0%, #f78d6b 100%);
+  }
+
+  .blog-content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .blog-date {
+    margin-bottom: 10px;
+  }
+
+  .blog-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+
+  .blog-card h3 a {
+    color: #222;
+    text-decoration: none;
+  }
+
+  .blog-card h3 a:hover {
+    color: #F05F40;
+  }
+
+  .blog-excerpt {
+    color: #666;
+    font-size: 0.95rem;
+    flex-grow: 1;
+    margin-bottom: 20px;
+  }
+
+  .blog-card .btn {
+    align-self: flex-start;
+  }
+
+  @media (max-width: 768px) {
+    .blog-header h1 {
+      font-size: 2rem;
+    }
+
+    .blog-listing {
+      padding: 40px 0;
+    }
+  }
+</style>

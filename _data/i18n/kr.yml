@@ -32,3 +32,9 @@ key_stars: 별점
 key_reviews_count: 리뷰
 key_see_all_reviews: 구글에서 모든 리뷰 보기
 para_reviews_intro: "고객님들의 리뷰를 확인해보세요"
+key_blog: 블로그
+para_blog_intro: "도시락의 최신 소식"
+key_view_all_posts: 모든 글 보기
+key_posted_on: "게시일 "
+key_back_to_blog: 블로그로 돌아가기
+key_back_to_home: 홈으로 돌아가기

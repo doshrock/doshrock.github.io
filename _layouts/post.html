@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+
+  <header class="post-header">
+    <div class="header-content">
+      <div class="header-content-inner">
+        <h1>{{ page.title }}</h1>
+        <p class="post-meta">
+          {%- include i18n.html token='key_posted_on' -%} {{ page.date | date: "%B %d, %Y" }}
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <section class="post-content">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          {% if page.image %}
+          <img src="{{ page.image | relative_url }}" class="post-featured-image" alt="{{ page.title }}">
+          {% endif %}
+
+          <article>
+            {{ content }}
+          </article>
+
+          <div class="post-navigation">
+            {% if page.lang == 'en' %}
+            <a href="{{ '/blog-en' | relative_url }}" class="btn btn-outline-primary">
+              &larr; {%- include i18n.html token='key_back_to_blog' -%}
+            </a>
+            <a href="{{ '/index-en' | relative_url }}" class="btn btn-outline-secondary">
+              {%- include i18n.html token='key_back_to_home' -%}
+            </a>
+            {% elsif page.lang == 'kr' %}
+            <a href="{{ '/blog-kr' | relative_url }}" class="btn btn-outline-primary">
+              &larr; {%- include i18n.html token='key_back_to_blog' -%}
+            </a>
+            <a href="{{ '/index-kr' | relative_url }}" class="btn btn-outline-secondary">
+              {%- include i18n.html token='key_back_to_home' -%}
+            </a>
+            {% else %}
+            <a href="{{ '/blog' | relative_url }}" class="btn btn-outline-primary">
+              &larr; {%- include i18n.html token='key_back_to_blog' -%}
+            </a>
+            <a href="{{ '/index' | relative_url }}" class="btn btn-outline-secondary">
+              {%- include i18n.html token='key_back_to_home' -%}
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include scripts.html %}
+</body>
+
+</html>
+
+<style>
+  .post-header {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    text-align: center;
+    background: linear-gradient(135deg, #222 0%, #333 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+  }
+
+  .post-header .header-content {
+    max-width: 800px;
+    padding: 0 20px;
+  }
+
+  .post-header h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .post-header .post-meta {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+  }
+
+  .post-content {
+    padding: 80px 0;
+  }
+
+  .post-featured-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+
+  .post-content article {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+  }
+
+  .post-content article h2,
+  .post-content article h3,
+  .post-content article h4 {
+    color: #222;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .post-content article p {
+    margin-bottom: 1.5rem;
+  }
+
+  .post-content article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+
+  .post-content article blockquote {
+    border-left: 4px solid #F05F40;
+    padding-left: 20px;
+    margin: 30px 0;
+    font-style: italic;
+    color: #555;
+  }
+
+  .post-navigation {
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .btn-outline-primary {
+    color: #F05F40;
+    border-color: #F05F40;
+    background: transparent;
+  }
+
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #F05F40;
+    border-color: #F05F40;
+  }
+
+  .btn-outline-secondary {
+    color: #666;
+    border-color: #666;
+    background: transparent;
+  }
+
+  .btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #666;
+    border-color: #666;
+  }
+
+  @media (max-width: 768px) {
+    .post-header h1 {
+      font-size: 1.8rem;
+    }
+
+    .post-content {
+      padding: 40px 0;
+    }
+  }
+</style>

@@ -12,32 +12,47 @@
                     <a class="nav-link page-scroll" href="https://doshrock.clusterpos.com/#/" target="_blank" rel="noopener noreferrer">{%- include i18n.html token='order_online' -%}&nbsp; <i class="fa fa-external-link" style="font-size: 0.8em;"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#about">{%- include i18n.html token='key_about' -%}</a>
+                    <a class="nav-link page-scroll" href="/#about">{%- include i18n.html token='key_about' -%}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#full_menu">{%- include i18n.html token='key_menu' -%}</a>
+                    <a class="nav-link page-scroll" href="/#full_menu">{%- include i18n.html token='key_menu' -%}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#news">{%- include i18n.html token='key_news' -%}</a>
+                    <a class="nav-link page-scroll" href="/#news">{%- include i18n.html token='key_news' -%}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#reviews">{%- include i18n.html token='key_reviews_nav' -%}</a>
+                    <a class="nav-link page-scroll" href="/#blog">{%- include i18n.html token='key_blog' -%}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">{%- include i18n.html token='key_contact' -%}</a>
+                    <a class="nav-link page-scroll" href="/#reviews">{%- include i18n.html token='key_reviews_nav' -%}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="/#contact">{%- include i18n.html token='key_contact' -%}</a>
                 </li>
                 <li class="nav-item">
                     <div class="page-scroll"> &nbsp;&nbsp;&nbsp; </div>
                 </li>
+                {% if page.layout == 'blog_list' or page.layout == 'post' %}
                 <li class="nav-item">
-					<a class="nav-link page-scroll {%- if page.lang!="en" and page.lang != "kr"%} btn btn-primary {% endif %}" href="index">Français</a>
+					<a class="nav-link page-scroll {%- if page.lang!="en" and page.lang != "kr"%} btn btn-primary {% endif %}" href="/blog">Français</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll {%- if page.lang=="en" %} btn btn-primary {% endif %}" href="index-en">English</a>
+                    <a class="nav-link page-scroll {%- if page.lang=="en" %} btn btn-primary {% endif %}" href="/blog-en">English</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll {%- if page.lang=="kr" %} btn btn-primary {% endif %}" href="index-kr">한국어</a>
+                    <a class="nav-link page-scroll {%- if page.lang=="kr" %} btn btn-primary {% endif %}" href="/blog-kr">한국어</a>
                 </li>
+                {% else %}
+                <li class="nav-item">
+					<a class="nav-link page-scroll {%- if page.lang!="en" and page.lang != "kr"%} btn btn-primary {% endif %}" href="/index">Français</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll {%- if page.lang=="en" %} btn btn-primary {% endif %}" href="/index-en">English</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll {%- if page.lang=="kr" %} btn btn-primary {% endif %}" href="/index-kr">한국어</a>
+                </li>
+                {% endif %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
