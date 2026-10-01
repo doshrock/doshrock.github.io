@@ -93,16 +93,19 @@ Key layouts in `_layouts/`:
 - **order-online.ai**: Online ordering iframe at doshrock.order-online.ai
 - **Google Analytics**: Tracking ID G-7Z8LPXHRQF
 - **Google Maps**: Embedded in contact section
+- **Google Reviews**: Self-hosted, no widget. See `UPDATE_REVIEWS.md`.
 
 ## Key Development Patterns
 
-### Adding Menu Items
+### Changing Menu Prices
 
-1. Edit the appropriate YAML file in `_data/menu/`
-2. Add image to `img/menu/` directory
-3. Provide all four name fields (name, name_en, name_fr, name_kr)
-4. Define relevant tags in all three languages for filtering
-5. Test all language variants: `/full_menu`, `/full_menu_en`, `/full_menu_kr`
+Prices on `/full_menu*` come from `assets/data/menu.xml`, a copy of the ClusterPOS menu XML
+with multilingual descriptions added by `update_xml.py`. Change only the `Price` attribute of
+the `<Item tUID="...">` you need; the tUID matches the POS item id. Do not replace the whole
+file with a fresh POS export or the descriptions are lost.
+
+The printed menu scans are `img/menu/print/menu2026_1..4.jpg` (1280x1810, exported from the
+menu PSDs).
 
 ### Adding Translations
 
@@ -127,7 +130,9 @@ _layouts/          → Page templates
 _includes/         → Reusable HTML components (header, nav, menu, contact, etc.)
 _data/
   ├── i18n/       → Translation files (en.yml, fr.yml, kr.yml)
-  └── menu/       → Menu data (YAML files)
+  └── google_reviews.json → All collected Google reviews (updated daily by cron)
+assets/data/      → menu.xml (menu + prices), reviews.json (built from google_reviews.json)
+scripts/          → update_reviews.py / .sh (excluded from the site build)
 _sass/            → SASS partials
 css/              → Compiled stylesheets
 js/               → JavaScript (jQuery, Bootstrap, custom)

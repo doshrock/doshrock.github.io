@@ -104,6 +104,8 @@ table_order:
 
 exclude:
   - scripts
+  - CLAUDE.md
+  - UPDATE_REVIEWS.md
   - Gemfile
   - Gemfile.lock
   - node_modules
