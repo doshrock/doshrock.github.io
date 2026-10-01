@@ -1,0 +1,2304 @@
+{
+ "place_id": "ChIJdzpxhZA7yUwRql6GdYlUaIw",
+ "rating": 4.9,
+ "total": 287,
+ "updated": "2026-10-01",
+ "reviews": [
+  {
+   "name": "Dayna Yi",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWP9hqPI8YqlLECJTwDKfyzBljwDukMrheN0aEV_z4MXuzfKA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1789867437,
+   "approx": false,
+   "text": "리뷰쓸려고 동영상까지 편집했네요 ㅎㅎ\n한국음식은 대부분 집에서 해먹어서 밖에서 잘 먹을일이 없었는데 정말 맛있었어요.\n해물 순두부 2\n돼지 순두부\n김치찌개\n삼겹살도시락\n불고기덮밥\n시켰고 좀 많았는데 다 먹었어요.\n돼지 순두부에서는 고기가 끝없이 나와서 놀랬어요 ㅎㅎ\n아 그리고 ㄲㅇ 서비스 감사합니다 :)"
+  },
+  {
+   "name": "Leanna",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjV1NAkhTBN7MU7CoZJqcs3S54iSOqqzMkliIaUXwZPinfG8ThOdwQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1789775391,
+   "approx": false,
+   "text": "I really enjoyed my time here. The waitress was lovely. The food was delicious. An unexpected hidden gem!"
+  },
+  {
+   "name": "Ellie",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXBeXxuLilGSXGialxCKLnvzKtYy9EM5-TkkTsUfoJNX2xfytQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1789237262,
+   "approx": false,
+   "text": "The dwaeji sundubu jjigae..."
+  },
+  {
+   "name": "Tara N.",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUqJ3HtlmiirrlCGXwgdBuHrH9_cOdU-Tu8HOxgRKLcaxzCTNYU=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1788732382,
+   "approx": false,
+   "text": "Exceptional food, and the service went above and beyond! 10/10 would recommend."
+  },
+  {
+   "name": "Carl Clavette",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUBE0qT4MfLdhYQRgSdxoP_P2HT6SfZhtP8QEwJbM3oMdKAHb0t=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1788229440,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Ariane Cusson",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLMyTQgwPWBOHbmnRbhPEMu0oFVepjChXGSE7wUO1d4kS-9_A=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1788229440,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Ada Cheng",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXGSqvy6ilgkGkL3e8BKeeKgZDseZh2JE1dUvobyzUC7JC_9LT5SQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1788229440,
+   "approx": true,
+   "text": "It was a spontaneous stop at Doshrock because the original chosen resto was not open for the evening. Very happy that we stumbled upon this place! Service was excellent, everyone was very courteous and friendly. We tried 3 different bento box meals and 1 dupbap. All delicious! Great value for the price. All the appetizers that came in the bentos were yummy. Would definitely go back!!"
+  },
+  {
+   "name": "Alexandre Boisjoly",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIgPbfgNx8XrvTGxyPbxMkD8L-mpcur5dMWz1pKRXxvgzbPGQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1788229440,
+   "approx": true,
+   "text": "Wow amazing food, great service!\n\nOnly positive vibe!\n\nThanks"
+  },
+  {
+   "name": "Maxime Soulié",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocITEoh45ui4kQwazZxz82kj27k7qF4kFmbfq2CH_ScUV2ZI8Q=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1788229440,
+   "approx": true,
+   "text": "amazing experience! staff is super friendly:) and great vegan options! a must try!"
+  },
+  {
+   "name": "José Carlos Paredes",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWkhWWYzree_LCNh3obCaBFaSttPbOx565ZlY4nfbxgOjLWGnRG=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1788041268,
+   "approx": false,
+   "text": ""
+  },
+  {
+   "name": "R.E",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUwa8mUnXBgNsFGNfwcHbB6BfStqNG-cdIXTJge2xCNiUhSZ6s=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1785602880,
+   "approx": true,
+   "text": "Had the doenjang, and it was very good. The appetizers and tea were also excellent."
+  },
+  {
+   "name": "백지영",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJbXDj_-92WVNtmn1q6obXZCKZy6lsadc9bKpnD_VIt3NQetA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1785602880,
+   "approx": true,
+   "text": "순두부찌개가 제일 맛있음! 김치찌개는 보통! 불고기 비빔밥도 진짜 맛있었음!"
+  },
+  {
+   "name": "Ramzy R-H",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWLFSTT1gPH4ysd1n7Zl2Nj7uoDWoaI-_YiWobSBObViRWA3EI-=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1785602880,
+   "approx": true,
+   "text": "Delicious bibimbap"
+  },
+  {
+   "name": "Sam",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXVH4zYt7T0BhjAsXb04114AObY_AAQooKL5jsDf6jEHz6Tqjo5=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1785602880,
+   "approx": true,
+   "text": "I was looking for a Korean restaurant that’s not fast food chain for so long and I saw all the wonderful reviews! I just had to try it ✨\nI order to pick up and when I got there they were so welcoming and kind !\nI was even helped with the takeout order as I had my baby in my arms ! I ordered for my dad and myself and kid . He’s particular about trying new places and he loved it !  I will definitely be coming back with  my husband and the rest of family to eat in the restaurant! Can’t wait to try all the the different dishes. ✨🫶🏼"
+  },
+  {
+   "name": "Aina Ramanantseheno",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWupdMpCszQlv9-xPfQhg_OSCedf5BsZaAGAxOp2tvpqd-Se3zDVQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1782976320,
+   "approx": true,
+   "text": "For all your Korean food cravings, this is your go-to restaurant. Authentic cuisine, affordable, and bring your own wine!"
+  },
+  {
+   "name": "Slobodan Bradic",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKHTvGKn65Jt31NUPlcN2GDl7KrVJ4-aAPDDlGHhMkwA0rtGg=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1782976320,
+   "approx": true,
+   "text": "Good food, reasonable prices, pleasant service…"
+  },
+  {
+   "name": "mohamad oukar",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVL5pfyQdI7CZPtODxRqzIeFdK_InttzM6yMqIWR2NYNpg7JWFw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1780349760,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "yan yang",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJsMjifqH15zzKTYELLhq9DWfqEJF7sAJEEkaPUbbEZloOIvg=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1780349760,
+   "approx": true,
+   "text": "Just like sitting in a dinning room of a lovely Korean family. We were told it’s been opened more than 3 years but we just noticed it today! Food is authentic and service is warm. So glad there are more and more attractive restaurants in West Island!"
+  },
+  {
+   "name": "Kasra",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUnb4OanwOaRF9vhTfDLo35xcrZ6Xys4TL-WTx3W0V7t7BXCINB=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1780349760,
+   "approx": true,
+   "text": "Great food, big portions"
+  },
+  {
+   "name": "minato",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXk91fZMgUZsJQqxckGpsTz5eGInNvkbPmGOz4ExGL_3bSzs2w=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1780349760,
+   "approx": true,
+   "text": "it was the best korean restaurant in Montreal! Their red sauce chicken was absolutely amazing and the bibimbap was also delicious! I will be back :)"
+  },
+  {
+   "name": "Aya Mehanna",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVg0Yh0XiY2Cc4DHmZkxvGlVohawbrJkeEuaUPfSCKTyIIQoQSI=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1780349760,
+   "approx": true,
+   "text": "i would sell my soul if it meant i could eat at doshrock for the rest of my life. i love this place dearly. it's the only restaurant that consistently impresses me. food always comes hot and is super tasty and the service is the best! always super kind and welcoming <3 i love u guys please never close 🙏"
+  },
+  {
+   "name": "meera",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocK2nK1BRKs1pgvwfZyhP4e8IrZ0pEAftw388XQriMshVfSO_A=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1777723200,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Mireille Wasfy",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWg4MLzP0FqpMpmg6S0aClir2qt16ZLi4dAALQKco9Zgym-5XI=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1777723200,
+   "approx": true,
+   "text": "Excellent food! So many options and vegan friendly as well!"
+  },
+  {
+   "name": "Michael Wahba",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVkcOHTRNXqo3bZIILI8z4Cj6kUHf6tyHcIln-roaIgD5lsQogP4w=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1777723200,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Hynde",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUsqYfTtSxKPd0gp6Hmf8TiLullSleB3DZcitwM5vGBwDPiU_Q=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1777723200,
+   "approx": true,
+   "text": "The best Korean chicken I’ve had in Montreal and Vancouver! And the staff who work there are so cute! If you want to have a delicious Korean meal, don’t hesitate 😍"
+  },
+  {
+   "name": "Tim Huppler",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJHBHiWKmsxVSoNWJkyvt7I7W6M7Q6nYRKeOZVh8Yn9tK3DzA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1775096640,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Dine Ouici",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXtWXV1AQwpRz4tOvAnEGSq64xtUG7TLH8Lzc-XtBBc6-5Oy5hR=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1775096640,
+   "approx": true,
+   "text": "Excellente nourriture, service, sympa cinq étoiles"
+  },
+  {
+   "name": "Patrick Burkhard",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUiuZbhhQXCc2LtrbzDoLXdBVm6JPlxmgXN5ufml1NzsAtwJB-Itg=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1775096640,
+   "approx": true,
+   "text": "Amazing food! Warm and welcoming atmosphere with great service. Our new favourite resto!"
+  },
+  {
+   "name": "rhonda gold",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWZFahohaJxCUnpSwTh-CqRKFtT29Ed0EBJ5UdJRNbiLcr_iVxA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1775096640,
+   "approx": true,
+   "text": "Just went 3 of us for my daughters birthday. Service is excellent, menu well explained and the food was excellent!! I took a platter with a mix and each item was delicious. Tea was great too!! Very fast service. Will definitely be back to try other dishes . Thx"
+  },
+  {
+   "name": "Michael Greig",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWhSw3t5Z4fErZCIjueniUqBIWW39wJA-EcXYcpKkytttNPOvfB=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1775096640,
+   "approx": true,
+   "text": "Our first visit to DOSHROCK was very enjoyable. A lovely young lady (Hani) working the front was friendly and welcoming. We started with a Doshrock and Hani helped with several great suggestions for sides. The food was terrific. Our experience was so positive, that we went back on the last night of our visit to Montreal and did it again!"
+  },
+  {
+   "name": "Dawa S",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVR8YkPYA2XvOimgeP85GyDG_al_-SEMMRZ-HiEoaZAeibPgZnB=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1775096640,
+   "approx": true,
+   "text": "The food was delicious.\n\nThe loud K-pop on the large TV was unnecessary.\n\nIll be back"
+  },
+  {
+   "name": "Andrew Holmes",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVaHOxF0YdF9T0MG87afE5-inMug67Pp_Thgl4o2PODPAHlxck=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1775096640,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Xavier",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVYUxEKvKIdSwGiIxkOBF2q_szKFGHaCUxl-ayMMJxqzVryeCn1=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1775096640,
+   "approx": true,
+   "text": "First time eating at a Korean restaurant, what a discovery! The atmosphere of the restaurant is lovely, the service was top notch!! You HAVE to try the mayo chicken, you won't regret it!"
+  },
+  {
+   "name": "Derick John",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJ2cYOkDdG7aiKunGzBeLD0PlhbDmDpFqZndd4OC2m9NmJmfA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1772470080,
+   "approx": true,
+   "text": "Very good Korean restaurant, the staff is friendly."
+  },
+  {
+   "name": "Fabienne Gilbert",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJeNVnTCoe-t2AeX98oTpDhYOMpVFlZu-fzNpvSefcX_o3zSg=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1772470080,
+   "approx": true,
+   "text": "Délicieux !! Et le service impeccable!!"
+  },
+  {
+   "name": "David Phan",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVCn--9sEdIJbsjANLs2TDRJn1Pa3pvwVDIcyWUVHN82kYCu-oe4A=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1772470080,
+   "approx": true,
+   "text": "Excellent food and service. I highly recommend this place."
+  },
+  {
+   "name": "Fanny Peters",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUyTy-RpI-Br0YqiDfH8PPKrCxH0tFBFtX6lu8RA3jbL9hZzOA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1772470080,
+   "approx": true,
+   "text": "OUTSTANDING ! I came for dinner with my sister and we had the bulgogi bibimbap in a hot stone dish 🤩 Wow. What an experience ! Service is 10/10 ! Thank you !"
+  },
+  {
+   "name": "Jingle James",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjW_S6Dt-Y3YDD8O78Ht3ox0ZzfO3bUdqm9GmfeXS14uWT4zrPRe=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1772470080,
+   "approx": true,
+   "text": "New favourite Korean food spot! Amazing food 10/10 great service. Definitely recommend"
+  },
+  {
+   "name": "Nowfal Mouktani",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXjbVRWhSMGgzyHCxSqZfwNOcrTct64WyR7Gnm5zi3l2fbkiYc=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1772470080,
+   "approx": true,
+   "text": "Service was great, he explained the menu in its entirety, food was EXCELLENT. We are absolutely all of it sorry for no before pictures, we jumped right in!"
+  },
+  {
+   "name": "Ilias Benz",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVZkJ6MZ3jzUDH-vicxZB6fZwjNDEEFTAautlv8AeQPV4xpfetY=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1772470080,
+   "approx": true,
+   "text": "We finally found the place to eat an amazing traditional Bibimbap. Service very friendly.  Kimchi very tasty. We went with our kids and all the dishes were top notch."
+  },
+  {
+   "name": "Kreeve Rasheed",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKrFpRutRQWk7bhCFjcpE-RLUdxqyeEW2klYkLFyAQS0hN-MQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1772470080,
+   "approx": true,
+   "text": "The food was amazing! We had the Gimbap and Tteok-bokki as an appetizer, delicious especially the Gimbap. I had the Chicken mayo and my partner had Kimchi Jjigae. The chicken mayo bowl was very simple but good nonetheless but the Kimchi Jjigae is where its at! It was so flavorful and comforting that I had to take some from my partner! 😅 My only issue (a very small one) is the lack of coat rack but other than that, outstanding food 👏👏👏!!"
+  },
+  {
+   "name": "Julius Lencz",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJB7EEFb5SF1gcH0bVCn5EXcV5k9i2_VdWR80KaoIfYOqh6Fg=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1769843520,
+   "approx": true,
+   "text": "A quaint byob restaurant serving up truly authentic dishes.  Family owned with the mom running the kitchen and the son running the dining room. Will definitely return to try different dishes!"
+  },
+  {
+   "name": "Rob Maslon",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWaVk78nsTYS5b_KDbunQW2asnDEaPxmbx6gxId_NyMDWCKhuo=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1767216960,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Ann Patricia Salvo",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLQUDG1C3BG2YD2OhkfJW3Jx42XNR_Ajwmc3P1BPNb_nvexuw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1767216960,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Dan Brown",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWe1qJDXcJBE5rPy3Jc_IJs3-atTtSNLigFa9e2rb0k7txHuLVB=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1767216960,
+   "approx": true,
+   "text": "Fantastic overall experience. The food was really good and deep selection of items to choose from. It’s also a bring your own wine."
+  },
+  {
+   "name": "Vanessa Bui-Quang",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVlVLt4Uxd4SqajZ_6ONF--rW0Znw8hmntP5ibgvz-MB9uGp1A=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1767216960,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "AznBaabe",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVgEGF8-IHUMMfyks-aCSvNDHiDp6R81IeQOtrUIXtnTZulUlU=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1764590400,
+   "approx": true,
+   "text": "New favorite Korean restaurant unlocked!🔓 We enjoyed everything that we ordered & the food came pretty quickly despite having only 1 person in the kitchen (eomma works very fast👩🏻‍🍳⚡️) The server(daughter) was welcoming the moment we got in. We didnt needed help with the menu, but I saw her taking her time helping others with their food choices (honestly cant go wrong with anything in their menu😂), which was nice to see. You totally should give this place a try🔥"
+  },
+  {
+   "name": "Lora",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJYddwe9zT2W7Pc8h7VhAg_pcKVzTkBSYqJAkO9CehLG7Zw4Q=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1764590400,
+   "approx": true,
+   "text": "Fabulous!!!"
+  },
+  {
+   "name": "Amir",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWOlxB9ul6yChtti1RtTiQnBTxSyK0Gfe9KnKiyDWeMp0rPa09R=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1764590400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Charlotte",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWvycYmEbNW1EZYYoh9A4E3Js_EZNnitK3pciLstJYkmbRbmW5U=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1764590400,
+   "approx": true,
+   "text": "Every time I go, it’s a delight to eat"
+  },
+  {
+   "name": "Eric Link",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUTEK8DHXC88J9zdWcApRHTT5csXPOrxYyXeINm7WPB8RmiuCGN=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1764590400,
+   "approx": true,
+   "text": "Excellent Korean cuisine located in the West Island. What really stood out was the authentic flavors. The quality of ingredients and portion size was a fantastic discovery. Service was friendly and quick. I will be a regular customer in the future."
+  },
+  {
+   "name": "Bahaul haq Shams",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXarxl6VbqDzEWXJaqnuyUJAi6TojeOMcLt94LjyIyLv6gCCYkN=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1764590400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Louis Charles",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWGQZV7P4PqRfT_UnbjmOvHmo38W29gIbOA0j8S6r_j4RYwV54f1Q=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1761963840,
+   "approx": true,
+   "text": "Excellent"
+  },
+  {
+   "name": "Stéphanie Lacroix",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUp3hFMJWLWZJDNe2VYp9Awab9qVhRQL8A0HjzEOUzUsqUtXrN-=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1761963840,
+   "approx": true,
+   "text": "Cozy restaurant with amazing Korean food. Has the homecook meal feel, service is very kind and welcoming, will definitely be back 😊"
+  },
+  {
+   "name": "S",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLrp-LnZaLWv1NntA2nUZbGk-o3FNkfmIXdZ4y_3_-fC48vhw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "A wonderful second visit to Doshrock! They were super kind, and modified the doshrock (like a bento) to be vegetarian, with tofu, since all the options on the menu are meat based. I was very touched that they were able to do this, and will definitely be back! Highly recommend!"
+  },
+  {
+   "name": "Shay R.",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXHbjSaAjE73B9JHtvYJ-VDZ8rmUO_HYg2J6siQWxd-ma21Ajwu=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Jasmine Chi",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIVfl0A1ykQecIyZnKkR5SIISt25W-Jd3tPKmZ9roEB8bJjzw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Amazing food or good quality at a great price! This is a hidden gem in the West Island. Very kind owners and staff.\n\nEdit: I keep coming back because the food is just so good! :)"
+  },
+  {
+   "name": "Andrée Falardeau",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLhq8AAPsvG5N7nocEPukm_qmPMLtsmzq_AqhkblN9asas7qw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Absolument DÉ-LI-CIEUX ! Un de mes restaurants préférés!! Le Doshrock-Bulgogi (boeuf) est exquis!! et...Les propriétaires sont des gens de coeur..! Longue vie à vous restaurant Doshrock !"
+  },
+  {
+   "name": "Hanni J한이",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWNEMVul7EUNpgHIg04RRohLbrLQDzsXxhw1MChaRj5aU0Puks=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "5th visit\n\nI am not craving for korean food often but I dont know why This kept remaining in my head 🤣 I had best meal ever as always in this restaurant! 💕\n\n--------------------------\nBest Restaurant ever!\nEverything was so good! I couldn't take a picture of crispy chicken but it was the best cuisine here! If you want to try Korean friend chicken, come and try it 😘\nHighly recommend here! ✌️"
+  },
+  {
+   "name": "Raphaël Sylvestre Bouchard",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUbPokuG9COOVcsi-v4sBHTGylcepcsn-xSAq4zzoUVhrpXQOEN6Q=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 3,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Le poulet de la méprise\n\nSamedi soir, 15 h 50. J’ai rendez-vous avec la cuisine de la Corée du Sud au Doshrock dans un local dénué de décoration d’un centre commercial dénué d’architecture. C’est la promesse d’un repas authentique qui me dispose à faire l’impasse sur les carences esthétiques et à endurer les boucles musicales redondantes qui me rendent presque dingue. Red Velvet, NewJeans, BabyMonster… C’est bonnet blanc, blanc bonnet, et les bonnets blancs ne sont pas mon genre. C’est soit moi, soit le chauffage, soit la musique populaire coréenne, mais j’étouffe.\n\nJe dépose mon manteau sur la banquette et saisis le menu récemment rafraîchi. Qu’est qu’on mange ici en hiver ? Du bibimbab, du poulet, des mandus, du ramen, du dubbap... La carte est déjà — trop — longue, mais plusieurs mets portent la mention « nouveau » : le ssamgyeopsal, le doenjang... Ça me donne le tournis. Le propriétaire revient et me demande si je suis prêt à commander.\n\n« Je compte plutôt solliciter vos recommandations ».\n\nJ’ai cru à tort qu’on allait m’orienter vers les boîtes-repas éponymes (도시락). C’est plutôt au-dessus du jiggae kimchi que s’arrête son index.\n\n« C’est le choix le plus populaire. Ça réchauffe les jours de froid ».\n\nD’accord ! Mais, j’avais promis de rapporter à manger à ma mère et les deux piments forts à la gauche du prix (17,99 $) représentent pour elle une grande menace. Il remonte alors la carte jusqu’au fameux poulet « oignon de neige » (18,99 $) de la première page qu’on préparera, me prévient-on, dans dix doigts levés. Dix doigts, ce sont dix minutes, oui ? En plus, j’ai bien ouï « 10 minutes », non ?\n\nLe jjigae est prêt. Bien. Ce commentaire n’engage que moi : j’ai l’impression que cette soupe épicée a une valeur sentimentale supérieure à celle gustative, et puisque je ne lui témoigne guère un tel attachement, elle me paraît sans relief avec quelques morceaux de tofus, de kimchi et de porc assez ferme. Au moins, elle a le mérite de meubler mon temps en attendant le poulet. Au fait, hiberne-t-il ? Une heure s’écoule à se laisser désirer …\n\nLe propriétaire vient m’offrir plus de ce thé avec lequel il m’avait accueilli. Je lui signifie au passage que le reste du jjigae sera pour emporter, et, de fait, il le rapporte dans un sac agrafé qui reposera tranquilement sur la table. En récupérant l’assiette épurée des banchan (반찬), ces typiques accompagnements gratuits — dont de délicieuses patates cuites et sucrées , il me demande si j’ai l’intention de conserver mes baguettes que j’agrippais de ma main droite.\n\n– Oui ! (Dans ma tête : j’attends mon poulet.)\n– D’accord. (Dans sa tête : pourquoi en a-t-il besoin ?)\n\nL’aiguille de ma montre effectue une rotation complète. Le jeune client assis de l’autre côté effectue trois achats qui lui parviennent sans trop de délais. À la salle à manger se joint un groupe de trois aînés coréens salués chaleureusement par le propriétaire. Eux aussi entament leur repas sans retard.\nMon poulet, alors ?  Pour tuer le temps, j’essaie de me concentrer en dépit de l’agression auditive incessante\n\n– tututututu\n– Wadada Wadada\n—Hot mess! Hot mess!\n– popopopo\n—drip! drip!\n\nsur la rédaction de cette présente histoire. J’étais un peu tanné de regarder le mur, vous comprendrez. Alors que l’aiguille de ma montre est près d’effectuer sa deuxième valse complète, je suis toutefois d’avis que le poulet dépasse les bornes. Dites donc, où est-il, ce cher monsieur ?\n\n– Oh ! Mais il est déjà dans le sac.\n– Quoi ?\n\nDepuis une heure, il était à une distance de soupir de mon bras ! Depuis une heure, on se désintéressait, tranquille, de moi, ce pauvre client poireautant sur la banquette, baguettes à la main. Sans me visiter, sans s’enquérir à mon sujet, que si je désirais autre chose, un dessert, un autre thé, une facture. Le propriétaire, de bonne foi, devait me trouver bien étrange de vouloir jouer avec les baguettes… pour rien, alors qu’il m’était revenu avec le poulet dans le sac.\n\nEt le fameux poulet était… vraiment bon, bien pané, tendre, avec une délicieuse mayonnaise. Même froid. Leur honneur est sauf !"
+  },
+  {
+   "name": "Gongchuo Lu",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLD90TgB9hnPudACH22J9DYCtUTuuo5ZLr-f_w0LwiM74QvHA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Alexandre Puzantyan",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUu3mYo71-b2H83Fi72L6rbt8z5aLNpAKhcRtGbofm8dfFdicA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Simon",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIgopRAYj7nYZecVEyztqSQyX0d-Z2tpjiNsfPzoPNkfzuuwQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Mario Reina",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXedajpa3ilTuB6LvvDk2MgdRhvN9YSLnF-xNumuZeew1p6jziN=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Excellent service et excellents plats très variés! Très bonne et soignée préparation !"
+  },
+  {
+   "name": "Cecilia C",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJ5iMIasx9O51dxSRR33Pw9p1jSr0HvUMiZ6H2M2uWBmdNglw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "100% recommend and would definitely come back again! We got our food really fast and was super delicious! We even ordered more food, it was that good. It’s a family run business that’s doing a marvellous job!"
+  },
+  {
+   "name": "Belle France",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKzKxSgtBq0kX4V41J1RI9RdYk_pZjkjAbrbkBcXZRBfdUmZQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Sandra Tchakmakian",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIZYUXps9Iooi2WdOYhjvv5qDVSYiB8870cfqaI5HtTJA8ybQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "The food was delicious, fresh and came so fast. Services was excellent, very friendly staff. We will definitely be returning."
+  },
+  {
+   "name": "Kamaljit Ghotra",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKUaF2haLvONXqYPvHKPkJCiDaPIMcDFoBfZ_Oak1q6_FgdhQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Amazing family restaurant!\nGreat service and authentic Korean food.\nWest Island needed this, we’re tired of the “authentic” Korean restaurants. This is truly a culinary experience, an explosive in your mouth!"
+  },
+  {
+   "name": "Alien *SKP*322*",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXoSMU6J513ozz6CeVMGcVEwiYG0hZWH1JxrlAtSFQYQ4PF7Lxk=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Bon petit restaurant koreen. Carte variée, produit frais, service rapide. On reviendra !"
+  },
+  {
+   "name": "Kaushik Pattnayak",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUmRFzJHDE362786vluKJzHKOpXwEvdMo2o_Jr_R_u336rtNQ48Pw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "The food is really good. It’s very tasty and a family run business with a warm atmosphere.  Very friendly place.  I would recommend it :)"
+  },
+  {
+   "name": "Aura Cimpoiasu",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUiq95GfmWq9kQNOvLSeS7NG1Xw8FWgpT2KD2YCQIzFcZIjs6Tg=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "George Zhang",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWNQTDeqgtzkcoqQKqoC68fSr4_TiMaZkkxgcoBFh_GZZ3iCqZn=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Absolutely delicious. Very authentic Korean dishes that came to our table quite fast and incredibly good. Every single meal was good in its own way and nothing stood out as lacking in flavour. HIGHLY RECOMMEND THE BIBIMBAP IN THE HOT STONE POT! The staff were kind and the whole place is very clean and neat."
+  },
+  {
+   "name": "JeanYoung Choi",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjW9_NoJ5UgMh3ymQA-PJ1NI2zAGIOH46cam_PG5QrBmwlDpjcFIEA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "몬트리올 4년 살면서 먹은 한식중에 제일 맛있었어요. 근처에 살면 또 가고 싶네요."
+  },
+  {
+   "name": "nicole",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJrVEUrtXCuuHekDCq22NzI-CVLoN7rM9hDTUbgNGEjj65aIg=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1759298400,
+   "approx": true,
+   "text": "A quaint Korean restaurant with good portion sizes and good value. The fried chicken was really good because it was nice and crispy with a tasty sauce. I also really enjoyed the kimchi pancakes. The soups were also loaded with ingredients that made them hearty."
+  },
+  {
+   "name": "Raymond Gregoire",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKsm7vRJdJ7vE67iG6WV0brOHLwcIAMR6jDpiCEcBl3XB_6Nw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Great food.\nfriendly family service.\n\nI look forward to my next visit.!"
+  },
+  {
+   "name": "Daniela",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUl6R9GmZJE5YWfE3OXgGt5uIQNPMse6rmS5NPwL9rs-hgzYNLX=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Amazing food, and great portion size! Will definitely be coming back"
+  },
+  {
+   "name": "Jae Jeong",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJhDZwzCB-av7e9ywHnzkiTS-yeTrM84HnIthEIONYCeh5b7Q=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Carlaco Ltd",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjX1nIsd12fL412tPeg77rb1hZKgA3GhCbr66mjuN7tmodCWx_-d=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "So delicious. Love the tteokbokki, veggie fritters, kimchi rice, jiggae."
+  },
+  {
+   "name": "Gloria S",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXJc5hPSNSgu1ZV1N4FzaBhM3MDxgkrh1u0g8u0RxXrsrJe_sdO=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Is very weird to find excellent places like this today. This place is amazing the quality of the service and the food. Also, for the bimbimbap is perfect, the taste and the ingredients are  very well integrated,  not like other places that you feel you are eating a poke bowl with not taste and flavor and the bathroom is very clean :) . Highly recommend this place. Thank you"
+  },
+  {
+   "name": "Christelle Guimont",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWsMRAnRrbPXyn30pFGMRBzpNAH02-GgWFV4PsU0U574TsM7NNI=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "The food is served fast and the service is incredible! The Tteokbokki, Japchae, Gimbap and the kimchi-jeon was out of this world, so delicious! Everything was served with a miso soup to accompany this meal ! Please go visit if you are in the area, you will not be disappointed!"
+  },
+  {
+   "name": "Melissa R.",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjX1e8FqFMrcciMAFI7gGUOZQI7VNmkGUMtj3hQBmn4mvevbqnHW=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Authentic and delicious 🙌🏻"
+  },
+  {
+   "name": "Seo K",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJNW2OEPoJDf6VGKR3EzLxmzgqkBi6vuHXb87geYWENQUqPZg=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "First time trying their food, the Bulgogi Kimbap, Cheese Tteokbokki(with Gim mari) and Dak gangjung (sweet&spicy chicken) are so tasty. Portion size is amazing.. Side dishes that come with the soup(jjigae) are also great 👍🏻 One of the best authentic Korean restaurants"
+  },
+  {
+   "name": "Yannick Langevin",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJAetaHmxjW9uwQIL5QwG27Srwf80k8abDaB1FNz_MP8BdfYw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Kevin Mc Donald",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXfIN3Beq7drxk6Bdyl7whCuTHLcS1xhy4P4pc8G7FhE2IVwPU6=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Very nice small Korean restaurant. Authentic food, great service, very friendly staff. There is a lot of choice on the menu. Tasted delicious 😋"
+  },
+  {
+   "name": "Diana Afanasyev",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjV-X093ulB6zBYc9aK7t3nPixoMf8Q9ncM7XV6g6NisJmDKcFNt=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "This is a small family owned gem of a restaurant. Delicious very reasonably priced Korean food. Highly recommended, we will be back :)"
+  },
+  {
+   "name": "Kash Mostafavi",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKX63n1I7ofytSxABYL7fAgWKew0aHZVLrC6SV7YIgT32DWGQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "10/10. Dine in experience. They have wonderful service, cozy place, food is amazing, prices are decent!\n\nCannot complain me and my woman loved loved it. We are planning to go back soon\n\nThank you to the lady server who is such a sweetheart. And Hats off to the cooks. Food was really flavorful and delicious."
+  },
+  {
+   "name": "Alexa G",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWz4w_mZZH4diYt8qfJQ4dimp-9m9uJq6NH7FUcThscuS6fMzU=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Great food, great customer service and decent pricing. It really is worth the visit!"
+  },
+  {
+   "name": "Vchan",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjU_b0RJ4Nq056ClKi3NKAAHWYb06vbfvl9XVfz9Yq9dKW2mIHM=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Everything we tried was delicious and service was excellent. Kids loved it too.  Thank you!"
+  },
+  {
+   "name": "Max Hébert",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWX9HU1A4Js2mbyAA58hh0YYDYbia5SiKYuTtkPO02NISDf74i_=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Wow!! 100% would recommend 🤟"
+  },
+  {
+   "name": "Jonathan Girard",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocI2PJlMbPyQ2PkbOPx8ZLRzIdIOQW1gmxRXcy3cz4xKeYbHGrqh=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "very good dolsot"
+  },
+  {
+   "name": "asuka",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVsLpzuHlPu0PwL0aeLHhByNNeRwd9ZGd13PHzsaj0QhaWLEu0=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "updated review: 10 months later after my first order, and the food is still as delicious as always!!! the freshness is top tier each time i order. my favorite dishes are their tteokbokki, pork cutlet donkatsu, kimchi stew and doenjang jiggae :3 best korean restaurant in the west island!\n\ntheir kimchi jiggae is SOOOOO GOOD. it feels really authentic! i also had their donkatsu, i personally found the pork to be a bit dry, but when eaten with all the side dishes and the kimchi jiggae together, it's so delicious. speaking of their side dishes, there were these brown cubes that i don't know the name of, it was very tasty too! i'll definitely be back :)"
+  },
+  {
+   "name": "Allan Wang",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLFagv9kww4v0DhB2uq6ipayYrvOCQB-Zwnzbrza5ebxSuHqQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Very good food and affordable. This is a must visit if you’re looking to try a new kbbq restaurant, I would personally help fund this restaurant myself. 10/10"
+  },
+  {
+   "name": "Alan Noel",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIq6qkNZQUbo6F0oR-EV9EB0DJflfg7J3Y6TFn3Wd8pJ0v-8Q=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Johnie T.",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUmHEQ4Npvm22qCTEzzW2zEj9NncTAULLi_wg6RjoFtej6P1AOUuQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Cozy BYOB K-comfort food. Highly recommend"
+  },
+  {
+   "name": "Jacynthe Bergeron",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVSoySy_x6d0LfuQ9O0535XzMuxpVyV8Sg0hHbF3BAX6yZ2C6lh=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Ved O",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIjPpWzs_fnJ-cik228rz-pUjLxXMYkgBylxkK5Ff1inDoCgw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Cute and cozy little resto.\nGreat food. Quick and pleasant service."
+  },
+  {
+   "name": "Mohamad Itani",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjV48AVcklMhqHUBv2T_mEV5zZVPXEIJtyaZhG2W5Sf5DsIKJiyW=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Family owned, our favorite Korean to date 👍🏻👍🏻👍🏻"
+  },
+  {
+   "name": "Samuel Yvon",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXxRlDRc1u5vXDe18g-WMuBBOukikhXz23l43gZFcL6UpLwlfv5Sw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Great joint! Loved the food. Great find."
+  },
+  {
+   "name": "Eva",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjW9lT27CCoytNlJsZ_6H4ufYHzGdzXiqo24Yj2bEeTTllLnp-3yEw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Carole Bourdon",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjULZW5z4OqMeHUqh6XrHs2jWY7urB9haJ_FoblRjPzorSKxJ0U-=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Excellent repas, copieux et vraiment savoureux. Même si la jeune fille ne parlait ne comprenait pas le français, elle a fait un très bon service et était très gentille. J'en parle à mes amis et je reviendrai c'est sûr. 😋😋"
+  },
+  {
+   "name": "Kevin Y",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJ-ZFU6M5lhkG5xWSfUxmKYMNtF-pJ22fCNE9K-2k_0CfFpAQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Had the doshrock bulgogi, soft tofu stew, and soy garlic chicken. Everything was amazing! We are getting spoiled in the west island with so many good Korean restaurants. It's hard to support them all, but I feel like each one has their own signature dish. For me , this is best tofu stew I've had...so I will definitely be back to try their other stews."
+  },
+  {
+   "name": "Diana",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXzcHOmWKlFovc1NsMLXMK_upgorU2K8Zh9CLVhtPgmbutFup4=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "They prepare the food fast and service is very nice. The tteobokki is nice and a good texture to chew on. The dakgalbi is very good and it came as a bento style. I don’t know if there is another term for the box, apologies if I got it wrong.\nThe corn cheese can’t go wrong sweet and salty.\nThe soup is very nice if you like Umani flavour. Do go visit if you are in the area. We are from the Montreal area and went hiking at Nature walk at ile bizard got hungry and decided to try a new restaurant. Did not disappoint. Very good!!"
+  },
+  {
+   "name": "John Maye",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUcDb2ELY1txBxA2nn7PQ0MIWfBVSYKsRYSRiHfLb_dz0uvlk7i=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Delicious 😋 will return very soon"
+  },
+  {
+   "name": "Rick Vo",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVYV4Xi6N34ShxUewwXCYq-PlNiDw43iY6CBs0hkun_5q4H4tRU=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Super petit restaurant coréen situé \"en cachette\" dans un centre, proche de tout! Les plats sont succulents,  du poulet, porc et kimchi frits ne sont pas huileux du tout! Belle présentation et la quantité va bien avec la qualité ! Premier essai mais très content d'avoir du Coréen proche! La soupe au fruits de mer qui bouille à table m'a complètement surpris!\nLe service est amical,  impeccable et rapide. Bravo.\nL'ambiance est bien mais on ne peut pas demander comme à Séoul ! Propre et stationnement facile!"
+  },
+  {
+   "name": "MO MO",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKElC8lR2SSTWhAf2JD4gz0RFoSFddVSRAOraADon1jNaMhOw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "So delicious! I’m so happy to have Gimbap available nearby! The bibimbap was also great, and I’d love to try other menu items. I’ll definitely come again!"
+  },
+  {
+   "name": "DarkPatrol Lol",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjV_xkMqB8hqfue7foE5sAF05IzP3hgU02JCn6oCVBnejWegZyX2=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Angel Garcia",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXyZTTiyyy4_Se5A1wbWWs1pDaf0vNvhbGwOVOsTLAK90leRY8=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Alexandre Légaré",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVklh3y4D3QyygfADHoGbTbc6X_JRLMld_mARg4gJKENXm7QZk=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Nourriture excellente, service rapide, bon prix, je recommande fortement ce restaurant. Je reviendrai."
+  },
+  {
+   "name": "Patrick Pavico",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIRap61wgWzEz8QbPM0gnzzNA6cnMGAwp9sde4Qgp2c9U5spCg=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Kelly McNamara",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJkdIWUUKPN4ibYb-L3z50AQXO3hLjzWNbE9FV8pEBQDUKFiQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Antonio Jose Duarte",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWxMqICRVKchDQbK2578Xi5_6nfNPsdNueBji0SZRW6U8GOd9G9=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Cesar Badra",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUe9Ex8z0jGF-Mo8Yi9kbVb2pYy8Fq8CbMmY8X094vedyRxFpyS=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Some of the best Korean food I ever had. Staff is very kind but needs waiter training. This can definitely become a high-end place if they upgrade the atmosphere and make it more ‘restaurant’ style and less ‘takeout’ style. Loved it though!"
+  },
+  {
+   "name": "Zoey K",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXE_ggyMe4kVUwhUDX34qUxcvN5aUyXHZ7ktxpEU0aRtw2qDSs=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Bulgogi Dolsot Bibimbap super yummy"
+  },
+  {
+   "name": "Meerit Yakob",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjV99UcATRX30rxAv-pnSnmvOrVru0oCaNUVPD1QoCL4AOKYkbk=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "I am surprised that there are not a lot of people eating here! This place is awesome:) The food tastes authentic and everyone was so polite. I enjoyed the food to be honest. The place needs a bit more decorations and it will be perfect. I recommend it!!"
+  },
+  {
+   "name": "Lin Ma",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXDwkGURIhlebW6T6sWt1h9jUCRywVXZlmiN45ef5ByiL4B7g6k=w36-h36-p-rp-mo-br100",
+   "rating": 4,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Christina Vandette",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXL-_Dd-gy8nhpXl7RtrCxiu1cp0lBlIRvZ74TfuFPgA5i7dSP4Cw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "MoH",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIDBU3enOVEDD0hsF73wT67KAxyvO5j3WUvPuduD2fOAoQRSw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Jo",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWjeYHY4GtV9L7cc2NfsxUji2R2YJpCmY6oIJbsavZ8QZqfsbA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 3,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Decent but not great. When comparing to a Korean restaurant just down the street this place is decent but not even close."
+  },
+  {
+   "name": "Mel S.",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLo0WnCC9l9FSJ9621v71RtEmY8Qk8gyjkSGNksYOJI9KFazA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "The waitress was super friendly. The food was very decent for the price. Good portions also. It’s definitely a good place to get some quick Korean food."
+  },
+  {
+   "name": "Chloe Zeidel",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXBKOQmSxp93y_cRZ16AAjKEt05X7-fHvqx7wbY63nPvR9b1TZZ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "TRI KY Nguyen",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXhj335Kx63kd0ASMBv2QlfK3XiB-hstOD0DNkDnUkBTaeZ3QZurw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Small, simple restaurant. Food is good and service is super nice"
+  },
+  {
+   "name": "triscope",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjULCImiySjMdiamRiSZDAvcNtItOHPQK1M--MQ1YR1qHlOcrrU=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "One of the best korean restaurants I've tried. Their spicy jeyuk pork is the best! Also it's BYOB and the prices are very fair."
+  },
+  {
+   "name": "Éric Tremblay-Bérubé",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLS9DIp3WWyGa5ITneDUV4Y1LjL1S_ihY0IQmxNScRN9JNf-Q=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Brena Mae Villalobos",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKdzXyKINaQ33bNJ9qhiWyHQAZwfGzSYJ44nQEA15o_XXMbTWI=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "My husband and I’s go-to spot!"
+  },
+  {
+   "name": "M L",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXZO8HvSu0chS75VcA0ZzCzWnkBnYbs2vI0A55rc6ieJJY6pqik=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 3,
+   "time": 1759298400,
+   "approx": true,
+   "text": "I don't know where else to put the stars for my ONLY negative comment: the portion size for the price.\n\nDon't get me wrong, the food was amazing. I bought food for about 5 people and it cost me around 160$.  The cost itself is on par with most other Korean restaurant I go to. However, the portion sizes were maybe 20-35% less than others. I understand costs are rising, but I can't warrant going here often for the price. definitely worth a try though !"
+  },
+  {
+   "name": "Steve S",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocI8Ha6SUIZDs_EuzHh5LKGkET0TxELBduQkyDIO6IhHjze3mQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "This restaurant is what one might call a ‘hole in the wall’ and lacks a little atmosphere, but do not judge this book by its cover. The service is friendly and efficient, and the food is outstanding. The best Korean food I have tried in the West Island. Prices are very reasonable vs the food quality and portion sizes. Very easy parking. Highly recommended."
+  },
+  {
+   "name": "Émilie Boisson",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWMaxJd_JMmiHxuPC9JERuQlDFiQiFXLb5d450roH6j3vNMuXrj=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Tout était vraiment délicieux! Le monsieur qui nous a servi était adorable! On reviendra!"
+  },
+  {
+   "name": "VergelJay Odulio",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXOgKrPgFD3Wv96r4mZryGwwJdDAdmb9vt1gsdAp7DDLYJbEeY_=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "The food is good. Staff are friendly."
+  },
+  {
+   "name": "Martina",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUBl8fSB9HPJXUS2chV-4pCCdXeC9hPtgl_AuCM1P2sWv8EJ0kO=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Lovely experience! Service went above and beyond. Food was fresh, authentic, and a big portion size. Will definitely be back"
+  },
+  {
+   "name": "Grace",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWq09UYamAIev8KMR2pMenr2ktZT_pz5i_2xFX4glt869qbiMsv=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "I always order on Uber Eats here and they NEVER disappoint! I love their tteokboki combo! Made a suggestion in the notes and they followed through! Will stay loyal to this amazing place!"
+  },
+  {
+   "name": "Catherine Bednarczyk",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXcdOWwi83Dxg9asmzK5LKRPJsW_v2BjXJ8RApKH5i_9xE-pgfM=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Amazing authentic and flavorful korean food, excellent friendly service. Exactly what I was hoping for. Definitely one of the best, if not the best korean restaurant in the west island! This will be our go to place from now on. The non spicy tofu/seafood jiggae was so comforting. Can't wait to try the rest of their menu."
+  },
+  {
+   "name": "Wilson Truong",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKQY8368c3FvJWdbD6E2RegqDdd-VTBxptI4vgKtmNYSxMp0w=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "I am very impressed by the presentation of the dish. It is a well-balanced meal, coming with enough vegetables, rice, and seasoned meat.\nI would also like to mention the lovely waiter that served us. She was very friendly and welcoming, making our experience there very enjoyable."
+  },
+  {
+   "name": "Amandine Bruneau",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXKdbbtpyZlSmzhKpvPRDp6oXrZ4jVeH8Qt7xhs8AL3caaLsAj6Nw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "정낙인",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJT0Av56jfeNdlvQaHvNMYA9fesUy4f1qtk3fZXNYTNcWI98A=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "와이프와 부모님 모시고 여행 중에 들렸던 곳인데 너무 맛있고 친절하셔서 기분 좋게 식사했네요. 감사합니다. I am 10000% sure that this place is the best Korean restaurant in Montreal! The food was divine and the service we received was just perfect!"
+  },
+  {
+   "name": "Simon Rioche",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKIKmU5AXI4t5tGDS91gToxj8Cj7kC0sJTl6bPyGw446uIXPQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1759298400,
+   "approx": true,
+   "text": "Très content, c’est ma première fois dans ce restaurant qui paraît un peu sans prétention de prime abord. La nourriture est vraiment superbe, très bon rapport qualité prix aussi. Service très rapide. D’après mon humble avis, ça pourrait être très certainement le meilleur restaurant coréen de Montréal.. il ne me reste plus qu’à y revenir pour essayer le reste de la carte."
+  },
+  {
+   "name": "Valerie (Vee)",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXq0U-dLpY78JZ2Ou7SSXP-BhU7roJ4gsWwVII58EjCB_IEjrR-=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Me and my boyfriend live around the area and only found out about it today! A real hidden gem, we really enjoyed the food so fresh and super flavourful. The portions were generous and overall experience was delightful, the ladies were so nice and the service was fast. Definitely will be making this a regular spot ❤️"
+  },
+  {
+   "name": "Ella Choi",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLdnl4CbJgcTKdpRXQM_GaHkKE_JttT6bGNFT8T1rHzhgiDsA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1727740800,
+   "approx": true,
+   "text": "제 친구가  실수로 물컵을 쏟았는데 직원이 상냥하게 바로 뒷수습해주셔서 너무 고마웠습니다..\n음식도 맛나서 더 좋았어요... 멀지만 한번 더 가야겠어요..."
+  },
+  {
+   "name": "Maxime Cloutier",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWIUMGlpBL34cSBVxczcFaxXD8w_QIX2uL0nOB6bKRYCwLIuCtr6Q=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "J.Y. Zhang",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjV2EACS3e6C0Xzs6utqQz-I_OjScQcW2-V147vWwEbQzvMUl0zw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Jiyong j",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWu21V14cxNCJiLraFvMZQjxNL7XaVWefkxuFTxDFmX72cvQO2rTQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Cheryl Dee Cabotaje",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUloyM2He4lAluVA6mpTSPgPvyY5e1y_ry3BXFMiWvoromSkeZcvw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "We ordered Doshrock for a work lunch and we all enjoyed the food. Was delicious, well presented and tasted fresh. Service was quick and very friendly. Highly recommend! :)"
+  },
+  {
+   "name": "Omar Jamaleddine",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIe5b2AisnFpXF0tmjOJch409FE3OQmVlrkVKj9o15uOeigFw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Great food with even better service."
+  },
+  {
+   "name": "Isabella",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVdVdP4h4SsvFv9q0ar_SBmP9enMvV94MCDV2prTVRNFoYGBMoRUQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Susan Hahn",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUMq1-jShxH-q9oFG-gyI6TRw__gB4_IA_veY8DIS8xty6l2iWd=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Amazing food and service! Friendly and  serving with a smile! You have to eat here! Jinju was fantastic!"
+  },
+  {
+   "name": "Lindsey Hill",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXN-Es5WkrpCCNPmNXasGqInXFKHntKVdbcBVrbQ39RxKCHT2T_=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "The tofu jjigae is exceptional! The team at Doshrock were kind and made sure our table was well attended. I’m thrilled to have this restaurant close by!"
+  },
+  {
+   "name": "soumaya A",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUNVLdz38WVaxNdoaseZZ0622RYQoGcz0GPwjIStFyZ2nIL8WU=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "This is one of the best Korean restaurants I have tried in Montreal. The flavors are delicious. The staff is friendly. I had the tofu jiggae. It was full of flavor and just the right amount of spicy. It was my first time there. But I will definitely go back as I want to try other menu items."
+  },
+  {
+   "name": "yiming zhang",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUrd0iO9nyOvdBag9fWZFCcCXi6SkWTwtS9M0wa-o7DieLEE0Q=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "The food was very delicious. Rice and stew were both very filling. Five stars."
+  },
+  {
+   "name": "Kavuchaljan Ganesathasan",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKqfcp9X13eeT4HpwqFnLR-RoW3gLamOErT2-DxSslR1Es_GQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Anthony C",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocK1Jj1ap4QZas8rAAb5RikXLChjkqlQuTXEBs_eHqcHsxeCMg4=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "This family-run place is easily the best Korean restaurant in the West-Island. Their service is impeccable and the food is delicious! I go there all the time!"
+  },
+  {
+   "name": "Marie Wong",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUV6FfEbzEo7DH3p0fJq79daoVXbr34R37_ni6nP6MIBzmWJTsumA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Very tasty"
+  },
+  {
+   "name": "Hilary Troyer",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWQv2HOUTb7AYyekpAMgmayWDP_rsj3vlJTxWxTIVp94N4Lfyrfsw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Steve",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVQj95ap8WDAL4myvCJiuBed5rocj8h4jm5IlWjh0AyeKV--wU=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Unlike some reviewers, I didn't come here for the decor.\n\nFood was excellent. Good portions. Great friendly service. West island gem. Will be back :D"
+  },
+  {
+   "name": "Duy Chinh Doan",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIzh98d2AOcRlhVTrt1lr62gE5mXUYVHmkdPNrR6LZXAea1zQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Nice cozy little korean restaurant. Food was made quickly and service was fantastic. I especially love their Jap chae!"
+  },
+  {
+   "name": "Eric Lee",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVVXwzlNMZVJYfcSvdwLn-7SS2U5Cm9LCo5tsEbNC_J67GEDuK4=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Just ordered from here for the first time and I am beyond impressed. Tastes reminded me of my time in South Korea. Very authentic and very delicious. I will definitely be a return customer."
+  },
+  {
+   "name": "Nicolas Bouvrette",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVHPVEjBOR1d8laSqizB5Ax-WivufvwUObq3o-NqpS-qfQ1aU5L=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Very good Korean food worth the detour if you are not in the area. The boxes are really good and so was the bibimbap. The tteokbokki was one of the best I have eaten so far."
+  },
+  {
+   "name": "Che Rry",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLJ9uxR6MI0bWPkHPQtlsqLPn34M29YSdaoEPpWzQcmwOud4g=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Love this k-resto in west island! Food is tasty and full of flavour! Staff is very friendly as well."
+  },
+  {
+   "name": "Chloé Bois",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUhQ6DbQBRynlQzfmozpZJtgLTD7OyiDEQLucgL_sW_DTty670n=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "We ordred 2 Doshrock (fried chicken and sweet porc) and a soup, they were amazing. Ready in about 15/20min\nWe’ll come back after next Rocksbottom soccer game nearby"
+  },
+  {
+   "name": "Services SVP",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXTEJtDmE8SyPTILXuphSbhm0xSvHKV6y2UjwVNX93BhZY2y5I=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Food is authentic and very tasty!\nThe server was very accommodating and extremely friendly! It makes a difference in the experience.\nComing back here to explore the rest of the menu 😊\n\n\"A great service creates an unforgettable experience!\"\n#servicessvp"
+  },
+  {
+   "name": "Michal Romashchenko",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjX8v82Hji_UEL2hKjEoo2dTq39GPrggrJ5F8MspByNl5tlQ2MH_=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "The service was great. The guy at the counter was super nice and helpful. The place is clean and has a pleasant atmosphere. The food though is on another level. The boneless chicken is sooo tender. The sauce is a good balance of savory and sweet. The dubpab are a big portion and delicious as well."
+  },
+  {
+   "name": "FM",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUGSAJ18WsDa7g-jlSdAjRHa9jYwdjN8ya9CX9k5SHWO3F7120=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Came here for the 2nd time on Mother's Day for lunch. Our waiter was friendly and service was quick.\n\nI forgot to take pics of the food cause we devoured them right away 😅\n\nWe had veggie bibimbap,  bulgogi gimbap, chicken with sauce (snow-onion) , and Bulgogi doshrock.\n\nThe price is fair and the quality is great. Thank you team for a pleasant experience.🫰"
+  },
+  {
+   "name": "Francis Yamile Pella Fernandez",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIe3RCmcRLG_TObkCAxZk6hmlNfMnzZvqW8patKHZ5DmDFVpA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Muy buena la comida , el servicio rápido y muy atento .\nLos kimbap buenísimos\nPor supuesto que regresaremos\nFelicitaciones"
+  },
+  {
+   "name": "Peggy Chen",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXhZkrlXNYIyc4lSjVRqJC8_f3Tz4mF3xyNCTNP8yYJoCsKR_lU=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Yummm the food was so good and the service was very friendly. I ordered the bulgogi kimbap and the spicy tofy jiguae (spicy veggie soup). Delicous! 🤤 I look forward in going back to try other dishes. So glad there’s finally an authentic korean restaurant in the west! 😊😊"
+  },
+  {
+   "name": "Xuan-Vi Trinh-Nguyen",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVNWm3vUopfqHygx4s611tTpJI6JKj_dm490YxKGUPaVcVrngWx=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Food here is amazing!"
+  },
+  {
+   "name": "Leah Shakhgildian",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIwUDwAaiGU16VJ_2SmSV9bp5j08mCFb7CMyAKQWIpckTjLBw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Delicious, authentic Korean food. Definitely the best I’ve had in Montreal. 10/10 recommend!"
+  },
+  {
+   "name": "Karyn Grou",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLBqHB6Npuwi4X-gxuyxEdLVuGJN0WBFDY_5BBGULFqI4ix=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Dylan Pattyn",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWb2JrzpGu_-hFVOxIrUoHjTSS4DKzeHcB7LgMLyeZmDJ_w7cEp_g=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Amazing food, intimate atmosphere and FIVE STAR level service.\n\nDelicious and Awesome, I highly recommend this gem of a restaurant"
+  },
+  {
+   "name": "ps Gt",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLUIvSzLCBEuEgH9eyoM_nPavGxkt-ImBgiKAUC0B0DQgXUdQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Aprinderjit Kaur Ghotra",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocK1Bcr649Iw8XW0VUXNw3wVBlNIn5tt4SenrMvp6mtbGrHK1bTG=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Family-owned restaurant with amazing food and great service. It’s definitely our go-to spot for Korean cuisine."
+  },
+  {
+   "name": "Farah Ahmad",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLpCHTyS-IszkCQC_vBJtGRCChkaYQJbrMXu-6KLx4AOcxgIQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Excellent food and service."
+  },
+  {
+   "name": "Robert Medina",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKMC3JatMzqdqdtWSZusVdPz-LdJ-74BWvELWtrrkFtOkJghg=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Ordered takeout after a long day outside.... was so hungry and ordered way too much. Edited the order but realized I removed the wrong items. Ended up with Dak-gangjng (Poulet Sucré & Épicé / Sweet & Spicy Chicken); something I have never tried. It was simply delicious, and unlike other restaurants that serve a bit of chicken with a lot of batter, this dish contained generous amounts of chicken with a light batter. Well Doshrock...thanks for never disappointing."
+  },
+  {
+   "name": "Thuy Zhang",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVCG9qj-HD6BxlYWpfReLW9yWHba3kLhT-LZkdkPqsM7h4NaF4=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Very happy to discover this Korean restaurant in the West Island. We had dinner here the other day, and really enjoyed the food and the service. Lots of choices in the menu. I don't remember seeing this at other Korean restaurants I've been too in Montreal but I thought the Jjukkumi-bokkeum (tender baby octopus) was quite unique and I thought it was interesting that they offer mild/non-spicy versions for the sundubu jigae and haemul sundubu jigae. We tried both spicy and non-spicy sundubu jigae, and they were very delicious."
+  },
+  {
+   "name": "Allan Goodridge",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUBfqmBz646Up1nEnNeISPVImxT0CoVmx0xiIQi0UWtc-AXbDtClA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Finally......a Korean restaurant on the West Island. Food is good....pricing reason"
+  },
+  {
+   "name": "Frances Laure Raven",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXVfrwXj6Obw_uL-KLZQ6Bllf_cc-Yel97GVLm0Np1g7gGdpaVRZA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Eric To",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjX6CQMCcXyVmaZqO1DkeoIVeaG1ybpuJsiKRNig3xdgQxQXn5IF=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 3,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Edit: Some after thoughts, decided to lower this from 4 to 3 stars, because I drove 40 minutes just to try this supposedly 4.9 stars restaurant which fell short of my expectations.\n\n=====\nI liked it BUT it should really be 3.5 stars. The taste is overall decent, we liked it, but the portion was lacking especially for that $40 Jjukkumi-bokkeum, the portion should be at least double (throw some veggies or include rice!) Tastes decent but not worth the money. We liked their tteokbokki and gimbap, but again the tteokbokki portion is a bit lacking.\n\nThe only 2 things we recommend would be the gimbap and jjigae which tasted good, portion and price wise is inline with other Korean restaurants. For the $100 that I spent here, I'd rather spend it on Cafe Famille (another Korean restaurant) for much better bang of my bucks.\n\nThe more I type, the more I feel like I should lower it to 3 stars..."
+  },
+  {
+   "name": "Robert Medina",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIXPpRh-WYuw03Laj-0ftxIAPKbZZwRyBzFdHZuoYvNNBXRXw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Have been to Korea twice. The food here is genuine, very tasty, and healthy."
+  },
+  {
+   "name": "Thao Nguyen",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocK9S3tbe33c_MEt6zcEu6EZeUjEmhnDFhicU4Gfy89vFfiHnw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "By far the  most authentic Korean restaurant I've had in a long time , it's a like a  Mom and Pop shop, the food is delicious and the service is fantastic, is my to go place ! You won't regret coming here ❤️"
+  },
+  {
+   "name": "frédéric Sampoil",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVPCyp6SH8fhepHGg_sQXnN2-NbagnYsyTD6RYQ_pAO4vvmLvs=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Super bon resto Coréen\nRien a dire sur le service et la qualité de la nourriture!👍🏾"
+  },
+  {
+   "name": "Walter Mins",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLMVmG9X0rZhMLKObkpLeCUMEibjQveA-M7uuJgxIHZHFCPXQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Andrew Chedid",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVXlqiXMeTJyfBge3Ulo5F_zbWaWeiITnK0-nNTDDK8crp5qVcR=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Isabelle A",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVp9BLbI3iMhljTV2g4DgTffwr6dvgkvVtlYuosmEYoMZnaypwuZg=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Matthew Brett",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJld1NHz6WHG6LazasP-J2CDAQo1StdRVbWc0xnGPnbJADZ9P0=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Delicious, authentic Korean food with fast and nice service. Really impressed."
+  },
+  {
+   "name": "Jean-Francois Senecal",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXNDAGGTeW7Sukt4H2pA2Z6OKKgVOBH37V-Fz0nTjMeuAR9fUQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Excellente nourriture! Nous avons tout adoré"
+  },
+  {
+   "name": "Mark Bundang",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVghOmaCW2nAi2NepojG0p91lqPTV_JYX87OfTH0LERK7Pu1gl1=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Quite a nice discovery.  Fried chicken was good.  Mayo chicken was really good, as was the Bibimbap."
+  },
+  {
+   "name": "Davey C",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUiowh0ndoO1CM2KGoTTNxgcxYPLMMvrWmHJALu1vOgkTRmMTo=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Just stumbled into this little place, very friendly and nice food served in little trays, quaint.\nCan’t wait to go back"
+  },
+  {
+   "name": "Lise Beckenbach",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJwlpSS2fggNQG3dqSAOSipSpXTXHLVOjQLkglVnu7GbATjKw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Great food very reasonable prices, would highly recommend for a family outing"
+  },
+  {
+   "name": "Jim Bryan",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJeAUgrG8lIXoMZgj2AJGD1nm42cdTF9usIj7yqv4Vtb5iwow=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "My wife and I both enjoyed very good and tasty Korean dishes.   There is a varied selection and authentically prepared.  Excellent food and service in pleasant surroundings.  We'll be back for more!  Highly recommended."
+  },
+  {
+   "name": "Tony Waterfield",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIwFaRylEA2nZZ44o18Tei3ZwUR2NcEj35CkM3K6_qeyt7kHw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Excellent authentic Korean food at a reasonable price!"
+  },
+  {
+   "name": "taro dicks",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjU_c2wIVEybZnPhvLhBmhq8Kf1n6hFPRGSb4M1GMDx8zyyjj4kb=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Sooo good!! I traveled to South Korea last year and have been craving authentic Korean cuisine ever since. This place is as close as it gets!"
+  },
+  {
+   "name": "M.W Y (y.m.w)",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUntCayikmCnWn58w3hFiKyEWRfi827F5zU7YTTtyfY8cmTVtS2=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "I tasted korean food like my homemade.\nAnd thank you for a very kind service."
+  },
+  {
+   "name": "Marion Mel Villamor",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUGS28N8xvATJvGWdZtxe83G8Rl7TOYygE8CO-vBDweP-HsCHbf=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Yummy place if you want authentic Korean food!"
+  },
+  {
+   "name": "Maki Fukushima",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjX8DnrdKbWD7tY62Op8OROCocq9JDxjPqy0m9_ZvEw7Yr_2EwRt=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "James Fullum",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLx2tknVfPuJah4FdL-UpKGdx4OgcyHFSIZHwCYwi8fCX4kUA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Fantastic food, service and atmosphere every time I go!"
+  },
+  {
+   "name": "Justin Fluet Singh",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLn-Fz2qZWDFerPPRbJaJXLkyl-_toeyR33AxtCtsGGHc9u_Q=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "best in the west!"
+  },
+  {
+   "name": "Louis Nguyen",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjW1CnmfIqHEqNsBkGkex3tc3pwSB45rsWHnAGPZwbebqZChd89HfA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Best Korean restaurant in the West! Friendly staff and the food was incredible and fresh. Food came fast and the portions are good"
+  },
+  {
+   "name": "Yèkaterina Solomko",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKaQk3wIZ7poMrZ9UjPKQ_q4l0_xt6WjCBu_apmQy8ZJ21hWnY=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Michelle De Guzman",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUA9vaGUBHswSEmzWqlvVFFkhxJ3vH04s_pRlw5temLPvLlYY9h=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "This was my first time ordering from Doshrock. I am so happy they had dumpling soup so I had to get it! Everything was amazing, even if it was delivered! The servings were great and it all tasted amazing. I can’t wait to go in person and try more food."
+  },
+  {
+   "name": "Chris St-Amour",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKiqELMgWvKytmfFxohWCR4FTgh6A0JTb-T2TED7TTQT5ZeHQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "A must try for anyone in the West Island. Incredible food and such friendly owners."
+  },
+  {
+   "name": "tarang patel",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjX1VM-tR3ykFsP-S_0pwwj0MLFigS0jKKnr9q_1ej0izHPmp0yq=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Ramen was delicious and Dak Galbi was perfectly spiced. Loved Kimchi pancake."
+  },
+  {
+   "name": "Jaytee Dee",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocI4HqRURXy51o-heqMIwlx6KUlaqviFtauu6efP9LxWEZdyrA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Ordered takeout from the restaurant, the sweet and spicy chicken was really good! Very well seasoned and the sauce was amazing. Also had to try an order of the kimbap, tasted very fresh , delicious and home made. The portions were really generous. I’d highly recommend this restaurant. A hidden gem in the West Island! I will be coming back! :)"
+  },
+  {
+   "name": "Maxime de Traversay",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUvoYuhAMBWWWIWTjKTnnAgL_1nQRq0pdMjoB_Hfl1MJQomo5nO=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Jolie découverte. Restaurant tout simple, ambiance idem mais service rapide et plats excellents - n’étant pas spécialiste de cuisine coréenne je ne dis rien à ce sujet."
+  },
+  {
+   "name": "Carlo Dizazzo",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJDLMP8XjaJIbmQ1vmqhR8dslNGRnmy5pZXwUJtRfztAEYGcA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "This is my new go to Korean restaurant. The service is amazing and so is the food. Amazing amazing amazing!!!!!"
+  },
+  {
+   "name": "Michael Greig",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXcnko6ck7bIAjQk0k7QtoqMdMSDbH6ISmW-bejuo9U24izST4=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Really great Korean food, clearly they have concentrated their resources on what matters, the food, and I can't complain about that.\n\nThat being said, the decorating and quality/comfort of the interior is pretty sad. Feels like a cheap pizza shop except there are TVs playing K-Pop. The service was fine, but we had to ask for wine glasses (it is BYOW, apportez votre vin, which is great) and they never offered refills on water or anything.\n\nThey picked the right thing to start with, the food, if they can establish a foothold in Pierrefonds and start to allocate a little bit of funding towards decorating and maybe a little extra effort with service, I'd give this place a 5/5 for sure."
+  },
+  {
+   "name": "Mech Ghost",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVWKeN_otD3OZBWUPg95tdAevKIf7Q2jQoKt3jSX20y_mH9bAI=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Absolutely fantastic food, great service."
+  },
+  {
+   "name": "Jen B.",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVojQ-py_IDy99PGekK93xFWNDr3Thw4GDliHbSwtqrtK2QP2545Q=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "The food was great! My favourites were the japchae and boneless fried chicken. Portions for both dishes were good for 3 persons (as side dishes)."
+  },
+  {
+   "name": "Trpimir Delac",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVnnfIGRKALiMwTAsVzOzj1tLS66XGWlMoW6c3RK4i-GdU2HTBiDQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Really delicious food, enjoyed by all."
+  },
+  {
+   "name": "James M.",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKV08ftIZh53jvAuKcb6YhLYJ0etMXCXOsr9xy0IOfYai4SfEtT=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "I've dined in and ordered delivery here and both experiences were great.\n\nIt felt very homey and cozy in the restaurant and it is very reminiscent of Korea.\n\nIt is one of the best Korean restaurants I've tried here in the West-Island and it's a must visit.\n\nTry the Jjigae, it's best during the colder months."
+  },
+  {
+   "name": "sevenblue prints",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWo8Wr77ewlGfnCEx-bCRvJSfnzWNb_4md6ttw26eN2mlRI_iSZqQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "C.H",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUqRzJbzKSMPDzmj1o4A84eOssnDPxZHyEmVgvAekYgxIspDOIE=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Ordered via uber eats - absolutely delicious. I got the Bulgogi Japchae which was soo tasty without being too oily like many others i've tried. The bulgogi is sliced super thin and is very tender without any fat/muscle. Vegetables look so fresh and are also thinly sliced yet cooked perfectly, allowing every component of the dish to melt in your mouth. Noodles had the perfect texture. Very authentic. Vegetable dumplings were also incredibly flavorful. Portions were filling enough but could be increased to satisfy someone with a larger appetite. Wishing this new West Island business all the best! This is my new go-to korean restaurant!"
+  },
+  {
+   "name": "Alain Renaud",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUUwvZeXJTu3n8mDxj92iqr63uf99X4CyYw5w-00eAxtjqBiGl8TA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Excellente cuisine, bel acceuil."
+  },
+  {
+   "name": "Parady Young",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJZBBKJ5yUQJi-n2zF0eQaRgYD7s_LIg6iyvvoXR3umBabG-Q=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "La nourriture est excellente, c’est vraiment bon !"
+  },
+  {
+   "name": "Lunar Islam",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJaCPc_bld2xWorel80EOgnjg9lsl7QbGSWjh5yzCx1_RcM0g=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Great food and service, owner is kind"
+  },
+  {
+   "name": "John Brody",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjW-8j1pbmr3EX_RzuluprlbGZyGjORFhAuNkLgAnp2mkBezA_4=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Excellent Korean restaurant. Two couples went on Saturday and everyone loved it. 3 of us had the mixed box and it was a lot of food and very flavourful. I had the mixed BBQ. Nice spice in the sauces.\nWould definitely return.\nDon’t forget to bring your own wine🍷"
+  },
+  {
+   "name": "Sungjin Lee",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLLcxpqhEG1fMa0_FSxIQ8mJlPapcOCIYShgXlii5Xmcpu12A=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "The flavors in every dish were absolutely authentic and bursting with taste. The doshrock was a standout, perfectly balanced and beautifully presented. The service was exceptional; the staff was warm, attentive, and eager to ensure we had a fantastic dining experience. The ambiance felt cozy and authentically Korean. Highly recommend Doshrock to anyone craving delicious Korean cuisine served with genuine hospitality!"
+  },
+  {
+   "name": "Shawn Rebugio",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJhKyVU6_B4T89sLvMt0X7ybNuiPJRLWVmK6xJiJJ3xtYBDSg=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "By far the best Korean restaurant in the West Island. And most possibly in Montreal. Food is amazing and the staff are so kind. You can tell the food is made with love"
+  },
+  {
+   "name": "Jaden",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXEu5CsLRmP5BmeCoR4SoDF5Ex5KmBJ70vb8qIjGoJgEws9sbrk-g=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Delicious and authentic Korean food, amazing service and warm atmosphere. 10/10 recommendation if you’re looking for a Korean restaurant in the western Montreal area."
+  },
+  {
+   "name": "Baptiste Pernet-Mugnier",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXbA3QTkEflVXuncIY3DKfEijWIyo16vxnrO1cvOemjULEnvPVC=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Cuisine coréenne authentique et bien bonne"
+  },
+  {
+   "name": "Alessia Vincelli",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWzT-jU2ILt-1cF27wLVSmYo-pllzOodv9aUD8ENc5sQcAd-ezv=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Finally some good Korean food! We will definitely be coming back"
+  },
+  {
+   "name": "jewelan' darlin'",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWa5QWJtSK7C-x6H0QFIQRlETeHfVo-ZMr6k42I-eLylHH5YgqV=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "This was really good food, with charming service.  Thank you!"
+  },
+  {
+   "name": "Ireland Kronlov",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJwHCa_Zl8fwBLvOz7HzRRoLeZBqSI9ik4sLzB8UNgBShyTVQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Great authentic korean spot! Amazing quality. Great service."
+  },
+  {
+   "name": "Samrat Debroy",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIc-grMh8VgQGE711vOwWiPAvrvLrMly91DhzeIfEC6S-Q75w=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "The best korean food I've ever had! The service was impeccable too. I will definitely go back."
+  },
+  {
+   "name": "Tina",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocITMpGIFzhEanGAHB1Ax4sB1Xq8wcd7gwCh0vmJ40869RYg1A=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Such a nice and cozy spot for Korean food! It was absolutely delicious. Loved the vibe! Definitely recommend!"
+  },
+  {
+   "name": "J D",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocK1qmuY1OCeS9eN--IKG--aVqH6LzPBgafmhP6zXTyAb08Stf4=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Best Korean restaurant in Montreal. Great prices, amazing service,  delicious food... dont miss this gem!"
+  },
+  {
+   "name": "Maurice Menassa",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIokF6OXQtHbq3YE0ye70i8-itbJVbqbOUqVGYV35N_Co0vsw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Alice Theo",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLlTaJNjR4PIQfpJiF46t8Dk4UMsvoz4twygTtQQNrVJ_6ejg=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Good korean dishes, bento style !\nWe came with kids and everyone loved it !!\nWould definitely come back !"
+  },
+  {
+   "name": "Sarah Lou",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUkAaEHYNCbVpRC2rC09F1R2eM3YYyFBldtEUIxpAp_c393kUgh=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Excellent typical korean food and welcoming owners. I highly recommend this restaurant !"
+  },
+  {
+   "name": "Martin Bourdeau",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUhKp3BbrvA4-MA72ps6SHzAE184nQKUmy4l2EwaUy_vfmzHE-E=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Angelo",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKmuNsjzoxdQvW1yWq4y2v3NqeDK5VMPbS37dpDHR-Vh2L92Q=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Ordered one of the main beef plates. Loved the food and service."
+  },
+  {
+   "name": "Bryan Soares",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXlyx9YI22gTJCah_VvCkZ7K_PzNnkdyuexz-wTpDTHkUTcYikZrw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Absolutely delicious Korean meal! Wow.  Fried seaweed appetizer followed by 2 different Doshrock 'lunchbox' platters, 1 Bulgogi Japchae and a stone pot Bibimbap!  Service was very attentive and our meal was ready quickly... So fresh, so tasty, every bite was a pleasure to the senses.  Will definitely be back again.  감사합니다!!"
+  },
+  {
+   "name": "Marky Marc",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVWodNrF7oZQ2gTHvYF1QQoE0qfNn_if5nK59vflWoQofB51z3N=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Had the snow onion chicken, the sweet and spicy chicken, and the bulgogi gimbap, everything was very tasty and filling."
+  },
+  {
+   "name": "Polsky Murillo",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXahKrsSzDVY6nBh0kN-LgVlr90cQKLmRgqYxHPeOXHYN2ZlIpa9g=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1727740800,
+   "approx": true,
+   "text": "Delicious food"
+  },
+  {
+   "name": "carla andrea schnettler sabugo",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXLFzlEV8b98gnQbU4-jRykwK2b5jQZsmzZzP_Hb2_cQl47Su7t=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Today we went with my husband to celebrate our Anniversary to Doshrock Korean Restaurant and we just loved it.\nAll the food we had was so delicious and well made.\nThe waitress was so nice and helpful.\nI really recommend this place!"
+  },
+  {
+   "name": "Hana Song",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJhuh2Tk16Ue-whWO1VvzIIlcnR_DGxDZ9lB9iPX-hzVb_XTQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Les travailleurs sont formidables et la nourriture me donne l'impression d'être en Corée"
+  },
+  {
+   "name": "Toasted",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUnFxZwARLtPuMxmBOcdrf9dzSBOWbtPQTLw21s-014GiW2kdjO=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "We went the first time they opened and were very impress with the freshness and tastiness of the food. We came back after 2 months, they have more variety of food, and the quality of the food is the same, even better. The portions are generous. Highly recommended"
+  },
+  {
+   "name": "Desire TUYISHIME",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIwACF358MWU44oUfs-1UrFljps147eErly28XEhDNqqTanXA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "The nice food made me remember the nice food I ate in Asia!! The food is so enjoyable for sure!!"
+  },
+  {
+   "name": "Remy Hategekimana",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWxPhSYkNtuSTrlenW0K-rOB8ovFfirtznfVymW4Xz560xococ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Senth",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKHWIIrTHvl2vNuCD-QE9zyVumW96Sxl11TMB8jLHXZOWCIPg=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Amazing food and staff! I got the chicken doshrock and it was delicious. I highly recommend this place!"
+  },
+  {
+   "name": "Sang Bin Lee",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLsUcONo7IQIfipl75ujwvhsOx4UK-hwHrupxYQQ_zMA7xb5w=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Friendly staff and tasty dishes. I would definitely visit again whenever I am back in Montreal."
+  },
+  {
+   "name": "Roy Wang",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWVC0QMk_Uy3RaucLuq9XhXhluGAjJHr59NIT6ESUzPBrun_qQP=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "I went there for my friends birthday. The staff was super friendly and nice. They have amazing good food! Would definitely recommend it to everyone!"
+  },
+  {
+   "name": "SnooZ",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXwtWK0pJt_m0zaP3eosD7nCe3Jm8nBw0r0lGpY3w2wTm6VkDmF=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Mahendra Singh",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVBim3MlmePB3_ZAy9l5XnSKVJ4M3MhVZjRFIfbnJ22IDyJv2-L=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Food was delicious and reasonably priced. There are several other Korean places that have recently opened in the West Island and I think this one is the best, especially for tastiness and excellent service.\nI can't remember the name but the bulgogi with sweet potato noodles is awesome. The missus likes the bibimbap. Family friendly and clean."
+  },
+  {
+   "name": "Kihong Ko",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIujKSy49lTx1DrBv0RjltbYSQ3AXcC-HqJimOHAsgvPFd-7A=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Delicious even for a person just arrived from South Korea! Had a nice time enjoying  food along with k-pop music. Highly recommend tteokbokki!"
+  },
+  {
+   "name": "Hala Azar",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKhvssnrHsdubbao46QGvqfmeMhPZtx-eh-8HW4y93XOT7o-Q=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Very homey place !! I recommend everyone to try this place 1 time only and you'll want to come here over and over again 😊 the flavours are spot on, delicious and tasty. So yummy!!! Def coming back soon!!! Thank you for having us 😁"
+  },
+  {
+   "name": "Jun Ceasar Alano",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJGEASGjvRrCiGM35GLBufyUBOLHFuB7NmWmn1d649jLu9MDQ=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "The food is great, the service is impeccable. Very homey!!! The cheese tteokboki is a must try with their special kimchi; amazing flavours !!!! Can’t wait to come back again !!"
+  },
+  {
+   "name": "송홍식",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjW9fEBrhRTrHCGgx6aPVmpB9LLxNb0a5V-ygs-1x9XZ4Pb3p6rr=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "It is a great restaurant that is delicious and friendly..I want to recommend it to everyone"
+  },
+  {
+   "name": "David Sarkozi",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXdf9zOBj1layxVpfddhY44q7ca8GpjV8Vrnx4m9bVMubIjfUM=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Let me start with the one star review. Seriously? That’s just sad\nThen the 3 star review. You might’ve gotten used to the mainstream Korean and Chinese food. This restaurants menu and flavours are as authentic as you can get in my opinion. I am a big Korean and Thai food friend. Vietnamese food changed my life.\nIf you are looking for either a quiet night out, or takeout which doesn’t get cold in 2 minutes and taste like rubber once you try to reheat it at home, then look no further!!!!\n\nI honestly can not wait til my next order. Loved everything about the food! Highly recommend!!!!"
+  },
+  {
+   "name": "Tina Yang",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXkNoCom9IECM11PM6OWI4F_Uii4jF-jl0iaAXFIbN8FRvRNTLAOw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Feels very homey, makes you discover seasonal item when available. Good price for good portion. Very tasty food and adaptable chef!"
+  },
+  {
+   "name": "Imane",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJKDVvdy0uz-h5Gcgiy3aCO7LQohnSDbbiXtNJBTjCeZ6CgLA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "The food is absolutely delicious! The staff is soo welcoming and sweet and generous! I recommend the sundubu jiggea and snow onion chicken! They also have homegrown kkenip (perilla leaf) which is sooo fresh and extremely rare in restaurants! They also have the best banchan (side dishes). I come from laval and its really worth it!"
+  },
+  {
+   "name": "Hanson Yang",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocK6lHALWc8ODNPK5DC9KyVNt-IeCWbLM2rJ67orOGfFLA2Jaw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "I really liked the customer service, it felt really homey!"
+  },
+  {
+   "name": "Michael Younes",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXTWailFkmdQiPawgFeF9081NQh0wntQw1CZ_Cg50TFzarlJANS=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "The staff here are incredibly friendly and attentive, making you feel right at home. The food is an absolute delight! Their Korean dishes are bursting with authentic flavors. I couldn't get enough of their bibimbap - it was beautifully presented and tasted like a piece of Korea right here in Montreal. The kimchi was the perfect blend of spicy and tangy, a true treat for the taste buds."
+  },
+  {
+   "name": "francois tuzet",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIKdN9VbqWeKns0ewcgcQmt5siVUyFyAB0TXZY79IV_4CwMzw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "The food has been great every time i have been there. The staff is nice and happy to serve us every time. The menu is authentic Korean. Definitely worth it"
+  },
+  {
+   "name": "Thi Nguyen",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKfu7KdJkdUjErZV9QvefUqmGAwFDVvVaa4N9SidaeHrWGqbA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Love love love. The food was delicious and flavourful. The services are excellent. The waiter is super kind and proactive. A must try korean restaurant!"
+  },
+  {
+   "name": "Nina Ngu",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJPFCt2H09VDghbSFV6MT7Ad7FHrtOWuXtAKMDiOmKIMzOX_w=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Very good authentic Korean food!! Service was excellent, food was wonderful! Great little gem in the west Island !"
+  },
+  {
+   "name": "The Huy Cung",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVKXDzM0ytHeUj_FiBJyiAwmRc9AsWO8BKsYtUHcUyoa8e1afDc=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Great japchae very tasty and right portion. Not expensive, Familial business so foods prepared with care. Will try dubap"
+  },
+  {
+   "name": "Ann Huynh",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUu8hunUEJzYfLTtagqYziJ-d8x6ATROdLpRkjaKHy_0URankV9=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Super family friendly, owners are so nice! Donkatsu and Bulgogi were my favorites, great side dishes too!!"
+  },
+  {
+   "name": "Marie Berrios",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocILLokYGkl_B8xnPdXGMGPTvj6PmnFFZOzv_E7ghEftJcCzfA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Gayoung Oh",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLh1bXlDO5DRamSaEd1Q5c3wKd3pq7u1dfjbViXg_COEpxh4A=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "I had an incredible dining experience at Doshrock! The food here is truly authentic and bursting with delicious Korean flavors. From the first bite to the last, I was transported to Korea. The staff are not only friendly but also incredibly knowledgeable about the menu, making my visit even more enjoyable. I can't wait to come back for more authentic Korean cuisine and warm hospitality! Highly recommended! 🍲🥢😊"
+  },
+  {
+   "name": "Athlon Jedi",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKDIpr5verpdVODV_3VAZ4XCEiiLyL6D0Gk2hWOqtpZfNHdtA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Finally managed to schlep out to the West Island for some Korean food. The Bulgogi is the best i've ever had and the friends i dragged out with me also raved about their meals. Service was top notch, ordering to eating time was short. They have obviously just opened so the decor needs a little work. WILL be going again, i can see this being a regular haunt whenever i can convince someone to drive me there!"
+  },
+  {
+   "name": "Jin Bae",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUUAaj6oxPZcTJ45gbOKUl0Ws2f6fjSAlJpi1uh6DTP7liGbbFh=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Authentic and generous portions of food can make the dining experience even more enjoyable. Homey hearty meals!"
+  },
+  {
+   "name": "Melissa Lockey-Chatham",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXeoDX8RJEKEjOntacJaGnrwQKPdf0z--pcMGSCwsqp8SUNjDWivQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "A West Island gem! Really tasty food, really friendly service. Prices are fair and comparable to any of the other amazing Korean restaurants I visited. It's 100% worth a visit and I can't wait to go back."
+  },
+  {
+   "name": "Angela Wong",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXwUlrXUGPmB_13GjR4IbDcgknlrXZ3Ex1idzmCd9qEp5q3wG-IRA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Best Korean restaurant in West Island.  The food is tasty and fresh.  The owners grow their own perilla leaves and cucumber.  Waitress is super nice.  Excellent service.  They even have homemade gluten free soya sauce. For sure will come back."
+  },
+  {
+   "name": "Sebastiane Manalang",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjW1sS-1UAkelu1E9kytHSOxPgOf9IxRlnTS5kGTGq9JxJpl3JPd=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Really homey and cosy Korean Restaurant at the West Island! Really great & friendly service and the food is really amazing, you can't get this kind of homemade Korean dishes anywhere else. Highly recommend this restaurant!"
+  },
+  {
+   "name": "Haig James Toutikian",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVNAQLY3-o3YXaZU4PLVmIFMgj8Rlkp09OrXiTKu-UcRkXw81143Q=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Friendly staff and wonderful food. Best Korean close to home! Highly recommended!"
+  },
+  {
+   "name": "Min Ji Ribeiro",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjU-FRNQvUU4nvoGhGknGM5sKH_ts7GsOp_UqjdAhTiwWAz9gAY=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Food is very good and fresh. The team are nice and the service was great. I'll go back there for sure."
+  },
+  {
+   "name": "Hal Berny",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWoIRlhr1OvMDjbY8mhQqihhFnTsPma8iU-SIBoyJnTpHAvumo7=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Awesome food, very varied menu! The staff was very nice, too."
+  },
+  {
+   "name": "Sam Sultan",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXP0d9ucJroU3sEnjEX-CJqGoUWT9Qnlb1zMr-cPuVME6p2G2u1HQ=w36-h36-p-rp-mo-br100",
+   "rating": 4,
+   "time": 1696183200,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "pieRana",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXsXCQtMtlPGqjgXPz2jslcpAJepWNbDLdVBlCMZmqEog4jawpV=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "I got delivery and I don't know which dish I like more. All so amazingly good! Wow. First time eating from here. Uber Eats is still too expensive though, I could have gotten some gourmet food instead. Nice experience, I'll save this place for special occasions once a blue moon or actually take the bus to go there in person to eat."
+  },
+  {
+   "name": "Jeongwon Jun",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLiIbNsmBPNUK8KhLFd9l5FauRd_HYH6-7QZBd9xyNWr_YRyTc=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "The food was great, and the ingredients were fresh. 👍👍👍\nI felt the taste of traditional Korean home-cooked meals."
+  },
+  {
+   "name": "Li C. (Lee)",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWxelI5KJwVhE-Ko1wNRRL3GOTmX7FnYVzr6NK6u9b4SlVRqupp=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "We had an amazing experience at this new Korean restaurant! The food was delicious, and the staff was friendly. Will definitely be coming back."
+  },
+  {
+   "name": "AJ",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjXyHGJj7NZ5wExKXBxYMW0uHxiPzm-4IwP5V0mFwAPwkUEOei-Q5A=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 4,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Food is pretty good, portions & prices are fair.\nThe kimchi stew was a bit bland for my personal taste but it was still pretty good.\nReally like that the rice cakes weren’t those frozen ones. Doshirak bulgogi was well marinated so we liked that as well. Will definitely go back to try other dishes!\n\nStaff were friendly and attentive!\nDefinitely would recommend trying it out if you can 👌🏻"
+  },
+  {
+   "name": "Jihyun Kim",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLgjLXEt6t0Vb14YAi_Phy8AV1zga17BHtgsj50pWlARsh6xA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "As a Korean, I'm really happy to have a proper Korean restaurant in Montreal. From the Pork Cutlet Doshirak to the Snow Onion Chicken, every dish surpassed my expectations. I can genuinely say, \"I loved it!\" The generous portion sizes ensured that I left with a happy and full stomach.\n\nThe staff at the restaurant were very friendly and attentive, creating a welcoming atmosphere. If you're new to Korean dishes, don't hesitate to seek their recommendations and guidance.\n\nWithout a doubt, the Snow Onion Chicken stood out as my top recommendation. The perfect blend of crispy chicken and delectable snow onion glaze was amazing. (forgot to take pic of it while busy eating^^;;)\n\nOverall, Doshirock has my wholehearted approval."
+  },
+  {
+   "name": "Sergey Fesenko",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUogj83K0PU-8Om9iBsg4euENwGtChGB2csHVN4jAIQwIpksXLCFA=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Saejin Hwang",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJo_mPJ2TB-Qk-u9WkHUJ5MrIdaqjCKUh4p61_ApgiOIUAO2g=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Great food well served! The main dish comes with number of side dishes which very filling as well as great taste! Definitely recommend!"
+  },
+  {
+   "name": "Narinder Singh (Bawa)",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjW1mB_WEXYYhLKPCd6NungJO4IMJn2GW5CvC1hKyetIluMa9J0=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Very nice food !! We all loved it"
+  },
+  {
+   "name": "Paulo Gonzales",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLBjzjtpdZK0XRfiL4VCCkaMrMurzN1xDv7xZl8hWJdAq2xfg=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "Alex Chahmirian",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUaUxpknTigvulkO_nNyRxE7TzbwyPq9PEhsAntODBdGhPDVXU=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "I ordered from Doshrock on doordash. Food arrived at perfect temperature, and very quickly. Easily the best Korean food in the west island. Very flavourful. And they even sent me a small soup that I didn't order! (Thank you). My only regret is that I did not order more! Glad you guys are here!"
+  },
+  {
+   "name": "Daniel",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIvFtRDXggOliTVg_TgjZuI0Xc4iYfkw_x1wVZRjBr3FnbE7g=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Generous. Tasty. Worth another visit. This place deserves success."
+  },
+  {
+   "name": "Michael Firsikov",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWyNfwZ0wzEJpoOMH1BsgscWKw4W50kX6FbcRVnUzpM_HeO4bM_Qw=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Absolutely fantastic experience of authentic Korean cuisine with a modern twist. Blends traditional staples & innovative fusion, truly a menu that is as diverse as it's delicious. Kimchi and other fermented veggies are best in Montreal. Oh yes, and the spicy pork.\nCome hungry, portions are very generous!"
+  },
+  {
+   "name": "SE RI SONG",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVz0rhqKkull0jYg7iBKr9Zw6rPS8xI00AvCjKQg9e0as9trUg=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Doshrock: A Korean Culinary Gem with Chicken-Galbi Doshrock and Kimchi-Cheese Gimbap in Pierrefonds\n\nNestled on Blvd Pierrefonds, Doshrock is a hidden culinary gem that has been captivating food enthusiasts with its warm ambiance and delectable Korean cuisine. Specializing in Doshrock, a traditional Korean meal featuring rice with a main dish and three side dishes (banchan), this family-owned restaurant offers an authentic taste of Korea.\n\nThe highlight of Doshrock's menu is the tantalizing Chicken-Galbi Doshrock, a delightful combination of spicy and savory flavors. The generous portions make it perfect for sharing with loved ones, and spice lovers are sure to be delighted by this mouthwatering treat.\n\nFor those seeking a unique twist on classic gimbap, the Kimchi-Cheese Gimbap is a must-try. This fusion roll cleverly blends the tangy notes of kimchi with the creamy richness of cheese, resulting in a harmonious symphony of flavors that will leave you craving for more.\n\nBeyond their signature dishes, Doshrock offers a selection of classic Korean fare, including the delectable Chicken-Ganjung. This Korean-style crispy and sweet-savory chicken dish perfectly complements the traditional flavors of the Doshrock meals.\n\nWhile the restaurant's interior design may be simple, the warm and inviting atmosphere, coupled with the friendly staff, create a welcoming dining experience. Families, couples, and friends all gather to enjoy the delightful ambiance that Doshrock offers.\n\nFor an authentic taste of Korea, head to Doshrock on Blvd Pierrefonds. Don't miss the opportunity to savor their Chicken-Galbi Doshrock and Kimchi-Cheese Gimbap, making it a must-visit destination for Korean cuisine enthusiasts and curious foodies alike."
+  },
+  {
+   "name": "jj",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJcXIgQ7C91EBgEeI_dQOeoQPwzRFdSUUQ31uYkbppbAjhBw3xL=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": ""
+  },
+  {
+   "name": "John Jung",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKLg-enD-tDd6E9PTHfhLcfYa0WfHJGLq3ZWvEtlD-vaWtHSA=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Amazing food with very kind and friendly service. I would definitely go again!"
+  },
+  {
+   "name": "쭈니",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWTfsM2bpWxTkRJKJlWCodbnrViaJQjQWsssjX52tKttiOj0k7m=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Abundant portion and flavorful dishes . Def. Recommend their doshrock menus"
+  },
+  {
+   "name": "Pearl Lee",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJJxPYHKPpDeseWthWVm0EQPKjMQOfgAwF1I18oy-faYRNIXQ=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "음식양은 한사람이 먹어도 부족함 없이 오히려 남을 만큼 푸짐하고 맛도 좋습니다. 특히 닭갈비는 한국에서 먹던 닭갈비 맛과 비교해봐도 뒤쳐지지 않을만큼 맛있습니다. 앞으로 번창 하시길 바랍니다.^^"
+  },
+  {
+   "name": "Megan Amofa",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjX0MTwnJrLqzgoTMXAkwwAN2KMuyUdIAOZ-O7GH2XAB-GrF-4iq=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 3,
+   "time": 1696183200,
+   "approx": true,
+   "text": "The food is just ok I’ve had wayyyy better Korean food than this, I personally wouldn’t order again."
+  },
+  {
+   "name": "Yasmine Hallé",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJO1rOaIda6EBXi-nN9mlV8mpWdbmBty0u4QZNJuzig5NH3s3U=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "I dined here with my friend, the food was amazing, the portions are perfect and the staff is very friendly! 5 star experience!"
+  },
+  {
+   "name": "minki",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUUd7OxrqOaucvyRhN93PKx_YJdpwI0JBDZXkWiQZSkULPLOypL=w36-h36-p-rp-mo-ba12-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "the best korean food ever!! i went with my friend and we ordered the tuna mayo dupbap and the beef doshrack— i was in awe of how delicious it was. it was incredibly flavourful, the portions were so good and plentiful for their price, and the kimchi was so so good!! thank you so much for the meal, i will definitely come again! 잘 먹었습니다~~"
+  },
+  {
+   "name": "Jiseok Yoon",
+   "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVipyfA5foa4DtuRmBky73OhYZANE05u-ADBw7_gUbcTiYCfVjw=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "Delicious korean foods! Tasty gimmari and chicken mayo dupbab! 👍👍"
+  },
+  {
+   "name": "hyun-a Kim",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJBSrspjmadj_IONrWAivHI6ukqPhUSpu5HXPwznbZaaGBPXg=w36-h36-p-rp-mo-br100",
+   "rating": 5,
+   "time": 1696183200,
+   "approx": true,
+   "text": "편식하는 아들도 돈까스 남김없이 다 먹고 맛있다고 하네요~ 불고기도 최고! 떡볶이는 떡이 너무 부드러웠어요. 양도 많아서 넘넘 배부르게 잘 먹었어요~"
+  }
+ ]
+}

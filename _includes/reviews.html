@@ -1,3 +1,5 @@
+{%- assign gr = site.data.google_reviews -%}
+{%- if page.lang == "kr" -%}{%- assign _locale = "ko" -%}{%- elsif page.lang == "en" -%}{%- assign _locale = "en" -%}{%- else -%}{%- assign _locale = "fr" -%}{%- endif -%}
 <section id="reviews">
     <div class="container">
         <div class="row">
@@ -8,65 +10,165 @@
             </div>
         </div>
 
-        <!-- Elfsight Google Reviews Widget -->
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <div class="google-reviews-widget">
-                    <!--
-                    ============================================================
-                    PASTE YOUR ELFSIGHT WIDGET CODE HERE
-                    ============================================================
-
-                    After setting up your Elfsight widget, you'll get code that looks like:
-
-                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-                    <div class="elfsight-app-YOUR-WIDGET-ID"></div>
-
-                    Replace this entire comment block with that code.
-                    ============================================================
-                    -->
-
-<script src="https://elfsightcdn.com/platform.js" async></script>
-<div class="elfsight-app-b6256e7a-3cd4-4f6c-8988-80993bc12761" data-elfsight-app-lazy></div>
-                    <!-- End temporary placeholder -->
-
+        <div class="gr-widget" id="gr-widget"
+             data-src="{{ site.baseurl }}/assets/data/reviews.json"
+             data-locale="{{ _locale }}"
+             data-read-more="{%- include i18n.html token='key_read_more' -%}">
+            <div class="gr-summary">
+                <div>
+                    <div class="gr-brand">
+                        <span class="gr-g">G</span><span class="gr-o1">o</span><span class="gr-o2">o</span><span class="gr-g">g</span><span class="gr-l">l</span><span class="gr-o1">e</span>
+                        <span class="gr-brand-label">{%- include i18n.html token='key_reviews_nav' -%}</span>
+                    </div>
+                    <div class="gr-score">
+                        <span class="gr-rating">{{ gr.rating }}</span>
+                        <span class="gr-stars" aria-label="{{ gr.rating }} / 5">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                        <a class="gr-count" href="https://search.google.com/local/reviews?placeid={{ gr.place_id }}" target="_blank" rel="noopener">({{ gr.total }})</a>
+                    </div>
                 </div>
+                <a class="gr-write" href="https://search.google.com/local/writereview?placeid={{ gr.place_id }}" target="_blank" rel="noopener">{%- include i18n.html token='key_review_us_google' -%}</a>
+            </div>
+
+            <div class="gr-cards" id="gr-cards"></div>
+
+            <div class="gr-more-wrap">
+                <button type="button" class="gr-more" id="gr-more">{%- include i18n.html token='key_load_more' -%}</button>
             </div>
         </div>
     </div>
 </section>
 
 <style>
-    #reviews {
-        padding: 80px 0;
-        background-color: #222;
-    }
+    #reviews { padding: 80px 0; background-color: #222; }
+    #reviews h2, #reviews p { color: white; }
+    #reviews hr.primary { border-color: #F05F40; }
 
-    #reviews h2 {
-        color: white;
+    .gr-widget { max-width: 960px; margin: 30px auto 0; }
+    .gr-summary {
+        display: flex; align-items: center; justify-content: space-between; gap: 16px;
+        background: #f8f8f8; border-radius: 8px; padding: 22px 24px; margin-bottom: 20px;
     }
-
-    #reviews p {
-        color: white;
+    .gr-brand { font-size: 22px; font-weight: 500; line-height: 1; }
+    .gr-g { color: #4285F4; } .gr-o1 { color: #EA4335; } .gr-o2 { color: #FBBC05; } .gr-l { color: #34A853; }
+    .gr-brand-label { color: #222; margin-left: 4px; font-size: 19px; }
+    .gr-score { margin-top: 8px; display: flex; align-items: center; gap: 8px; }
+    .gr-rating { font-size: 22px; font-weight: 700; color: #222; }
+    .gr-stars { color: #FBBC05; font-size: 22px; letter-spacing: 1px; }
+    .gr-count { color: #777; font-size: 13px; text-decoration: none; }
+    .gr-write {
+        background: #F05F40; color: #111; border-radius: 20px; padding: 9px 20px;
+        font-weight: 600; font-size: 14px; white-space: nowrap; text-decoration: none;
     }
+    .gr-write:hover, .gr-write:focus { color: #111; text-decoration: none; background: #ee4b28; }
 
-    #reviews hr.primary {
-        border-color: #F05F40;
+    .gr-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+    .gr-card { background: #f8f8f8; border-radius: 8px; padding: 22px 24px; text-align: left; color: #222; }
+    .gr-head { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .gr-avatar {
+        width: 36px; height: 36px; border-radius: 50%; flex: none; object-fit: cover;
+        background: #5f6b77; color: #fff; display: flex; align-items: center; justify-content: center;
+        font-weight: 600;
     }
-
-    .google-reviews-widget {
-        margin: 30px 0;
+    .gr-name { font-weight: 600; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .gr-date { color: #888; font-size: 12px; }
+    .gr-card .gr-stars { font-size: 18px; }
+    .gr-text {
+        margin: 8px 0 0; font-size: 15px; line-height: 1.5; color: #222 !important;
+        display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+        white-space: pre-line;
     }
+    .gr-card.open .gr-text { -webkit-line-clamp: unset; display: block; }
+    .gr-read { background: none; border: 0; padding: 0; margin-top: 6px; color: #F05F40; font-size: 14px; }
+    .gr-more-wrap { text-align: center; margin-top: 20px; }
+    .gr-more { background: #fff; border: 0; border-radius: 4px; padding: 8px 52px; font-weight: 600; color: #111; }
 
-    /* Style adjustments for Elfsight widget */
-    .google-reviews-widget .elfsight-app-abc123def456 {
-        background: transparent !important;
-    }
-
-    /* Make sure widget is responsive */
     @media (max-width: 768px) {
-        .google-reviews-widget {
-            margin: 20px 0;
-        }
+        .gr-cards { grid-template-columns: 1fr; }
+        .gr-summary { flex-direction: column; align-items: flex-start; }
     }
 </style>
+
+<script>
+(function () {
+    var root = document.getElementById('gr-widget');
+    if (!root) return;
+    var cards = document.getElementById('gr-cards');
+    var moreBtn = document.getElementById('gr-more');
+    var locale = root.getAttribute('data-locale');
+    var readMore = root.getAttribute('data-read-more');
+    var queue = [];
+    var PAGE = 3;
+
+    function shuffle(a) {
+        for (var i = a.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var t = a[i]; a[i] = a[j]; a[j] = t;
+        }
+        return a;
+    }
+
+    function ago(unix) {
+        var days = (Date.now() / 1000 - unix) / 86400;
+        var rtf = window.Intl && Intl.RelativeTimeFormat ? new Intl.RelativeTimeFormat(locale, { numeric: 'auto' }) : null;
+        var v, u;
+        if (days < 7) { v = Math.round(days); u = 'day'; }
+        else if (days < 30) { v = Math.round(days / 7); u = 'week'; }
+        else if (days < 365) { v = Math.round(days / 30.4); u = 'month'; }
+        else { v = Math.round(days / 365.25); u = 'year'; }
+        return rtf ? rtf.format(-Math.max(v, 1), u) : '';
+    }
+
+    function el(tag, cls, text) {
+        var e = document.createElement(tag);
+        if (cls) e.className = cls;
+        if (text != null) e.textContent = text;
+        return e;
+    }
+
+    function card(r) {
+        var c = el('div', 'gr-card');
+        var head = el('div', 'gr-head');
+        var initial = el('div', 'gr-avatar', (r.name || '?').charAt(0).toUpperCase());
+        if (r.avatar) {
+            var img = el('img', 'gr-avatar');
+            img.src = r.avatar; img.alt = ''; img.loading = 'lazy'; img.referrerPolicy = 'no-referrer';
+            img.onerror = function () { img.replaceWith(initial); };
+            head.appendChild(img);
+        } else {
+            head.appendChild(initial);
+        }
+        var who = el('div');
+        who.style.minWidth = '0';
+        who.appendChild(el('div', 'gr-name', r.name));
+        who.appendChild(el('div', 'gr-date', ago(r.time)));
+        head.appendChild(who);
+        c.appendChild(head);
+        c.appendChild(el('div', 'gr-stars', '★★★★★'));
+        var text = el('p', 'gr-text', r.text);
+        c.appendChild(text);
+        var btn = el('button', 'gr-read', readMore);
+        btn.type = 'button';
+        btn.onclick = function () { c.classList.add('open'); btn.remove(); };
+        c.appendChild(btn);
+        requestAnimationFrame(function () {
+            if (text.scrollHeight <= text.clientHeight + 1) btn.remove();
+        });
+        return c;
+    }
+
+    function showNext() {
+        queue.splice(0, PAGE).forEach(function (r) { cards.appendChild(card(r)); });
+        if (!queue.length) moreBtn.style.display = 'none';
+    }
+
+    fetch(root.getAttribute('data-src'))
+        .then(function (res) { return res.json(); })
+        .then(function (d) {
+            queue = shuffle(d.reviews.filter(function (r) { return r.rating === 5 && r.text; }));
+            showNext();
+        })
+        .catch(function () { root.style.display = 'none'; });
+
+    moreBtn.addEventListener('click', showNext);
+})();
+</script>

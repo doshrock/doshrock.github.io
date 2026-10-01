@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /assets/data/reviews.json
+---
+{%- assign five = site.data.google_reviews.reviews | where: "rating", 5 -%}
+{"rating": {{ site.data.google_reviews.rating | jsonify }}, "total": {{ site.data.google_reviews.total | jsonify }}, "place_id": {{ site.data.google_reviews.place_id | jsonify }}, "reviews": {{ five | jsonify }}}
