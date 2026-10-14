@@ -1,6 +1,6 @@
 // Theme tokens and the overrides that apply them.
 // Palette is Bazaar Trace's "light" (default) and "ember" (dark) themes, same token names.
-// Light is the default; ember applies only when the visitor picks it with the navbar toggle (data-theme="dark").
+// Light is the default; ember follows the visitor's system setting (prefers-color-scheme: dark).
 
 @font-face {
     font-family: 'Inter';
@@ -53,6 +53,9 @@
 }
 
 // Ember follows the system setting unless the visitor picked a theme with the toggle (data-theme on <html>).
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { @include ember-tokens; }
+}
 :root[data-theme="dark"] { @include ember-tokens; }
 :root[data-theme="light"] { color-scheme: light; }
 
@@ -176,6 +179,9 @@ section { padding: 88px 0; }
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(239, 228, 212, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) #mainNav .navbar-toggler-icon { @include ember-toggler-icon; }
+}
 :root[data-theme="dark"] #mainNav .navbar-toggler-icon { @include ember-toggler-icon; }
 
 // Hero: new cover, overlay dark enough for white text, centered on every width
@@ -357,6 +363,10 @@ aside.bg-dark h2 { color: var(--ink); }
 #mainNav .navbar-brand { padding: 0; line-height: 0; }
 #mainNav .navbar-brand .brand-logo { height: 44px; width: auto; display: block; }
 #mainNav .navbar-brand .brand-logo--dark { display: none; }
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) #mainNav .navbar-brand .brand-logo--light { display: none; }
+    :root:not([data-theme="light"]) #mainNav .navbar-brand .brand-logo--dark { display: block; }
+}
 :root[data-theme="dark"] #mainNav .navbar-brand .brand-logo--light { display: none; }
 :root[data-theme="dark"] #mainNav .navbar-brand .brand-logo--dark { display: block; }
 @media (max-width: 991px) { #mainNav .navbar-brand .brand-logo { height: 36px; } }
@@ -364,4 +374,7 @@ aside.bg-dark h2 { color: var(--ink); }
 // Google Maps embed has no dark style; invert it (hue kept) when the dark theme is on
 
 @mixin dark-map { filter: invert(0.9) hue-rotate(180deg) brightness(0.95) contrast(0.9); }
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) iframe[src*="google.com/maps"] { @include dark-map; }
+}
 :root[data-theme="dark"] iframe[src*="google.com/maps"] { @include dark-map; }

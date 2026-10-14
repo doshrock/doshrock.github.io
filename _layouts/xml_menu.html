@@ -69,6 +69,9 @@
     <style>
         /* Menu cards need clear separation from the page; the shared card token is too close to the canvas here. */
         :root { --menu-card: #ffffff; --menu-card-border: var(--hairline-strong); --menu-card-shadow: 0 2px 10px rgba(60, 35, 15, 0.14); }
+        @media (prefers-color-scheme: dark) {
+            :root:not([data-theme="light"]) { --menu-card: #2c1b14; --menu-card-border: #5a3d2e; --menu-card-shadow: 0 2px 12px rgba(0, 0, 0, 0.55); }
+        }
         :root[data-theme="dark"] { --menu-card: #2c1b14; --menu-card-border: #5a3d2e; --menu-card-shadow: 0 2px 12px rgba(0, 0, 0, 0.55); }
         /* Menu page styles. Colours, fonts and buttons come from the site theme tokens (_sass/_theme.scss). */
 

@@ -29,8 +29,9 @@
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="color-scheme" content="light">
-	<meta name="theme-color" content="#e7dccc">
+	<meta name="color-scheme" content="light dark">
+	<meta name="theme-color" content="#e7dccc" media="(prefers-color-scheme: light)">
+	<meta name="theme-color" content="#150a08" media="(prefers-color-scheme: dark)">
 
   {% include analytics.html %}
 
@@ -43,7 +44,7 @@
 		function current() {
 			var t = root.getAttribute('data-theme');
 			if (t) return t;
-			return 'light';
+			return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 		}
 		function render(btn) {
 			var dark = current() === 'dark';
