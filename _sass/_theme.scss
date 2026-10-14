@@ -358,8 +358,15 @@ aside.bg-dark h2 { color: var(--ink); }
     @media (max-width: 991px) { margin-left: auto; margin-right: 8px; order: 0; }
 }
 
-// Brand: the orange signboard logo in place of the text wordmark
+// Brand: the horizontal logo without the orange signboard, in ink (light) or cream (dark)
 
 #mainNav .navbar-brand { padding: 0; line-height: 0; }
-#mainNav .navbar-brand .brand-logo { height: 44px; width: auto; display: block; border-radius: 3px; }
+#mainNav .navbar-brand .brand-logo { height: 44px; width: auto; display: block; }
+#mainNav .navbar-brand .brand-logo--dark { display: none; }
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) #mainNav .navbar-brand .brand-logo--light { display: none; }
+    :root:not([data-theme="light"]) #mainNav .navbar-brand .brand-logo--dark { display: block; }
+}
+:root[data-theme="dark"] #mainNav .navbar-brand .brand-logo--light { display: none; }
+:root[data-theme="dark"] #mainNav .navbar-brand .brand-logo--dark { display: block; }
 @media (max-width: 991px) { #mainNav .navbar-brand .brand-logo { height: 36px; } }
