@@ -35,4 +35,40 @@
 
   {% include analytics.html %}
 
+	<script>
+	// Light/dark toggle: apply the saved choice before paint, then add the button to the navbar.
+	(function () {
+		var KEY = 'doshrock-theme', root = document.documentElement, saved = null;
+		try { saved = localStorage.getItem(KEY); } catch (e) {}
+		if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
+		function current() {
+			var t = root.getAttribute('data-theme');
+			if (t) return t;
+			return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+		}
+		function render(btn) {
+			var dark = current() === 'dark';
+			btn.textContent = dark ? '☀' : '☾';
+			btn.setAttribute('aria-label', dark ? 'Light theme' : 'Dark theme');
+			btn.title = btn.getAttribute('aria-label');
+		}
+		document.addEventListener('DOMContentLoaded', function () {
+			var nav = document.querySelector('#mainNav .container-fluid, #mainNav .container');
+			if (!nav) return;
+			var btn = document.createElement('button');
+			btn.type = 'button';
+			btn.className = 'theme-toggle';
+			render(btn);
+			btn.addEventListener('click', function () {
+				var next = current() === 'dark' ? 'light' : 'dark';
+				root.setAttribute('data-theme', next);
+				try { localStorage.setItem(KEY, next); } catch (e) {}
+				render(btn);
+			});
+			var toggler = nav.querySelector('.navbar-toggler');
+			nav.insertBefore(btn, toggler || null);
+		});
+	})();
+	</script>
+
 </head>

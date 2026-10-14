@@ -32,27 +32,32 @@
     --font-display: 'Noto Serif KR', Georgia, 'Times New Roman', serif;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        color-scheme: dark;
-        --surface-sunk: #080303;
-        --canvas: #100606;
-        --surface-soft: #150a08;
-        --surface-card: #1b0f0b;
-        --surface-raised: #261711;
-        --hairline: #33211a;
-        --hairline-strong: #55382a;
-        --ink: #efe4d4;
-        --body: #d6c7b3;
-        --mute: #a8947e;
-        --primary: #ec8a16;
-        --primary-hover: #f59d33;
-        --on-primary: #100606;
-        --link: #efcd7c;
-        --selection: #3e3a0c;
-        --focus-outer: #efcd7c;
-    }
+@mixin ember-tokens {
+    color-scheme: dark;
+    --surface-sunk: #080303;
+    --canvas: #100606;
+    --surface-soft: #150a08;
+    --surface-card: #1b0f0b;
+    --surface-raised: #261711;
+    --hairline: #33211a;
+    --hairline-strong: #55382a;
+    --ink: #efe4d4;
+    --body: #d6c7b3;
+    --mute: #a8947e;
+    --primary: #ec8a16;
+    --primary-hover: #f59d33;
+    --on-primary: #100606;
+    --link: #efcd7c;
+    --selection: #3e3a0c;
+    --focus-outer: #efcd7c;
 }
+
+// Ember follows the system setting unless the visitor picked a theme with the toggle (data-theme on <html>).
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { @include ember-tokens; }
+}
+:root[data-theme="dark"] { @include ember-tokens; }
+:root[data-theme="light"] { color-scheme: light; }
 
 // Base
 
@@ -170,11 +175,14 @@ section { padding: 88px 0; }
 
 #mainNav .navbar-toggler { border-color: var(--hairline-strong) !important; }
 
-@media (prefers-color-scheme: dark) {
-    #mainNav .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(239, 228, 212, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-    }
+@mixin ember-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(239, 228, 212, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) #mainNav .navbar-toggler-icon { @include ember-toggler-icon; }
+}
+:root[data-theme="dark"] #mainNav .navbar-toggler-icon { @include ember-toggler-icon; }
 
 // Hero: new cover, overlay dark enough for white text, centered on every width
 
@@ -325,4 +333,27 @@ aside.bg-dark h2 { color: var(--ink); }
 
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+// Light/dark toggle in the navbar (injected by the script in head.html)
+
+.theme-toggle {
+    order: 3;
+    margin-left: 8px;
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    border: 1px solid var(--hairline-strong);
+    background: transparent;
+    color: var(--ink);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    line-height: 1;
+    cursor: pointer;
+
+    &:hover { border-color: var(--primary); color: var(--primary); }
+
+    @media (max-width: 991px) { margin-left: auto; margin-right: 8px; order: 0; }
 }

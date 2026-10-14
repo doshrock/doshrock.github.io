@@ -67,6 +67,12 @@
     </section>
 
     <style>
+        /* Menu cards need clear separation from the page; the shared card token is too close to the canvas here. */
+        :root { --menu-card: #ffffff; --menu-card-border: var(--hairline-strong); --menu-card-shadow: 0 2px 10px rgba(60, 35, 15, 0.14); }
+        @media (prefers-color-scheme: dark) {
+            :root:not([data-theme="light"]) { --menu-card: #2c1b14; --menu-card-border: #5a3d2e; --menu-card-shadow: 0 2px 12px rgba(0, 0, 0, 0.55); }
+        }
+        :root[data-theme="dark"] { --menu-card: #2c1b14; --menu-card-border: #5a3d2e; --menu-card-shadow: 0 2px 12px rgba(0, 0, 0, 0.55); }
         /* Menu page styles. Colours, fonts and buttons come from the site theme tokens (_sass/_theme.scss). */
 
         /* Header sits under the fixed navbar; padding keeps the title clear of it. */
@@ -127,15 +133,16 @@
             cursor: pointer;
             border-radius: 10px;
             overflow: hidden;
-            background: var(--surface-card);
-            border: 1px solid var(--hairline);
+            background: var(--menu-card);
+            border: 1px solid var(--menu-card-border);
+            box-shadow: var(--menu-card-shadow);
             height: 100%;
             position: relative;
             transition: border-color 0.2s ease;
         }
 
         .category-card:hover,
-        .category-card:focus-visible { border-color: var(--hairline-strong); }
+        .category-card:focus-visible { border-color: var(--primary); }
 
         .category-thumb-wrapper {
             height: 180px;
@@ -152,7 +159,7 @@
             overflow: hidden;
             gap: 4px;
             padding: 4px;
-            background: var(--surface-card);
+            background: var(--menu-card);
         }
 
         .collage-img {
@@ -176,7 +183,7 @@
         .category-info {
             padding: 14px 12px;
             text-align: center;
-            background: var(--surface-card);
+            background: var(--menu-card);
             border-top: 1px solid var(--hairline);
         }
 
@@ -209,8 +216,9 @@
         }
 
         .menu-item-card {
-            background-color: var(--surface-card);
-            border: 1px solid var(--hairline);
+            background-color: var(--menu-card);
+            border: 1px solid var(--menu-card-border);
+            box-shadow: var(--menu-card-shadow);
             border-radius: 10px;
             overflow: hidden;
             height: 100%;
@@ -219,7 +227,7 @@
             transition: border-color 0.2s ease;
         }
 
-        .menu-item-card:hover { border-color: var(--hairline-strong); }
+        .menu-item-card:hover { border-color: var(--primary); }
 
         .menu-item-image-wrapper {
             height: 220px;
