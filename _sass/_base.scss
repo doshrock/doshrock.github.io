@@ -162,12 +162,11 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center center;
-    //background-image: url('../img/back.jpg'),
-	background: linear-gradient(to top, rgba(44,36,33,0.5) 10%,
-              rgba(44,36,33,1)) 10%, url('../img/cover.jpg');
+    // The new cover and its overlay are set in _theme.scss; position comes after any shorthand.
+    background-color: #2a180c;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 
 
     text-align: center;

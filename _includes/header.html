@@ -1,17 +1,13 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <h1>{%- include i18n.html token='doshrock_upper' -%}</h1>
-            <hr>
-            <p>{%- include i18n.html token='brief_intro' -%}</p>
-			<!--
-			<p>{{ site.data.i18n[_lang] | inspect }}</p>
-			<p>{{ site.default_lang | inspect }}</p>
-			<p>{{ page.lang | inspect }}</p>
-			<p>{{ _lang | inspect }}</p>
-			-->
-			<!--{{ site.data.i18n['fr'] | inspect }}-->
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">{%- include i18n.html token='key_about' -%}</a>
+            <h1>{%- include i18n.html token='doshrock' -%}</h1>
+            <p class="hero-line">{%- include i18n.html token='hero_line' -%}</p>
+            <div class="hero-actions">
+                <a href="https://doshrock.clusterpos.com/#/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-xl">{%- include i18n.html token='order_online' -%}</a>
+                <a href="#full_menu" class="btn btn-hero-secondary btn-xl page-scroll">{%- include i18n.html token='key_view_menu' -%}</a>
+            </div>
+            <p class="hero-phone"><a href="tel:+15794235742"><i class="fa fa-phone" aria-hidden="true"></i> 579-423-5742</a></p>
         </div>
     </div>
 </header>

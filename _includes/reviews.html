@@ -41,7 +41,7 @@
 <style>
     #reviews { padding: 80px 0; background-color: #222; }
     #reviews h2, #reviews p { color: white; }
-    #reviews hr.primary { border-color: #F05F40; }
+    #reviews hr.primary { border-color: var(--primary); }
 
     .gr-widget { max-width: 960px; margin: 30px auto 0; }
     .gr-summary {
@@ -56,10 +56,10 @@
     .gr-stars { color: #FBBC05; font-size: 22px; letter-spacing: 1px; }
     .gr-count { color: #777; font-size: 13px; text-decoration: none; }
     .gr-write {
-        background: #F05F40; color: #111; border-radius: 20px; padding: 9px 20px;
+        background: var(--primary); color: #111; border-radius: 20px; padding: 9px 20px;
         font-weight: 600; font-size: 14px; white-space: nowrap; text-decoration: none;
     }
-    .gr-write:hover, .gr-write:focus { color: #111; text-decoration: none; background: #ee4b28; }
+    .gr-write:hover, .gr-write:focus { color: #111; text-decoration: none; background: var(--primary-hover); }
 
     .gr-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
     .gr-card { background: #f8f8f8; border-radius: 8px; padding: 22px 24px; text-align: left; color: #222; }
@@ -78,7 +78,7 @@
         white-space: pre-line;
     }
     .gr-card.open .gr-text { -webkit-line-clamp: unset; display: block; }
-    .gr-read { background: none; border: 0; padding: 0; margin-top: 6px; color: #F05F40; font-size: 14px; }
+    .gr-read { background: none; border: 0; padding: 0; margin-top: 6px; color: var(--primary); font-size: 14px; }
     .gr-more-wrap { text-align: center; margin-top: 20px; }
     .gr-more { background: #fff; border: 0; border-radius: 4px; padding: 8px 52px; font-weight: 600; color: #111; }
 
