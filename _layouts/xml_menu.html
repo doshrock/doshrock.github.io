@@ -8,9 +8,8 @@
     <header class="menu-header">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 class="display-3 fw-bold">{{ page.title }}</h1>
-                <hr class="light my-4">
-                <p class="lead text-white-50">Experience the authentic taste of Korea</p>
+                <h1>{{ page.title }}</h1>
+                <p>Experience the authentic taste of Korea</p>
             </div>
         </div>
     </header>
@@ -46,174 +45,106 @@
     <section class="no-padding" id="xml_menu">
         <div class="container-fluid">
             <div class="row">
-                <br /><br /><br /><br /><br />
-                <div class="col-lg-12 col-sm-12">
+                <div class="col-12 px-0">
                     <div id="loading" class="text-center">
                         <p>Loading menu...</p>
                     </div>
 
                     <!-- Category Grid -->
-                    <div id="category-grid-wrapper" class="py-5"
-                        style="background-color: #222; margin-left: -15px; margin-right: -15px; display:none;">
+                    <div id="category-grid-wrapper" class="py-5" style="display:none;">
                         <div id="category-grid" class="container">
-                            <h2 class="text-center mb-4 section-heading text-white">Menu Categories</h2>
-                            <hr class="light">
+                            <h2 class="text-center section-heading">Menu Categories</h2>
                             <div class="row justify-content-center" id="category-grid-items">
                                 <!-- Categories will be injected here -->
                             </div>
                         </div>
                     </div>
 
-                    <div id="menu-container"></div>
+                    <div id="menu-container" class="container"></div>
                 </div>
             </div>
         </div>
     </section>
 
     <style>
-        :root {
-            --primary-color: var(--primary);
-            --primary-dark: var(--primary-hover);
-            --text-dark: #222;
-            --text-muted: #666;
-            --bg-light: #f8f9fa;
-            --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            --card-hover-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
-            --transition-speed: 0.3s;
-        }
+        /* Menu page styles. Colours, fonts and buttons come from the site theme tokens (_sass/_theme.scss). */
 
-        body {
-            font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-            background-color: var(--bg-light);
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-        }
-
-        /* Header Styles */
+        /* Header sits under the fixed navbar; padding keeps the title clear of it. */
         .menu-header {
             position: relative;
             width: 100%;
-            min-height: 25vh !important;
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%),
-            url('{{ site.baseurl }}/img/cover.jpg');
+            min-height: 0 !important;
+            background-color: #2a180c;
+            background-image: linear-gradient(rgba(26, 13, 5, 0.6), rgba(26, 13, 5, 0.75)), url('{{ site.baseurl }}/img/cover-2026.jpg');
+            background-image: linear-gradient(rgba(26, 13, 5, 0.6), rgba(26, 13, 5, 0.75)), image-set(url('{{ site.baseurl }}/img/cover-2026-1000.webp') type('image/webp'), url('{{ site.baseurl }}/img/cover-2026.jpg') type('image/jpeg'));
             background-position: center;
             background-size: cover;
-            background-attachment: fixed;
             text-align: center;
-            color: white;
+            color: #fffbf5;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 0;
-            padding: 80px 15px 30px;
+            padding: 120px 16px 40px;
         }
 
-        .header-content-inner h1 {
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-            margin-bottom: 5px;
-            font-size: 1.5rem;
+        .menu-header .header-content,
+        .menu-header .header-content .header-content-inner {
+            position: static;
+            transform: none;
+            padding: 0;
         }
 
-        hr.light {
-            border-color: white;
-            border-width: 2px;
-            max-width: 30px;
-            margin: 0 auto 5px;
-            opacity: 1;
+        .menu-header .header-content-inner h1 {
+            font-family: var(--font-display);
+            color: #fffbf5;
+            font-size: clamp(32px, 6vw, 52px) !important;
+            line-height: 1.1;
+            margin: 0 0 8px;
+            text-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
         }
 
-        .header-content-inner p {
-            font-size: 0.85rem;
-            margin-bottom: 0;
+        .menu-header .header-content-inner p {
+            color: #f3e9dc !important;
+            font-size: 17px;
+            margin: 0;
         }
 
-        /* Navbar Adjustments */
-        #mainNav {
-            background-color: rgba(255, 255, 255, 0.95);
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            padding-top: 10px;
-            padding-bottom: 10px;
+        /* Category grid */
+        #xml_menu { padding: 0; }
+
+        #category-grid-wrapper {
+            background-color: var(--surface-soft);
+            border-bottom: 1px solid var(--hairline);
         }
 
-        #mainNav .navbar-brand {
-            color: var(--primary-color);
-            font-weight: 700;
-        }
-
-        /* Category Grid Styles */
-        .section-heading {
-            font-size: 2.5rem;
-            color: var(--text-dark);
-            margin-bottom: 1.5rem;
-        }
-
-        hr.primary {
-            border-color: var(--primary-color);
-            border-width: 3px;
-            max-width: 50px;
-            margin: 0 auto 3rem;
-            opacity: 1;
+        #category-grid .section-heading {
+            color: var(--ink) !important;
+            font-size: clamp(26px, 4vw, 36px);
+            margin-bottom: 28px;
         }
 
         .category-card {
             cursor: pointer;
-            transition: all var(--transition-speed) ease;
-            border-radius: 16px;
+            border-radius: 10px;
             overflow: hidden;
-            background: #fff;
-            box-shadow: var(--card-shadow);
+            background: var(--surface-card);
+            border: 1px solid var(--hairline);
             height: 100%;
             position: relative;
-            border: none;
+            transition: border-color 0.2s ease;
         }
 
-        .category-card:hover {
-            transform: translateY(-10px);
-            box-shadow: var(--card-hover-shadow);
-        }
+        .category-card:hover,
+        .category-card:focus-visible { border-color: var(--hairline-strong); }
 
         .category-thumb-wrapper {
-            height: 200px;
+            height: 180px;
             overflow: hidden;
             position: relative;
         }
 
-        .category-thumb {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
+        .category-overlay { display: none; }
 
-        .category-card:hover .category-thumb {
-            transform: scale(1.1);
-        }
-
-        .category-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 60%);
-            opacity: 0.8;
-            transition: opacity 0.3s;
-            z-index: 1;
-            pointer-events: none;
-        }
-
-        .category-card:hover .category-overlay {
-            opacity: 1;
-        }
-
-        /* Collage Styles */
         .category-collage {
             width: 100%;
             height: 100%;
@@ -221,236 +152,186 @@
             overflow: hidden;
             gap: 4px;
             padding: 4px;
-            background: #fff;
+            background: var(--surface-card);
         }
 
         .collage-img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.5s ease;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
             border-radius: 2px;
-            border: 3px solid #fff;
+            border: 3px solid var(--surface-sunk);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
             box-sizing: border-box;
         }
 
-        .category-card:hover .collage-img {
-            /* Transform is handled inline for rotation, we just want to scale up slightly more on hover if needed,
-               but since we have inline transforms, we might need to be careful.
-               Let's rely on the inline scale and maybe just adjust z-index or brightness. */
-            filter: brightness(1.1);
-        }
-
-        /* 1 Image */
-        .collage-1 {
-            grid-template-columns: 1fr;
-        }
-
-        /* 2 Images */
-        .collage-2 {
-            grid-template-columns: 1fr 1fr;
-        }
-
-        /* 3 Images */
-        .collage-3 {
-            grid-template-columns: 1.5fr 1fr;
-            grid-template-rows: 1fr 1fr;
-        }
-
-        .collage-3 .collage-img:nth-child(1) {
-            grid-row: 1 / span 2;
-            grid-column: 1;
-        }
-
-        .collage-3 .collage-img:nth-child(2) {
-            grid-row: 1;
-            grid-column: 2;
-        }
-
-        .collage-3 .collage-img:nth-child(3) {
-            grid-row: 2;
-            grid-column: 2;
-        }
-
-        /* 4 Images */
-        .collage-4 {
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-        }
+        .collage-1 { grid-template-columns: 1fr; }
+        .collage-2 { grid-template-columns: 1fr 1fr; }
+        .collage-3 { grid-template-columns: 1.5fr 1fr; grid-template-rows: 1fr 1fr; }
+        .collage-3 .collage-img:nth-child(1) { grid-row: 1 / span 2; grid-column: 1; }
+        .collage-3 .collage-img:nth-child(2) { grid-row: 1; grid-column: 2; }
+        .collage-3 .collage-img:nth-child(3) { grid-row: 2; grid-column: 2; }
+        .collage-4 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
 
         .category-info {
-            padding: 20px;
+            padding: 14px 12px;
             text-align: center;
-            background: #fff;
-            position: relative;
-            z-index: 2;
+            background: var(--surface-card);
+            border-top: 1px solid var(--hairline);
         }
 
         .category-name {
-            font-weight: 700;
-            font-size: 1.25rem;
-            color: var(--text-dark);
+            font-family: var(--font-ui);
+            font-weight: 600;
+            font-size: 17px;
+            color: var(--ink);
             margin: 0;
-            letter-spacing: 0.5px;
+            letter-spacing: 0;
         }
 
-        /* Menu Category Section */
+        /* Menu sections */
+        #menu-container { padding-top: 56px; }
+
         .menu-category {
-            margin-bottom: 80px;
+            margin-bottom: 56px;
             scroll-margin-top: 100px;
         }
 
         .menu-category-title {
-            font-size: 2rem;
-            font-weight: 800;
-            color: var(--text-dark);
-            margin-bottom: 30px;
-            padding-bottom: 15px;
-            border-bottom: 3px solid var(--primary-color);
+            font-family: var(--font-display);
+            font-size: clamp(24px, 3.4vw, 32px);
+            font-weight: 700;
+            color: var(--ink);
+            margin-bottom: 24px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary);
             display: inline-block;
         }
 
-        /* Menu Item Cards */
         .menu-item-card {
-            background-color: #fff;
-            border-radius: 16px;
+            background-color: var(--surface-card);
+            border: 1px solid var(--hairline);
+            border-radius: 10px;
             overflow: hidden;
-            transition: all var(--transition-speed) ease;
-            box-shadow: var(--card-shadow);
             height: 100%;
-            border: none;
             display: flex;
             flex-direction: column;
+            transition: border-color 0.2s ease;
         }
 
-        .menu-item-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--card-hover-shadow);
-        }
+        .menu-item-card:hover { border-color: var(--hairline-strong); }
 
         .menu-item-image-wrapper {
-            height: 240px;
+            height: 220px;
             overflow: hidden;
             position: relative;
+            background: var(--surface-raised);
         }
 
         .menu-item-image {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.5s ease;
-        }
-
-        .menu-item-card:hover .menu-item-image {
-            transform: scale(1.05);
         }
 
         .menu-item-content {
-            padding: 25px;
+            padding: 18px 20px;
             flex: 1;
             display: flex;
             flex-direction: column;
+            min-width: 0;
         }
 
         .menu-item-header {
             display: flex;
             justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 15px;
+            align-items: baseline;
+            gap: 12px;
         }
 
         .menu-item-name {
-            font-weight: 700;
-            font-size: 1.2rem;
-            color: var(--text-dark);
-            line-height: 1.4;
+            font-weight: 600;
+            font-size: 18px;
+            color: var(--ink);
+            line-height: 1.35;
+            min-width: 0;
+            overflow-wrap: anywhere;
         }
 
         .menu-item-price {
-            font-size: 1.2rem;
-            color: var(--primary-color);
-            font-weight: 800;
+            font-size: 18px;
+            color: var(--primary);
+            font-weight: 700;
             white-space: nowrap;
-            margin-left: 15px;
+            font-variant-numeric: tabular-nums;
         }
 
         .menu-item-description {
-            font-size: 0.95rem;
-            color: var(--text-muted);
-            line-height: 1.6;
+            font-size: 15px;
+            color: var(--body);
+            line-height: 1.55;
             margin-top: 10px;
             display: none;
-            /* Hidden by default */
-            transition: all 0.3s ease;
         }
 
-        .menu-item-description.expanded {
-            display: block;
-            /* Visible when expanded */
-        }
+        .menu-item-description.expanded { display: block; }
 
         .click-hint {
-            font-size: 0.8rem;
-            color: #aaa;
+            font-size: 13px;
+            color: var(--mute);
             margin-top: auto;
-            padding-top: 15px;
+            padding-top: 12px;
             text-align: right;
-            font-style: italic;
         }
 
         #loading {
             padding: 100px 0;
-            font-size: 1.5rem;
-            color: var(--text-muted);
+            font-size: 1.25rem;
+            color: var(--mute);
             text-align: center;
         }
 
-        .spinner-border {
-            width: 3rem;
-            height: 3rem;
-            color: var(--primary-color);
+        /* Phones: compact rows (photo left, name and price right) so a category fits on a screen */
+        @media (max-width: 575.98px) {
+            .menu-header { padding: 104px 16px 28px; }
+
+            .category-thumb-wrapper { height: 120px; }
+            .category-info { padding: 10px 8px; }
+            .category-name { font-size: 15px; }
+
+            #menu-container { padding-top: 40px; }
+            .menu-category { margin-bottom: 40px; }
+            .menu-item.mb-4 { margin-bottom: 12px !important; }
+
+            .menu-item-card { flex-direction: row; }
+            .menu-item-image-wrapper {
+                flex: 0 0 104px;
+                width: 104px;
+                height: auto;
+                min-height: 104px;
+            }
+            .menu-item-content { padding: 12px 14px; }
+            .menu-item-name { font-size: 16px; }
+            .menu-item-price { font-size: 16px; }
+            .menu-item-description { font-size: 14px; }
+            .click-hint { padding-top: 8px; font-size: 12px; }
         }
 
-        @media (max-width: 768px) {
-            .menu-header {
-                min-height: 25vh !important;
-                padding: 70px 15px 20px;
-            }
-
-            .header-content-inner h1 {
-                font-size: 1.25rem;
-            }
-
-            .section-heading {
-                font-size: 2rem;
-            }
-
-            .menu-item-image-wrapper {
-                height: 200px;
-            }
-
-            .menu-item-image-wrapper {
-                height: 200px;
-            }
-        }
-
-        /* Floating Button Styles */
+        /* Floating back-to-categories button */
         #back-to-categories {
             position: fixed;
-            bottom: 30px;
-            right: 30px;
+            bottom: 24px;
+            right: 24px;
             z-index: 1000;
-            border-radius: 50px;
-            padding: 12px 24px;
-            font-weight: 700;
+            padding: 12px 20px;
             opacity: 0;
             visibility: hidden;
             transform: translateY(20px);
-            transition: all 0.3s ease;
+            transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
             display: flex;
             align-items: center;
             gap: 8px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
         }
 
         #back-to-categories.visible {
@@ -459,15 +340,9 @@
             transform: translateY(0);
         }
 
-        #back-to-categories:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(240, 95, 64, 0.4) !important;
-        }
-
         @media (max-width: 576px) {
             #back-to-categories {
                 padding: 12px;
-                border-radius: 50%;
                 width: 50px;
                 height: 50px;
                 justify-content: center;
@@ -476,7 +351,7 @@
     </style>
 
     <!-- Floating Back to Categories Button -->
-    <button id="back-to-categories" class="btn btn-primary shadow-lg" title="Back to Categories">
+    <button id="back-to-categories" class="btn btn-primary" title="Back to Categories">
         <i class="fa fa-th-large"></i> <span class="d-none d-sm-inline">Categories</span>
     </button>
 
@@ -585,7 +460,7 @@
                     }
 
                     // Add to Category Grid
-                    gridHtml += '<div class="col-lg-3 col-md-4 col-sm-6 mb-4">';
+                    gridHtml += '<div class="col-6 col-md-4 col-lg-3 mb-4">';
                     gridHtml += '  <div class="category-card" onclick="scrollToCategory(\'' + categoryId + '\')">';
                     gridHtml += '    <div class="category-thumb-wrapper">';
 
