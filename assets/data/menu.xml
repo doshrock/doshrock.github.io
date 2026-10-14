@@ -432,7 +432,7 @@
          <LinkedItemList />
          <LinkedCategoryList />
        </Item>
-       <Item tUID="30" Name="Fri-Combo Doshrock 튀김콤보도시락" Price="29.99" Abv="Fri-Combo Doshrock 튀김콤도" Receipt="Fri-Combo Doshrock" ColorString="#7980FF" MobileAppActive="true" MobileAppFriendlyName="Fri-Combo Doshrock" MobileAppDescription="Un assortiment de fritures croustillantes : escalope de porc, escalope de poulet et crevettes, servis avec salade de chou et riz. / A crispy fried assortment: pork cutlet, chicken cutlet and shrimp, served with cabbage slaw and rice. / 돈까스, 치킨까스, 새우튀김을 한 번에 담고 양배추 샐러드와 밥을 곁들인 튀김 도시락." MobileAppImageURL="https://online-order-pictures.clusterpos.com/5824/40226d1d-5415-438d-8720-53d132ab2ff5.jpg">
+       <Item tUID="30" Name="Fri-Combo Doshrock 튀김콤보도시락" Price="29.99" Abv="Fri-Combo Doshrock 튀김콤도" Receipt="Fri-Combo Doshrock" ColorString="#7980FF" MobileAppActive="true" MobileAppFriendlyName="Fri-Combo Doshrock" MobileAppDescription="Un assortiment de fritures croustillantes : escalope de porc, escalope de poulet et poulet frit, servis avec salade de chou et riz. / A crispy fried assortment: pork cutlet, chicken cutlet and fried chicken, served with cabbage slaw and rice. / 돈까스, 치킨까스, 닭튀김을 한 번에 담고 양배추 샐러드와 밥을 곁들인 튀김 도시락." MobileAppImageURL="https://online-order-pictures.clusterpos.com/5824/40226d1d-5415-438d-8720-53d132ab2ff5.jpg">
          <OptionList />
          <IngCategoryList>
            <unsignedInt>106</unsignedInt>
