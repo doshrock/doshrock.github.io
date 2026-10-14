@@ -370,3 +370,11 @@ aside.bg-dark h2 { color: var(--ink); }
 :root[data-theme="dark"] #mainNav .navbar-brand .brand-logo--light { display: none; }
 :root[data-theme="dark"] #mainNav .navbar-brand .brand-logo--dark { display: block; }
 @media (max-width: 991px) { #mainNav .navbar-brand .brand-logo { height: 36px; } }
+
+// Google Maps embed has no dark style; invert it (hue kept) when the dark theme is on
+
+@mixin dark-map { filter: invert(0.9) hue-rotate(180deg) brightness(0.95) contrast(0.9); }
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) iframe[src*="google.com/maps"] { @include dark-map; }
+}
+:root[data-theme="dark"] iframe[src*="google.com/maps"] { @include dark-map; }
