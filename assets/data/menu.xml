@@ -134,7 +134,7 @@
          <LinkedItemList />
          <LinkedCategoryList />
        </Item>
-       <Item tUID="182" Name="Vege Fritters 야채튀김" Price="9.49" Abv="Vege Fritters 야채튀김" Receipt="Vegetable Fritters" ColorString="#FEFC78" MobileAppFriendlyName="Vegetable Fritters" MobileAppDescription="Beignets croustillants garnis d'un mélange de légumes frais, une délicieuse joie végétarienne. / Crispy fritters made with a mix of vegetables. / 여러 가지 채소를 바삭하게 튀겨낸 야채튀김." MobileAppImageURL="https://online-order-pictures.clusterpos.com/5824/7fdf5b39-c003-4d68-8f2f-432e41ae44e3.jpg">
+       <Item tUID="182" Name="Vege Fritters 야채튀김" Price="9.49" Abv="Vege Fritters 야채튀김" Receipt="Vegetable Fritters" ColorString="#FEFC78" MobileAppFriendlyName="Vegetable Fritters" MobileAppDescription="Beignets croustillants garnis d'un mélange de légumes frais. / Crispy fritters made with a mix of vegetables. / 여러 가지 채소를 바삭하게 튀겨낸 야채튀김." MobileAppImageURL="https://online-order-pictures.clusterpos.com/5824/7fdf5b39-c003-4d68-8f2f-432e41ae44e3.jpg">
          <OptionList />
          <IngCategoryList>
            <unsignedInt>106</unsignedInt>
