@@ -50,4 +50,4 @@ Il y a quelque chose de magique dans un bol fumant de Sundaeguk lors d'une froid
 
 Si vous êtes aventurier et aimez essayer la cuisine coréenne authentique et réconfortante, le Sundaeguk vous attend. Appelez-nous d'abord!
 
-☎️ 579-423-5742
+☎️ 579-991-5742

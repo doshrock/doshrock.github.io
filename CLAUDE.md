@@ -116,7 +116,7 @@ menu PSDs).
 ### Contact Information
 
 Restaurant details are configured in `_config.yml`:
-- Phone: +1 579-423-5742
+- Phone: +1 579-991-5742
 - Email: doshrock.com@gmail.com
 - Instagram: doshrock.mtl
 - Facebook: doshrock.mtl

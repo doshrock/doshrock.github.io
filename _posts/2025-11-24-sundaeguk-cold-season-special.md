@@ -50,4 +50,4 @@ There's something magical about a steaming bowl of Sundaeguk on a cold Montreal 
 
 If you're adventurous and love trying authentic Korean comfort food, Sundaeguk is waiting for you. Just give us a call first!
 
-☎️ 579-423-5742
+☎️ 579-991-5742
