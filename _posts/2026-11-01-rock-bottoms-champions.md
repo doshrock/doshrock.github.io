@@ -17,6 +17,16 @@ The Rock Bottoms were founded in Pierrefonds, right here in our neighbourhood. "
 
 Not this year. This year, the Rock Bottoms are the champions of the **West Island Old Timers** league.
 
+## The Road to the Title
+
+Three Sundays, three wins, all at Lake Turf:
+
+- **Playoff**, September 20: Rock Bottoms 3 - 1 Cafeteros FC
+- **Semifinal**, September 27: Rock Bottoms 3 - 2 Earth Love United
+- **Final**, October 4: Rock Bottoms 1 - 0 SVG Utd
+
+The final was won by a single goal.
+
 ## A Wonderful Year
 
 <video width="100%" controls playsinline style="border-radius: 10px; margin: 20px 0;">

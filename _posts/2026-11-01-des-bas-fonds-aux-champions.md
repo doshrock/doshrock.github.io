@@ -17,6 +17,16 @@ Les Rock Bottoms ont été fondés à Pierrefonds, ici même dans notre quartier
 
 Pas cette année. Cette année, les Rock Bottoms sont les champions de la ligue **West Island Old Timers**.
 
+## La route vers le titre
+
+Trois dimanches, trois victoires, toutes au Lake Turf :
+
+- **Éliminatoire**, 20 septembre : Rock Bottoms 3 - 1 Cafeteros FC
+- **Demi-finale**, 27 septembre : Rock Bottoms 3 - 2 Earth Love United
+- **Finale**, 4 octobre : Rock Bottoms 1 - 0 SVG Utd
+
+La finale s'est jouée à un seul but.
+
 ## Une année merveilleuse
 
 <video width="100%" controls playsinline style="border-radius: 10px; margin: 20px 0;">
