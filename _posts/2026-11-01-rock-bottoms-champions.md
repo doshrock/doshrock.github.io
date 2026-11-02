@@ -27,6 +27,8 @@ Three Sundays, three wins, all at Lake Turf:
 
 The final was won by a single goal.
 
+![The playoff results on the league site](/img/blog/20261101_rockbottom_results.webp)
+
 ## A Wonderful Year
 
 <video width="100%" controls playsinline style="border-radius: 10px; margin: 20px 0;">

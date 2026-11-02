@@ -27,6 +27,8 @@ Trois dimanches, trois victoires, toutes au Lake Turf :
 
 La finale s'est jouée à un seul but.
 
+![Les résultats des séries sur le site de la ligue](/img/blog/20261101_rockbottom_results.webp)
+
 ## Une année merveilleuse
 
 <video width="100%" controls playsinline style="border-radius: 10px; margin: 20px 0;">
