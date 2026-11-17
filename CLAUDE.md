@@ -9,8 +9,8 @@ This is a Jekyll-based static website for Doshrock, a Korean restaurant in Montr
 ## Technology Stack
 
 - Jekyll 3.9.0 (static site generator)
-- Bootstrap 3.x for styling
-- jQuery, WOW.js, Animate.css for animations
+- Bootstrap 5.3.3 (CDN, with SRI) for styling and the navbar
+- jQuery + jQuery Easing for the `a.page-scroll` smooth scroll (`js/creative.js`) and the nav highlight (`updateActiveNav` in `_includes/scripts.html`)
 - SASS/SCSS for stylesheets
 - Liquid templating engine
 - GitHub Pages deployment with GitHub Actions
@@ -145,8 +145,9 @@ The site automatically deploys via GitHub Actions (`.github/workflows/jekyll.yml
 
 ## Important Notes
 
-- This site uses Bootstrap 3.x (not Bootstrap 4 or 5)
-- jQuery is required for Bootstrap components and WOW.js animations
+- This site uses Bootstrap 5.3.3. Bootstrap 3 jQuery plugins (`.scrollspy()`, `.affix()`, `data-spy`) do not exist here; calling one throws and stops the rest of the script (removed 2026-11-17)
+- jQuery is used by the smooth scroll and nav highlight only. WOW.js and FitText are no longer loaded; the `wow bounceIn` classes left in the markup do nothing
+- Front-end changes follow the modern-web-guidance skill; run `npx -y modern-web-guidance@latest legacy-scan .` before committing (it reads `_includes`/`_layouts` HTML fine)
 - SASS is compiled by Jekyll (no separate build tool needed)
 - All menu images should be placed in `img/menu/` with appropriate subdirectories
 - The site is responsive and mobile-friendly using Bootstrap's grid system

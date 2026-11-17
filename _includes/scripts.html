@@ -8,8 +8,6 @@
 
 <!-- Plugin JavaScript -->
 <script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.fittext.js"></script>
-<script src="js/wow.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
 <script src="js/creative.js"></script>
@@ -64,13 +62,18 @@ $(document).ready(function() {
             var currLink = $(this);
             var href = currLink.attr('href');
 
-            // Skip external links
-            if (!href || href.indexOf('http') === 0) {
+            // Only links to a section of this page: "#about", or "/#about" while on "/"
+            var hashAt = href ? href.indexOf('#') : -1;
+            if (hashAt === -1) {
+                return;
+            }
+            var linkPath = href.slice(0, hashAt);
+            if (linkPath !== '' && linkPath !== window.location.pathname) {
                 return;
             }
 
             try {
-                var refElement = $(href);
+                var refElement = $(document.getElementById(href.slice(hashAt + 1)));
                 if (refElement.length === 0) {
                     return;
                 }
@@ -81,7 +84,6 @@ $(document).ready(function() {
                 if (sectionTop <= scrollPos && sectionBottom > scrollPos && !found) {
                     $('#mainNav .nav-item').removeClass('active');
                     currLink.parent().addClass('active');
-                    console.log('Active section:', href);
                     found = true;
                 }
             } catch(e) {
@@ -123,6 +125,5 @@ $(document).ready(function() {
     // Find and highlight the row with matching data-day attribute
     $('.opening-hours-table tr[data-day="' + currentDay + '"]').addClass('current-day');
 
-    console.log('Current day of week:', currentDay);
 });
 </script>
